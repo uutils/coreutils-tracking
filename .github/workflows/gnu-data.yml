@@ -1,0 +1,28 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the action will run. 
+on:
+  push:
+    branches:
+    - main
+    - release/*
+  schedule:
+  - cron: "0 2 * * 1-5"
+  
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  gnu:
+    name: Download GNU test results
+    runs-on: ubuntu-latest
+    steps:
+    # This workflow contains a single job called "build"
+    - name: Download a Build Artifact
+      uses: actions/download-artifact@v2.0.9
+      with:
+        # Artifact name
+        name: gnu-results
+        repo: https://github.com/uutils/coreutils/
+
+    
