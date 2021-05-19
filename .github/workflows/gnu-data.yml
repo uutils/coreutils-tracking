@@ -24,6 +24,6 @@ jobs:
         workflow: GNU.yml
         # Artifact name
         name: gnu-results
-        repo: https://github.com/uutils/coreutils/
+        repo: uutils/coreutils
 
     
