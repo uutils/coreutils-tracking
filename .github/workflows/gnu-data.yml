@@ -23,7 +23,7 @@ jobs:
       with:
         workflow: GNU.yml
         # Artifact name
-        name: gnu-results
+        name: gnu-result
         repo: uutils/coreutils
 
     
