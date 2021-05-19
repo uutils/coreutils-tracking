@@ -21,6 +21,7 @@ jobs:
     - name: Download a Build Artifact
       uses: dawidd6/action-download-artifact@v2
       with:
+        workflow: GNU.yml
         # Artifact name
         name: gnu-results
         repo: https://github.com/uutils/coreutils/
