@@ -43,4 +43,4 @@ jobs:
       uses: githubocto/flat@v2
       with:
         http_url: https://raw.githubusercontent.com/sylvestre/coreutils-tracking/main/gnu-result.json
-        downloaded_filename: dat
+        downloaded_filename: flat.json
