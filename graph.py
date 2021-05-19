@@ -1,7 +1,8 @@
 import matplotlib.pyplot as plt
 import pandas as pd
+import sys
 
-d = pd.read_json("gnu-result.json")
+d = pd.read_json(sys.argv[1])
 df = pd.DataFrame(d)
 df = df.transpose()
 print(df)
