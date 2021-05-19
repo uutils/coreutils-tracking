@@ -34,3 +34,13 @@ jobs:
         default_author: github_actions
         message: "Update of the GNU data"
         add: gnu-result.json
+
+    - name: Setup deno
+      uses: denolib/setup-deno@v2
+    - name: Check out repo
+      uses: actions/checkout@v2
+    - name: Fetch data
+      uses: githubocto/flat@v2
+      with:
+        http_url: https://raw.githubusercontent.com/sylvestre/coreutils-tracking/main/gnu-result.json
+        downloaded_filename: dat
