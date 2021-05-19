@@ -13,15 +13,19 @@ jobs:
     name: Process the GNU test results
     runs-on: ubuntu-latest
     steps:
+
+    - name: Checkout repo
+      uses: actions/checkout@v2
+      with:
+        path: repo/
+
     - name: Download the result
       uses: dawidd6/action-download-artifact@v2
       with:
         workflow: GNU.yml
         name: gnu-result
         repo: uutils/coreutils
-
-    - name: Checkout repo
-      uses: actions/checkout@v2
+        path: repo/
 
     - name: Add & Commit
       uses: EndBug/add-and-commit@v7.2.1
