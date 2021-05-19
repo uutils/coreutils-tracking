@@ -19,6 +19,10 @@ jobs:
         workflow: GNU.yml
         name: gnu-result
         repo: uutils/coreutils
+
+    - name: Checkout repo
+      uses: actions/checkout@v2
+
     - name: Add & Commit
       uses: EndBug/add-and-commit@v7.2.1
       with:
