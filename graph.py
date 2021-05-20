@@ -13,4 +13,4 @@ df.plot(y="fail", color="red", ax=ax)
 df.plot(y="pass", color="green", ax=ax)
 
 plt.xticks(rotation=45)
-plt.savefig("gnu-results.png", dpi=259)
+plt.savefig("gnu-results.png", dpi=199)
