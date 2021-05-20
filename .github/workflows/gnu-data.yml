@@ -34,7 +34,7 @@ jobs:
     - name: Merge the json files
       shell: bash
       run: |
-       jq -s '.[0] * .[1]' gnu-result.json repo/gnu-result.json > merged.json
+       jq -s '.[0] * .[1]' repo/gnu-result.json gnu-result.json > merged.json
        echo "== gnu-result.json =="
        cat gnu-result.json
        echo "== repo/gnu-result.json =="
