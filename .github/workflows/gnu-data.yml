@@ -38,7 +38,7 @@ jobs:
        echo "== gnu-result.json =="
        cat gnu-result.json
        echo "== repo/gnu-result.json =="
-       echo repo/gnu-result.json
+       cat repo/gnu-result.json
        echo "== merged.json ="
        cat merged.json
        mv merged.json repo/gnu-result.json
