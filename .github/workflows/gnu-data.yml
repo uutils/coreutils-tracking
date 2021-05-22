@@ -50,6 +50,7 @@ jobs:
         default_author: github_actions
         message: "Update of the GNU data"
         add: gnu-result.json
+        pull_strategy: '--rebase'
 
     - name: Generate the graph
       shell: bash
