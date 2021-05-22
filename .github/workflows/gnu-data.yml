@@ -20,8 +20,6 @@ jobs:
 
     - name: Checkout repo
       uses: actions/checkout@v2
-      with:
-        path: repo/
 
     - name: Download the result
       uses: dawidd6/action-download-artifact@v2
@@ -29,38 +27,36 @@ jobs:
         workflow: GNU.yml
         name: gnu-result
         repo: uutils/coreutils
+        path: dl
 
     - name: Merge the json files
       shell: bash
       run: |
-       jq -s '.[0] * .[1]' repo/gnu-result.json gnu-result.json > merged.json
+       echo "== dl/gnu-result.json =="
+       cat dl/gnu-result.json
        echo "== gnu-result.json =="
        cat gnu-result.json
-       echo "== repo/gnu-result.json =="
-       cat repo/gnu-result.json
+       jq -s '.[0] * .[1]' gnu-result.json dl/gnu-result.json > merged.json
        echo "== merged.json ="
        cat merged.json
-       mv merged.json repo/gnu-result.json
+       mv merged.json gnu-result.json
+       rm -rf dl
 
     - name: Add & Commit
       uses: EndBug/add-and-commit@v7.2.1
       with:
-        cwd: ./repo/
         default_author: github_actions
         message: "Update of the GNU data"
-        add: gnu-result.json
-        pull_strategy: '--rebase'
+        pull_strategy: 'NO-PULL'
 
     - name: Generate the graph
       shell: bash
       run: |
-        python repo/graph.py repo/gnu-result.json
-        cp -f gnu-results.png repo/
+        python graph.py gnu-result.json
 
     - name: Add & Commit the graph
       uses: EndBug/add-and-commit@v7.2.1
       with:
-        cwd: ./repo/
         default_author: github_actions
         message: "Refresh the graph"
         add: gnu-results.png
