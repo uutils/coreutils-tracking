@@ -140,7 +140,7 @@
   },
   "Wed, 26 May 2021 01:38:36 +0000": {
     "sha": "47c6d00e714b2db14c58a91a8d94f83346cb6f18",
-    "content": "Drop caused by https://github.com/uutils/coreutils/pull/2274",
+    "comment": "Drop caused by https://github.com/uutils/coreutils/pull/2274",
     "total": "601",
     "pass": " 149",
     "skip": " 91",
@@ -159,6 +159,7 @@
   },
   "Wed, 26 May 2021 23:50:08 +0000": {
     "sha": "7c8520e663b60b727f2942d2074f6a6601337a43",
+    "comment": "Drop by https://github.com/uutils/coreutils/pull/2281 & https://github.com/uutils/coreutils/pull/2277",
     "total": "601",
     "pass": " 150",
     "skip": " 91",
