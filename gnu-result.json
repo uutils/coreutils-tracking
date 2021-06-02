@@ -233,6 +233,7 @@
   },
   "Wed, 02 Jun 2021 04:16:20 +0000": {
     "sha": "0995c96efdc8b07ce89769ad0c74e10683c9bae5",
+    "comment": "regressed because of https://github.com/uutils/coreutils/pull/2325 ?",
     "total": "601",
     "pass": " 150",
     "skip": " 89",
