@@ -231,16 +231,6 @@
     "xpass": "0",
     "error": "20"
   },
-  "Wed, 02 Jun 2021 04:16:20 +0000": {
-    "sha": "0995c96efdc8b07ce89769ad0c74e10683c9bae5",
-    "comment": "regressed because of https://github.com/uutils/coreutils/pull/2325 ?",
-    "total": "601",
-    "pass": " 150",
-    "skip": " 89",
-    "fail": " 337",
-    "xpass": "0",
-    "error": "25"
-  },
   "Wed, 02 Jun 2021 11:14:51 +0000": {
     "sha": "18060fe9c438a339a6634d338f0ded7026adfe23",
     "total": "601",
