@@ -24,7 +24,7 @@ jobs:
     - name: Download the result
       uses: dawidd6/action-download-artifact@v2
       with:
-        workflow: GNU.yml
+        workflow: GnuTests.yml
         name: gnu-result
         repo: uutils/coreutils
         path: dl
