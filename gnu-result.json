@@ -2062,6 +2062,7 @@
   },
   "Thu, 27 Jan 2022 23:29:55 +0000": {
     "sha": "1579911b85599ebcefd3c9974f60f85a37fbbbbb",
+    "comment": "Increase of the number of fails because of https://github.com/uutils/coreutils/commit/2ccea4666d37732681331c440f63b7e423c816b6",
     "total": "611",
     "pass": " 213",
     "skip": " 84",
