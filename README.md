@@ -14,7 +14,7 @@ Based on:
 * https://github.com/uutils/coreutils/blob/master/util/build-gnu.sh
 * https://github.com/uutils/coreutils/blob/master/util/run-gnu-test.sh
 
-## binary size evolution
+## Binary size evolution
 
 ![Size evolution](https://github.com/uutils/coreutils-tracking/blob/main/size-results.png?raw=true)
 
