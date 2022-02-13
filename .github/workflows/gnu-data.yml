@@ -40,11 +40,11 @@ jobs:
     - name: Merge the json files
       shell: bash
       run: |
-       echo "== dl/test-summary.json =="
-       cat dl/test-summary.json
+       echo "== dl/gnu-result.json =="
+       cat dl/gnu-result.json
        echo "== gnu-result.json =="
        cat gnu-result.json
-       jq -s '.[0] * .[1]' gnu-result.json dl/test-summary.json > merged.json
+       jq -s '.[0] * .[1]' gnu-result.json dl/gnu-result.json > merged.json
        echo "== merged.json ="
        cat merged.json
        mv merged.json gnu-result.json
