@@ -25,7 +25,7 @@ jobs:
       uses: dawidd6/action-download-artifact@v2
       with:
         workflow: GnuTests.yml
-        name: gnu-result
+        name: test-summary
         repo: uutils/coreutils
         path: dl
 
@@ -40,11 +40,11 @@ jobs:
     - name: Merge the json files
       shell: bash
       run: |
-       echo "== dl/gnu-result.json =="
-       cat dl/gnu-result.json
+       echo "== dl/test-summary.json =="
+       cat dl/test-summary.json
        echo "== gnu-result.json =="
        cat gnu-result.json
-       jq -s '.[0] * .[1]' gnu-result.json dl/gnu-result.json > merged.json
+       jq -s '.[0] * .[1]' gnu-result.json dl/test-summary.json > merged.json
        echo "== merged.json ="
        cat merged.json
        mv merged.json gnu-result.json
