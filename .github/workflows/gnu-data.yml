@@ -37,6 +37,14 @@ jobs:
         repo: uutils/coreutils
         path: dl
 
+    - name: Download the full test report
+      uses: dawidd6/action-download-artifact@v2
+      with:
+        workflow: CICD.yml
+        name: gnu-full-result.json
+        repo: uutils/coreutils
+        path: dl
+
     - name: Merge the json files
       shell: bash
       run: |
@@ -58,6 +66,10 @@ jobs:
        cat merged.json
        mv merged.json size-result.json
 
+       echo "== dl/gnu-full-result.json =="
+       cat dl/gnu-full-result.json
+       mv dl/gnu-full-result.json gnu-full-result.json
+       
        rm -rf dl
 
     - name: Add & Commit
