@@ -85,7 +85,7 @@
     "sparse-to-pipe.log": "PASS",
     "sparse.log": "ERROR",
     "special-bits.log": "SKIP",
-    "special-f.log": "FAIL",
+    "special-f.log": "PASS",
     "src-base-dot.log": "PASS",
     "symlink-slash.log": "PASS",
     "thru-dangling.log": "FAIL"
@@ -102,10 +102,10 @@
     "reblock.log": "FAIL",
     "skip-seek-past-dev.log": "SKIP",
     "skip-seek-past-file.log": "FAIL",
-    "skip-seek.log": "FAIL",
+    "skip-seek.log": "PASS",
     "skip-seek2.log": "FAIL",
     "sparse.log": "FAIL",
-    "stats.log": "FAIL",
+    "stats.log": "1",
     "stderr.log": "FAIL",
     "unblock-sync.log": "PASS",
     "unblock.log": "PASS"
