@@ -105,7 +105,7 @@
     "skip-seek.log": "PASS",
     "skip-seek2.log": "FAIL",
     "sparse.log": "FAIL",
-    "stats.log": "FAIL",
+    "stats.log": "1",
     "stderr.log": "FAIL",
     "unblock-sync.log": "PASS",
     "unblock.log": "PASS"
@@ -459,11 +459,11 @@
   "mkdir": {
     "p-1.log": "PASS",
     "p-2.log": "PASS",
-    "p-3.log": "PASS",
+    "p-3.log": "FAIL",
     "p-acl.log": "FAIL",
     "p-slashdot.log": "FAIL",
     "p-thru-slink.log": "PASS",
-    "p-v.log": "FAIL",
+    "p-v.log": "PASS",
     "parents.log": "PASS",
     "perm.log": "FAIL",
     "restorecon.log": "SKIP",
