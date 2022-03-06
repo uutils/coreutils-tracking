@@ -15,8 +15,8 @@ Refreshed once a day by github actions.
 Compares only the Linux execution.
 
 Based on:
-* https://github.com/uutils/coreutils/blob/master/util/build-gnu.sh
-* https://github.com/uutils/coreutils/blob/master/util/run-gnu-test.sh
+* https://github.com/uutils/coreutils/blob/main/util/build-gnu.sh
+* https://github.com/uutils/coreutils/blob/main/util/run-gnu-test.sh
 
 ## Binary size evolution
 
