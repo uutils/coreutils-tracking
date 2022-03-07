@@ -459,7 +459,7 @@
   "mkdir": {
     "p-1.log": "PASS",
     "p-2.log": "PASS",
-    "p-3.log": "FAIL",
+    "p-3.log": "PASS",
     "p-acl.log": "FAIL",
     "p-slashdot.log": "FAIL",
     "p-thru-slink.log": "PASS",
@@ -639,7 +639,7 @@
     "60-seconds.log": "PASS",
     "dangling-symlink.log": "PASS",
     "dir-1.log": "PASS",
-    "empty-file.log": "FAIL",
+    "empty-file.log": "PASS",
     "fail-diag.log": "PASS",
     "fifo.log": "PASS",
     "no-create-missing.log": "PASS",
@@ -648,7 +648,7 @@
     "not-owner.log": "PASS",
     "now-owned-by-other.log": "SKIP",
     "obsolescent.log": "FAIL",
-    "read-only.log": "FAIL",
+    "read-only.log": "PASS",
     "relative.log": "FAIL",
     "trailing-slash.log": "FAIL"
   }
