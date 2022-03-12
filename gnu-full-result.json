@@ -105,7 +105,7 @@
     "skip-seek.log": "PASS",
     "skip-seek2.log": "FAIL",
     "sparse.log": "FAIL",
-    "stats.log": "1",
+    "stats.log": "FAIL",
     "stderr.log": "FAIL",
     "unblock-sync.log": "PASS",
     "unblock.log": "PASS"
@@ -113,8 +113,8 @@
   "df": {
     "df-P.log": "PASS",
     "df-output.log": "FAIL",
-    "df-symlink.log": "PASS",
-    "header.log": "FAIL",
+    "df-symlink.log": "FAIL",
+    "header.log": "PASS",
     "no-mtab-status.log": "SKIP",
     "over-mount-device.log": "FAIL",
     "skip-duplicates.log": "SKIP",
@@ -174,8 +174,7 @@
     "t16.log": "PASS",
     "t17.log": "PASS",
     "t18.log": "PASS",
-    "t19.log": "PASS",
-    "t20.log": "PASS"
+    "t19.log": "PASS"
   },
   "fmt": {
     "base.log": "FAIL",
@@ -240,7 +239,7 @@
     "no-arg.log": "PASS",
     "no-cap.log": "SKIP",
     "quote-align.log": "FAIL",
-    "readdir-mountpoint-inode.log": "PASS",
+    "readdir-mountpoint-inode.log": "FAIL",
     "recursive.log": "PASS",
     "removed-directory.log": "PASS",
     "root-rel-symlink-color.log": "FAIL",
@@ -570,7 +569,7 @@
     "readdir-bug.log": "PASS",
     "rm-readdir-fail.log": "SKIP",
     "rm1.log": "FAIL",
-    "rm2.log": "PASS",
+    "rm2.log": "FAIL",
     "rm3.log": "FAIL",
     "rm4.log": "PASS",
     "rm5.log": "FAIL",
