@@ -426,7 +426,7 @@
     "timeout-group.log": "SKIP",
     "timeout-large-parameters.log": "FAIL",
     "timeout-parameters.log": "FAIL",
-    "timeout.log": "FAIL",
+    "timeout.log": "PASS",
     "tr-case-class.log": "FAIL",
     "truncate-dangling-symlink.log": "PASS",
     "truncate-dir-fail.log": "PASS",
