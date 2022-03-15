@@ -27,7 +27,7 @@
     "separator.log": "FAIL"
   },
   "cp": {
-    "abuse.log": "FAIL",
+    "abuse.log": "PASS",
     "acl.log": "SKIP",
     "attr-existing.log": "FAIL",
     "backup-1.log": "FAIL",
@@ -329,7 +329,7 @@
     "nohup.log": "FAIL",
     "nproc-avail.log": "PASS",
     "nproc-override.log": "FAIL",
-    "nproc-positive.log": "FAIL",
+    "nproc-positive.log": "PASS",
     "numfmt.log": "FAIL",
     "od-N.log": "FAIL",
     "od-endian.log": "PASS",
