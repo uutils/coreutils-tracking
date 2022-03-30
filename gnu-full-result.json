@@ -105,7 +105,7 @@
     "skip-seek.log": "PASS",
     "skip-seek2.log": "FAIL",
     "sparse.log": "FAIL",
-    "stats.log": "1",
+    "stats.log": "FAIL",
     "stderr.log": "FAIL",
     "unblock-sync.log": "PASS",
     "unblock.log": "PASS"
@@ -372,7 +372,7 @@
     "shred-remove.log": "FAIL",
     "shred-size.log": "FAIL",
     "shuf-reservoir.log": "FAIL",
-    "shuf.log": "ERROR",
+    "shuf.log": "FAIL",
     "sleep.log": "FAIL",
     "sm3sum.log": "FAIL",
     "sort-NaN-infloop.log": "PASS",
