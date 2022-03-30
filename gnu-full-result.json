@@ -203,7 +203,7 @@
   },
   "ln": {
     "backup-1.log": "FAIL",
-    "hard-backup.log": "FAIL",
+    "hard-backup.log": "PASS",
     "hard-to-sym.log": "FAIL",
     "misc.log": "FAIL",
     "relative.log": "FAIL",
@@ -444,7 +444,7 @@
     "uniq-collate.log": "PASS",
     "uniq-perf.log": "PASS",
     "uniq.log": "FAIL",
-    "usage_vs_getopt.log": "ERROR",
+    "usage_vs_getopt.log": "FAIL",
     "wc-files0-from.log": "FAIL",
     "wc-files0.log": "FAIL",
     "wc-nbsp.log": "PASS",
