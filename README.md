@@ -10,7 +10,7 @@ breakdown of the GNU test results of the main branch can be found
 
 ![GNU testsuite evolution](https://github.com/uutils/coreutils-tracking/blob/main/gnu-results.png?raw=true)
 
-Refreshed once a day by github actions.
+Refreshed once a day by github actions. Changes are documented in the json file ([gnu-result.json](https://github.com/uutils/coreutils-tracking/blob/main/gnu-result.json)).
 
 Compares only the Linux execution.
 
