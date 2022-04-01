@@ -2637,6 +2637,7 @@
   },
   "Fri, 01 Apr 2022 01:22:09 +0000": {
     "sha": "453c5871649b14e6300f80847fea226afadb57b8",
+    "comment": "Factor tests are disabled: https://github.com/uutils/coreutils/pull/3339",
     "total": "590",
     "pass": " 230",
     "skip": " 74",
