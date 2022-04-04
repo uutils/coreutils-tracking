@@ -171,7 +171,7 @@
   "install": {
     "basic-1.log": "FAIL",
     "create-leading.log": "FAIL",
-    "d-slashdot.log": "FAIL",
+    "d-slashdot.log": "PASS",
     "install-C-root.log": "FAIL",
     "install-C-selinux.log": "SKIP",
     "install-C.log": "FAIL",
@@ -526,7 +526,7 @@
     "fail-eperm.log": "PASS",
     "hash.log": "PASS",
     "i-1.log": "PASS",
-    "i-never.log": "FAIL",
+    "i-never.log": "PASS",
     "i-no-r.log": "PASS",
     "ignorable.log": "PASS",
     "inaccessible.log": "FAIL",
