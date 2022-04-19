@@ -30,7 +30,7 @@
     "abuse.log": "PASS",
     "acl.log": "SKIP",
     "attr-existing.log": "FAIL",
-    "backup-1.log": "FAIL",
+    "backup-1.log": "PASS",
     "backup-dir.log": "PASS",
     "backup-is-src.log": "FAIL",
     "capability.log": "SKIP",
@@ -176,7 +176,7 @@
     "install-C-selinux.log": "SKIP",
     "install-C.log": "FAIL",
     "install-Z-selinux.log": "SKIP",
-    "strip-program.log": "FAIL",
+    "strip-program.log": "PASS",
     "trap.log": "PASS"
   },
   "ln": {
