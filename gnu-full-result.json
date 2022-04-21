@@ -105,7 +105,7 @@
     "skip-seek.log": "PASS",
     "skip-seek2.log": "FAIL",
     "sparse.log": "FAIL",
-    "stats.log": "1",
+    "stats.log": "FAIL",
     "stderr.log": "FAIL",
     "unblock-sync.log": "PASS",
     "unblock.log": "PASS"
@@ -176,7 +176,7 @@
     "install-C-selinux.log": "SKIP",
     "install-C.log": "FAIL",
     "install-Z-selinux.log": "SKIP",
-    "strip-program.log": "PASS",
+    "strip-program.log": "FAIL",
     "trap.log": "PASS"
   },
   "ln": {
