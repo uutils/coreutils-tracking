@@ -11,6 +11,7 @@
     "c-option.log": "PASS",
     "equal-x.log": "PASS",
     "equals.log": "PASS",
+    "ignore-symlink.log": "PASS",
     "inaccessible.log": "PASS",
     "no-x.log": "PASS",
     "octal.log": "PASS",
@@ -79,7 +80,7 @@
     "same-file.log": "FAIL",
     "slink-2-slink.log": "FAIL",
     "sparse-2.log": "FAIL",
-    "sparse-extents-2.log": "SKIP",
+    "sparse-extents-2.log": "FAIL",
     "sparse-extents.log": "ERROR",
     "sparse-perf.log": "FAIL",
     "sparse-to-pipe.log": "PASS",
@@ -92,7 +93,7 @@
   },
   "dd": {
     "ascii.log": "PASS",
-    "bytes.log": "PASS",
+    "bytes.log": "FAIL",
     "direct.log": "SKIP",
     "misc.log": "FAIL",
     "no-allocate.log": "ERROR",
@@ -105,7 +106,7 @@
     "skip-seek.log": "PASS",
     "skip-seek2.log": "FAIL",
     "sparse.log": "FAIL",
-    "stats.log": "FAIL",
+    "stats.log": "1",
     "stderr.log": "FAIL",
     "unblock-sync.log": "PASS",
     "unblock.log": "PASS"
@@ -119,7 +120,7 @@
     "over-mount-device.log": "FAIL",
     "skip-duplicates.log": "SKIP",
     "skip-rootfs.log": "SKIP",
-    "total-unprocessed.log": "FAIL",
+    "total-unprocessed.log": "PASS",
     "total-verify.log": "FAIL",
     "unreadable.log": "PASS"
   },
@@ -157,7 +158,8 @@
   "fmt": {
     "base.log": "FAIL",
     "goal-option.log": "FAIL",
-    "long-line.log": "FAIL"
+    "long-line.log": "FAIL",
+    "non-space.log": "FAIL"
   },
   "id": {
     "context.log": "SKIP",
@@ -176,7 +178,7 @@
     "install-C-selinux.log": "SKIP",
     "install-C.log": "FAIL",
     "install-Z-selinux.log": "SKIP",
-    "strip-program.log": "FAIL",
+    "strip-program.log": "PASS",
     "trap.log": "PASS"
   },
   "ln": {
@@ -321,6 +323,7 @@
     "printenv.log": "FAIL",
     "printf-cov.log": "FAIL",
     "printf-hex.log": "PASS",
+    "printf-mb.log": "FAIL",
     "printf-quote.log": "FAIL",
     "printf-surprise.log": "SKIP",
     "printf.log": "FAIL",
@@ -375,7 +378,7 @@
     "sort-u-FMR.log": "PASS",
     "sort-unique-segv.log": "PASS",
     "sort-unique.log": "PASS",
-    "sort-version.log": "PASS",
+    "sort-version.log": "FAIL",
     "sort.log": "FAIL",
     "stat-birthtime.log": "PASS",
     "stat-fmt.log": "FAIL",
