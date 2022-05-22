@@ -106,7 +106,7 @@
     "skip-seek.log": "PASS",
     "skip-seek2.log": "FAIL",
     "sparse.log": "FAIL",
-    "stats.log": "FAIL",
+    "stats.log": "1",
     "stderr.log": "FAIL",
     "unblock-sync.log": "PASS",
     "unblock.log": "PASS"
@@ -208,7 +208,7 @@
     "file-type.log": "PASS",
     "follow-slink.log": "FAIL",
     "getxattr-speedup.log": "PASS",
-    "group-dirs.log": "FAIL",
+    "group-dirs.log": "PASS",
     "hex-option.log": "FAIL",
     "hyperlink.log": "FAIL",
     "infloop.log": "FAIL",
