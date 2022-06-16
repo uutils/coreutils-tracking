@@ -584,7 +584,7 @@
   "tail-2": {
     "F-headers.log": "PASS",
     "F-vs-missing.log": "PASS",
-    "F-vs-rename.log": "PASS",
+    "F-vs-rename.log": "FAIL",
     "append-only.log": "PASS",
     "assert-2.log": "PASS",
     "assert.log": "PASS",
