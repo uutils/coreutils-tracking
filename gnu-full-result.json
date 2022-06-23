@@ -421,7 +421,7 @@
     "tsort.log": "FAIL",
     "tty-eof.log": "FAIL",
     "tty.log": "PASS",
-    "unexpand.log": "FAIL",
+    "unexpand.log": "PASS",
     "uniq-collate.log": "PASS",
     "uniq-perf.log": "PASS",
     "uniq.log": "FAIL",
@@ -549,7 +549,7 @@
     "read-only.log": "PASS",
     "readdir-bug.log": "PASS",
     "rm-readdir-fail.log": "SKIP",
-    "rm1.log": "PASS",
+    "rm1.log": "FAIL",
     "rm2.log": "PASS",
     "rm3.log": "FAIL",
     "rm4.log": "PASS",
@@ -582,7 +582,7 @@
     "suffix-length.log": "PASS"
   },
   "tail-2": {
-    "F-headers.log": "PASS",
+    "F-headers.log": "FAIL",
     "F-vs-missing.log": "PASS",
     "F-vs-rename.log": "PASS",
     "append-only.log": "PASS",
