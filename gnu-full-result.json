@@ -176,7 +176,7 @@
     "d-slashdot.log": "PASS",
     "install-C-root.log": "FAIL",
     "install-C-selinux.log": "SKIP",
-    "install-C.log": "FAIL",
+    "install-C.log": "PASS",
     "install-Z-selinux.log": "SKIP",
     "strip-program.log": "PASS",
     "trap.log": "PASS"
@@ -582,7 +582,7 @@
     "suffix-length.log": "PASS"
   },
   "tail-2": {
-    "F-headers.log": "FAIL",
+    "F-headers.log": "PASS",
     "F-vs-missing.log": "PASS",
     "F-vs-rename.log": "PASS",
     "append-only.log": "PASS",
