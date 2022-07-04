@@ -71,7 +71,7 @@
     "preserve-gid.log": "SKIP",
     "preserve-link.log": "FAIL",
     "preserve-mode.log": "FAIL",
-    "preserve-slink-time.log": "PASS",
+    "preserve-slink-time.log": "ERROR",
     "proc-short-read.log": "PASS",
     "proc-zero-len.log": "PASS",
     "r-vs-symlink.log": "PASS",
