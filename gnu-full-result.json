@@ -333,7 +333,7 @@
     "pwd-option.log": "FAIL",
     "readlink-fp-loop.log": "FAIL",
     "readlink-root.log": "PASS",
-    "realpath.log": "FAIL",
+    "realpath.log": "PASS",
     "runcon-no-reorder.log": "FAIL",
     "selinux.log": "SKIP",
     "seq-epipe.log": "SKIP",
@@ -398,7 +398,7 @@
     "tac-continue.log": "SKIP",
     "tac.log": "FAIL",
     "tail.log": "FAIL",
-    "tee.log": "PASS",
+    "tee.log": "FAIL",
     "test-N.log": "FAIL",
     "test-diag.log": "FAIL",
     "test.log": "FAIL",
@@ -582,7 +582,7 @@
     "suffix-length.log": "PASS"
   },
   "tail-2": {
-    "F-headers.log": "PASS",
+    "F-headers.log": "FAIL",
     "F-vs-missing.log": "PASS",
     "F-vs-rename.log": "PASS",
     "append-only.log": "PASS",
