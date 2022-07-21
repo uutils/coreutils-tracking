@@ -187,7 +187,7 @@
     "hard-to-sym.log": "PASS",
     "misc.log": "PASS",
     "relative.log": "PASS",
-    "sf-1.log": "FAIL",
+    "sf-1.log": "PASS",
     "slash-decorated-nonexistent-dest.log": "PASS",
     "target-1.log": "PASS"
   },
@@ -398,7 +398,7 @@
     "tac-continue.log": "SKIP",
     "tac.log": "FAIL",
     "tail.log": "FAIL",
-    "tee.log": "FAIL",
+    "tee.log": "PASS",
     "test-N.log": "FAIL",
     "test-diag.log": "FAIL",
     "test.log": "FAIL",
