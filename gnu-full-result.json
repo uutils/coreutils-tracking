@@ -209,7 +209,7 @@
     "follow-slink.log": "FAIL",
     "getxattr-speedup.log": "PASS",
     "group-dirs.log": "PASS",
-    "hex-option.log": "FAIL",
+    "hex-option.log": "PASS",
     "hyperlink.log": "FAIL",
     "infloop.log": "PASS",
     "inode.log": "PASS",
@@ -237,14 +237,14 @@
     "time-style-diag.log": "FAIL",
     "w-option.log": "FAIL",
     "x-option.log": "PASS",
-    "zero-option.log": "FAIL"
+    "zero-option.log": "PASS"
   },
   "misc": {
     "arch.log": "PASS",
     "b2sum.log": "FAIL",
     "base64.log": "PASS",
     "basename.log": "PASS",
-    "basenc.log": "FAIL",
+    "basenc.log": "PASS",
     "cat-E.log": "PASS",
     "cat-buf.log": "PASS",
     "cat-proc.log": "PASS",
