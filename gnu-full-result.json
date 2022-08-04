@@ -150,7 +150,7 @@
     "no-x.log": "PASS",
     "one-file-system.log": "PASS",
     "restore-wd.log": "PASS",
-    "slash.log": "PASS",
+    "slash.log": "FAIL",
     "threshold.log": "FAIL",
     "trailing-slash.log": "PASS",
     "two-args.log": "PASS"
