@@ -582,7 +582,7 @@
     "suffix-length.log": "PASS"
   },
   "tail-2": {
-    "F-headers.log": "FAIL",
+    "F-headers.log": "PASS",
     "F-vs-missing.log": "PASS",
     "F-vs-rename.log": "PASS",
     "append-only.log": "PASS",
