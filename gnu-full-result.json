@@ -480,7 +480,7 @@
     "into-self-2.log": "FAIL",
     "into-self-3.log": "PASS",
     "into-self-4.log": "PASS",
-    "into-self.log": "FAIL",
+    "into-self.log": "PASS",
     "leak-fd.log": "PASS",
     "mv-n.log": "FAIL",
     "mv-special-1.log": "FAIL",
@@ -502,8 +502,8 @@
     "pr-tests.log": "FAIL"
   },
   "readlink": {
-    "can-e.log": "FAIL",
-    "can-f.log": "FAIL",
+    "can-e.log": "PASS",
+    "can-f.log": "PASS",
     "can-m.log": "PASS",
     "multi.log": "FAIL",
     "rl-1.log": "PASS"
