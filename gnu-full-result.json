@@ -505,7 +505,7 @@
     "can-e.log": "PASS",
     "can-f.log": "PASS",
     "can-m.log": "PASS",
-    "multi.log": "FAIL",
+    "multi.log": "PASS",
     "rl-1.log": "PASS"
   },
   "rm": {
@@ -550,7 +550,7 @@
     "readdir-bug.log": "PASS",
     "rm-readdir-fail.log": "SKIP",
     "rm1.log": "FAIL",
-    "rm2.log": "FAIL",
+    "rm2.log": "PASS",
     "rm3.log": "FAIL",
     "rm4.log": "PASS",
     "rm5.log": "FAIL",
