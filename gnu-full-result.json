@@ -1,6 +1,6 @@
 {
   "chgrp": {
-    "basic.log": "PASS",
+    "basic.log": "rm:",
     "default-no-deref.log": "PASS",
     "deref.log": "PASS",
     "no-x.log": "PASS",
@@ -114,7 +114,7 @@
   "df": {
     "df-P.log": "PASS",
     "df-output.log": "FAIL",
-    "df-symlink.log": "ERROR",
+    "df-symlink.log": "SKIP",
     "header.log": "PASS",
     "no-mtab-status.log": "SKIP",
     "over-mount-device.log": "FAIL",
@@ -125,7 +125,7 @@
     "unreadable.log": "PASS"
   },
   "du": {
-    "2g.log": "SKIP",
+    "2g.log": "PASS",
     "8gb.log": "PASS",
     "basic.log": "PASS",
     "bigtime.log": "SKIP",
@@ -536,7 +536,7 @@
     "interactive-always.log": "FAIL",
     "interactive-once.log": "FAIL",
     "ir-1.log": "FAIL",
-    "isatty.log": "FAIL",
+    "isatty.log": "PASS",
     "many-dir-entries-vs-OOM.log": "PASS",
     "no-give-up.log": "FAIL",
     "one-file-system.log": "FAIL",
@@ -610,7 +610,7 @@
     "retry.log": "FAIL",
     "start-middle.log": "PASS",
     "symlink.log": "FAIL",
-    "tail-c.log": "FAIL",
+    "tail-c.log": "PASS",
     "tail-n0f.log": "PASS",
     "truncate.log": "PASS",
     "wait.log": "FAIL"
