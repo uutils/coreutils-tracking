@@ -592,7 +592,7 @@
     "descriptor-vs-rename.log": "PASS",
     "end-of-device.log": "SKIP",
     "flush-initial.log": "PASS",
-    "follow-name.log": "FAIL",
+    "follow-name.log": "PASS",
     "follow-stdin.log": "FAIL",
     "inotify-dir-recreate.log": "PASS",
     "inotify-hash-abuse.log": "PASS",
@@ -607,13 +607,13 @@
     "pipe-f.log": "SKIP",
     "pipe-f2.log": "PASS",
     "proc-ksyms.log": "PASS",
-    "retry.log": "FAIL",
+    "retry.log": "PASS",
     "start-middle.log": "PASS",
     "symlink.log": "FAIL",
     "tail-c.log": "PASS",
     "tail-n0f.log": "PASS",
     "truncate.log": "PASS",
-    "wait.log": "FAIL"
+    "wait.log": "PASS"
   },
   "touch": {
     "60-seconds.log": "PASS",
