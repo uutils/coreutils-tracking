@@ -52,7 +52,7 @@
     "existing-perm-race.log": "FAIL",
     "fail-perm.log": "FAIL",
     "file-perm-race.log": "FAIL",
-    "into-self.log": "PASS",
+    "into-self.log": "FAIL",
     "link-deref.log": "FAIL",
     "link-heap.log": "PASS",
     "link-no-deref.log": "PASS",
