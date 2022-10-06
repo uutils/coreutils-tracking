@@ -172,7 +172,7 @@
   },
   "install": {
     "basic-1.log": "FAIL",
-    "create-leading.log": "PASS",
+    "create-leading.log": "FAIL",
     "d-slashdot.log": "PASS",
     "install-C-root.log": "FAIL",
     "install-C-selinux.log": "SKIP",
@@ -553,7 +553,7 @@
     "rm2.log": "FAIL",
     "rm3.log": "FAIL",
     "rm4.log": "PASS",
-    "rm5.log": "FAIL",
+    "rm5.log": "PASS",
     "sunos-1.log": "PASS",
     "unread2.log": "PASS",
     "unread3.log": "PASS",
