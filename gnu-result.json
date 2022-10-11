@@ -4405,7 +4405,7 @@
   },
   "Mon, 10 Oct 2022 02:48:14 +0000": {
     "sha": "5a3982fe2251e32b7c43c6eb584c5c46031839c0",
-    "comment": "https://github.com/uutils/coreutils/pull/3803, https://github.com/uutils/coreutils/pull/3972 & https://github.com/uutils/coreutils/pull/4003",
+    "comment": "https://github.com/uutils/coreutils/pull/3803",
     "total": "593",
     "pass": "318",
     "skip": "49",
@@ -4415,6 +4415,7 @@
   },
   "Mon, 10 Oct 2022 15:06:50 +0000": {
     "sha": "f4365d4751e6846cdccac908c6dbada91b7430f5",
+    "comment": "https://github.com/uutils/coreutils/pull/3972 & https://github.com/uutils/coreutils/pull/4003",
     "total": "593",
     "pass": "320",
     "skip": "49",
