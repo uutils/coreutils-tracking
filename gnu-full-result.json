@@ -1,6 +1,6 @@
 {
   "chgrp": {
-    "basic.log": "PASS",
+    "basic.log": "rm:",
     "default-no-deref.log": "PASS",
     "deref.log": "PASS",
     "no-x.log": "PASS",
@@ -550,8 +550,8 @@
     "readdir-bug.log": "PASS",
     "rm-readdir-fail.log": "SKIP",
     "rm1.log": "FAIL",
-    "rm2.log": "FAIL",
-    "rm3.log": "PASS",
+    "rm2.log": "PASS",
+    "rm3.log": "FAIL",
     "rm4.log": "PASS",
     "rm5.log": "PASS",
     "sunos-1.log": "PASS",
