@@ -4542,6 +4542,7 @@
   },
   "Sat, 22 Oct 2022 23:48:43 +0000": {
     "sha": "e9b971179ece80925d48a29ff8cbb53bf5861a54",
+    "comment": "regression: https://github.com/uutils/coreutils/pull/4027",
     "total": "593",
     "pass": "316",
     "skip": "49",
