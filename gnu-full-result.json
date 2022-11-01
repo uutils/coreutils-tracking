@@ -1,6 +1,6 @@
 {
   "chgrp": {
-    "basic.log": "rm:",
+    "basic.log": "PASS",
     "default-no-deref.log": "PASS",
     "deref.log": "PASS",
     "no-x.log": "PASS",
@@ -407,7 +407,7 @@
     "timeout-group.log": "SKIP",
     "timeout-large-parameters.log": "PASS",
     "timeout-parameters.log": "PASS",
-    "timeout.log": "FAIL",
+    "timeout.log": "PASS",
     "tr-case-class.log": "FAIL",
     "truncate-dangling-symlink.log": "PASS",
     "truncate-dir-fail.log": "PASS",
@@ -551,7 +551,7 @@
     "rm-readdir-fail.log": "SKIP",
     "rm1.log": "FAIL",
     "rm2.log": "FAIL",
-    "rm3.log": "FAIL",
+    "rm3.log": "PASS",
     "rm4.log": "PASS",
     "rm5.log": "PASS",
     "sunos-1.log": "PASS",
