@@ -27,5 +27,4 @@ df.plot(y="size", color="gray", ax=ax, dashes=(2, 1), label="Size: multiple bina
 df.plot(y="multisize", color="green", ax=ax, dashes=(4, 1), label="Size: multicall binary (byte)")
 plt.title("Size evolution of Rust/Coreutils")
 plt.xticks(rotation=45)
-plt.ylim(ymin=0)
 plt.savefig("size-results.png", dpi=199)
