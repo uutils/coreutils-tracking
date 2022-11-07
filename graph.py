@@ -7,6 +7,10 @@ import time
 import matplotlib.pyplot as plt
 import pandas as pd
 
+if len(sys.argv) <= 1:
+   print('graph.py: Need an arg')
+   sys.exit()
+
 d = pd.read_json(sys.argv[1], orient="index")
 df = pd.DataFrame(d)
 
