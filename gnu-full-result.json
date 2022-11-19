@@ -93,7 +93,7 @@
   },
   "dd": {
     "ascii.log": "PASS",
-    "bytes.log": "FAIL",
+    "bytes.log": "PASS",
     "direct.log": "SKIP",
     "misc.log": "FAIL",
     "no-allocate.log": "ERROR",
@@ -398,7 +398,7 @@
     "tac-continue.log": "SKIP",
     "tac.log": "FAIL",
     "tail.log": "FAIL",
-    "tee.log": "FAIL",
+    "tee.log": "PASS",
     "test-N.log": "PASS",
     "test-diag.log": "FAIL",
     "test.log": "PASS",
