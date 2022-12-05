@@ -58,7 +58,7 @@
     "link-no-deref.log": "PASS",
     "link-preserve.log": "FAIL",
     "link-symlink.log": "PASS",
-    "link.log": "PASS",
+    "link.log": "FAIL",
     "nfs-removal-race.log": "SKIP",
     "no-ctx.log": "SKIP",
     "no-deref-link1.log": "PASS",
