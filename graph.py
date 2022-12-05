@@ -7,12 +7,13 @@ import time
 import matplotlib.pyplot as plt
 import pandas as pd
 
-if len(sys.argv) <= 1:
-   print('graph.py: Need an arg')
+if len(sys.argv) <= 2:
+   print('graph.py: <json file> <title>')
    sys.exit()
 
 d = pd.read_json(sys.argv[1], orient="index")
 df = pd.DataFrame(d)
+title = sys.argv[2]
 
 df.columns.names = ["date"]
 
@@ -30,9 +31,10 @@ ax = plt.gca()
 df.plot(y="total", color="blue", ax=ax)
 df.plot(y="fail", color="gray", ax=ax, dashes=(2, 1))
 df.plot(y="pass", color="green", ax=ax, dashes=(4, 1))
-df.plot(y="error", color="orange", ax=ax, dashes=(6, 2))
+if "error" in df:
+   df.plot(y="error", color="orange", ax=ax, dashes=(6, 2))
 df.plot(y="skip", color="violet", ax=ax, dashes=(8, 3))
-plt.title("Rust/Coreutils running GNU's testsuite")
+plt.title("Rust/Coreutils running {}'s testsuite".format(title))
 plt.xticks(rotation=45)
 plt.ylim(ymin=0)
-plt.savefig("gnu-results.png", dpi=199)
+plt.savefig("{}-results.png".format(title), dpi=199)
