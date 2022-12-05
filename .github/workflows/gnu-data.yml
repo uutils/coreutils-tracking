@@ -100,7 +100,7 @@ jobs:
       shell: bash
       run: |
         python graph.py gnu-result.json gnu
-        python graph.py busybox-result.json gnu
+        python graph.py busybox-result.json busybox
         python size-graph.py size-result.json
 
     - name: Add & Commit the graph
