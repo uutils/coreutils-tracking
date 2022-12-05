@@ -18,6 +18,13 @@ Based on:
 * https://github.com/uutils/coreutils/blob/main/util/build-gnu.sh
 * https://github.com/uutils/coreutils/blob/main/util/run-gnu-test.sh
 
+## Busybox testsuite comparison
+
+Similar results but using the busybox testsuite:
+https://github.com/mirror/busybox/tree/master/testsuite
+
+![Busybox testsuite evolution](https://github.com/uutils/coreutils-tracking/blob/main/busybox-results.png?raw=true)
+
 ## Binary size evolution
 
 ![Size evolution](https://github.com/uutils/coreutils-tracking/blob/main/size-results.png?raw=true)
