@@ -29,6 +29,14 @@ jobs:
         repo: uutils/coreutils
         path: dl
 
+    - name: Download the result
+      uses: dawidd6/action-download-artifact@v2
+      with:
+        workflow: CICD.yml
+        name: busybox-result.json
+        repo: uutils/coreutils
+        path: dl
+
     - name: Download the size result
       uses: dawidd6/action-download-artifact@v2
       with:
