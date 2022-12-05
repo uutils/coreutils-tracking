@@ -69,7 +69,7 @@ jobs:
        echo "== dl/gnu-full-result.json =="
        cat dl/gnu-full-result.json
        mv dl/gnu-full-result.json gnu-full-result.json
-       
+
        rm -rf dl
 
     - name: Add & Commit
