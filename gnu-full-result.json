@@ -172,7 +172,7 @@
   },
   "install": {
     "basic-1.log": "FAIL",
-    "create-leading.log": "FAIL",
+    "create-leading.log": "PASS",
     "d-slashdot.log": "PASS",
     "install-C-root.log": "FAIL",
     "install-C-selinux.log": "SKIP",
