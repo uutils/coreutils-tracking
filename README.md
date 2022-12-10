@@ -25,6 +25,13 @@ https://github.com/mirror/busybox/tree/master/testsuite
 
 ![Busybox testsuite evolution](https://github.com/uutils/coreutils-tracking/blob/main/busybox-results.png?raw=true)
 
+## Toybox testsuite comparison
+
+Similar results but using the toybox testsuite:
+https://github.com/landley/toybox/tree/master/tests
+
+![Toybox testsuite evolution](https://github.com/uutils/coreutils-tracking/blob/main/toybox-results.png?raw=true)
+
 ## Binary size evolution
 
 ![Size evolution](https://github.com/uutils/coreutils-tracking/blob/main/size-results.png?raw=true)
