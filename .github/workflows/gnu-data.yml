@@ -21,7 +21,7 @@ jobs:
     - name: Checkout repo
       uses: actions/checkout@v3
 
-    - name: Download the result
+    - name: Download the GNU result
       uses: dawidd6/action-download-artifact@v2
       with:
         workflow: GnuTests.yml
@@ -29,11 +29,19 @@ jobs:
         repo: uutils/coreutils
         path: dl
 
-    - name: Download the result
+    - name: Download the busybox result
       uses: dawidd6/action-download-artifact@v2
       with:
         workflow: CICD.yml
         name: busybox-result.json
+        repo: uutils/coreutils
+        path: dl
+
+    - name: Download the toybox result
+      uses: dawidd6/action-download-artifact@v2
+      with:
+        workflow: CICD.yml
+        name: toybox-result.json
         repo: uutils/coreutils
         path: dl
 
@@ -74,6 +82,15 @@ jobs:
        cat merged.json
        mv merged.json busybox-result.json
 
+       echo "== dl/toybox-result.json =="
+       cat dl/toybox-result.json
+       echo "== toybox-result.json =="
+       cat toybox-result.json
+       jq -s '.[0] * .[1]' toybox-result.json dl/toybox-result.json > merged.json
+       echo "== merged.json ="
+       cat merged.json
+       mv merged.json toybox-result.json
+
        echo "== dl/size-result.json =="
        cat dl/size-result.json
        echo "== size-result.json =="
@@ -101,23 +118,31 @@ jobs:
       run: |
         python graph.py gnu-result.json gnu
         python graph.py busybox-result.json busybox
+        python graph.py toybox-result.json toybox-result
         python size-graph.py size-result.json
 
-    - name: Add & Commit the graph
+    - name: Add & Commit the GNU graph
       uses: EndBug/add-and-commit@v9.1.1
       with:
         default_author: github_actions
         message: "Refresh the GNU graph"
         add: gnu-results.png
 
-    - name: Add & Commit the graph
+    - name: Add & Commit the busybox graph
       uses: EndBug/add-and-commit@v9.1.1
       with:
         default_author: github_actions
         message: "Refresh the busybox graph"
         add: busybox-results.png
 
-    - name: Add & Commit the graph
+    - name: Add & Commit the toybox graph
+      uses: EndBug/add-and-commit@v9.1.1
+      with:
+        default_author: github_actions
+        message: "Refresh the toybox graph"
+        add: toybox-results.png
+
+    - name: Add & Commit the size graph
       uses: EndBug/add-and-commit@v9.1.1
       with:
         default_author: github_actions
