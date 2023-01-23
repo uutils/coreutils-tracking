@@ -304,7 +304,7 @@
     "mknod.log": "FAIL",
     "mktemp.log": "PASS",
     "nice-fail.log": "PASS",
-    "nice.log": "FAIL",
+    "nice.log": "+nice:",
     "nl.log": "FAIL",
     "nohup.log": "FAIL",
     "nproc-avail.log": "PASS",
