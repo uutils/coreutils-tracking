@@ -407,7 +407,7 @@
     "timeout-group.log": "SKIP",
     "timeout-large-parameters.log": "PASS",
     "timeout-parameters.log": "PASS",
-    "timeout.log": "PASS",
+    "timeout.log": "FAIL",
     "tr-case-class.log": "FAIL",
     "truncate-dangling-symlink.log": "PASS",
     "truncate-dir-fail.log": "PASS",
