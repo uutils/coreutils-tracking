@@ -19,7 +19,7 @@
     "silent.log": "PASS",
     "thru-dangling.log": "PASS",
     "umask-x.log": "PASS",
-    "usage.log": "PASS"
+    "usage.log": "FAIL"
   },
   "chown": {
     "basic.log": "FAIL",
@@ -550,7 +550,7 @@
     "readdir-bug.log": "PASS",
     "rm-readdir-fail.log": "SKIP",
     "rm1.log": "FAIL",
-    "rm2.log": "FAIL",
+    "rm2.log": "PASS",
     "rm3.log": "PASS",
     "rm4.log": "PASS",
     "rm5.log": "PASS",
