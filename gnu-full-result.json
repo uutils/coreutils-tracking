@@ -19,7 +19,7 @@
     "silent.log": "PASS",
     "thru-dangling.log": "PASS",
     "umask-x.log": "PASS",
-    "usage.log": "FAIL"
+    "usage.log": "PASS"
   },
   "chown": {
     "basic.log": "FAIL",
@@ -104,7 +104,7 @@
     "skip-seek-past-dev.log": "FAIL",
     "skip-seek-past-file.log": "FAIL",
     "skip-seek.log": "PASS",
-    "skip-seek2.log": "FAIL",
+    "skip-seek2.log": "PASS",
     "sparse.log": "PASS",
     "stats.log": "FAIL",
     "stderr.log": "FAIL",
@@ -598,7 +598,7 @@
     "flush-initial.log": "PASS",
     "follow-name.log": "PASS",
     "follow-stdin.log": "FAIL",
-    "inotify-dir-recreate.log": "FAIL",
+    "inotify-dir-recreate.log": "PASS",
     "inotify-hash-abuse.log": "PASS",
     "inotify-hash-abuse2.log": "PASS",
     "inotify-only-regular.log": "PASS",
