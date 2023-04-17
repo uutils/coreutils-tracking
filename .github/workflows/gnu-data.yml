@@ -128,7 +128,6 @@ jobs:
       with:
         default_author: github_actions
         message: "Update of the data"
-        pull_strategy: 'NO-PULL'
 
     - name: Generate the graphs
       shell: bash
