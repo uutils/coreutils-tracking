@@ -45,6 +45,14 @@ jobs:
         repo: uutils/coreutils
         path: dl
 
+    - name: Download the individual size result
+      uses: dawidd6/action-download-artifact@v2
+      with:
+        workflow: CICD.yml
+        name: individual-size-result
+        repo: uutils/coreutils
+        path: dl
+
     - name: Download the size result
       uses: dawidd6/action-download-artifact@v2
       with:
@@ -91,6 +99,15 @@ jobs:
        cat merged.json
        mv merged.json toybox-result.json
 
+       echo "== dl/individual-size-result.json =="
+       cat dl/individual-size-result.json
+       echo "== individual-size-result.json =="
+       cat individual-size-result.json
+       jq -s '.[0] * .[1]' individual-size-result.json dl/individual-size-result.json > merged.json
+       echo "== merged.json ="
+       cat merged.json
+       mv merged.json individual-size-result.json
+
        echo "== dl/size-result.json =="
        cat dl/size-result.json
        echo "== size-result.json =="
@@ -119,6 +136,7 @@ jobs:
         python graph.py gnu-result.json gnu
         python graph.py busybox-result.json busybox
         python graph.py toybox-result.json toybox-result
+        python individual-size-graph.py individual-size-result.json
         python size-graph.py size-result.json
 
     - name: Add & Commit the GNU graph
@@ -141,6 +159,13 @@ jobs:
         default_author: github_actions
         message: "Refresh the toybox graph"
         add: toybox-results.png
+
+    - name: Add & Commit the individual size graph
+      uses: EndBug/add-and-commit@v9.1.1
+      with:
+        default_author: github_actions
+        message: "Refresh the individual size graph"
+        add: individual-size-results
 
     - name: Add & Commit the size graph
       uses: EndBug/add-and-commit@v9.1.1
