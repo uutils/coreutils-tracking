@@ -90,7 +90,7 @@
     "special-f.log": "PASS",
     "src-base-dot.log": "PASS",
     "symlink-slash.log": "PASS",
-    "thru-dangling.log": "FAIL"
+    "thru-dangling.log": "PASS"
   },
   "dd": {
     "ascii.log": "PASS",
@@ -508,7 +508,7 @@
     "symlink-onto-hardlink.log": "FAIL",
     "to-symlink.log": "FAIL",
     "trailing-slash.log": "FAIL",
-    "update.log": "PASS"
+    "update.log": "FAIL"
   },
   "pr": {
     "pr-tests.log": "FAIL"
