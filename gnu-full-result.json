@@ -613,7 +613,7 @@
     "inotify-race.log": "SKIP",
     "inotify-race2.log": "SKIP",
     "inotify-rotate-resources.log": "ERROR",
-    "inotify-rotate.log": "PASS",
+    "inotify-rotate.log": "FAIL",
     "overlay-headers.log": "PASS",
     "pid.log": "PASS",
     "pipe-f.log": "SKIP",
