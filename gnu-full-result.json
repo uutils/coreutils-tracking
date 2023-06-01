@@ -39,12 +39,12 @@
     "cp-HL.log": "PASS",
     "cp-a-selinux.log": "SKIP",
     "cp-deref.log": "PASS",
-    "cp-i.log": "FAIL",
+    "cp-i.log": "PASS",
     "cp-mv-backup.log": "PASS",
     "cp-mv-enotsup-xattr.log": "SKIP",
     "cp-parents.log": "FAIL",
     "cross-dev-symlink.log": "FAIL",
-    "debug.log": "FAIL",
+    "debug.log": "PASS",
     "deref-slink.log": "PASS",
     "dir-rm-dest.log": "PASS",
     "dir-slash.log": "PASS",
@@ -161,7 +161,7 @@
   "fmt": {
     "base.log": "FAIL",
     "goal-option.log": "FAIL",
-    "long-line.log": "PASS",
+    "long-line.log": "FAIL",
     "non-space.log": "FAIL"
   },
   "id": {
@@ -562,7 +562,7 @@
     "readdir-bug.log": "PASS",
     "rm-readdir-fail.log": "SKIP",
     "rm1.log": "FAIL",
-    "rm2.log": "FAIL",
+    "rm2.log": "PASS",
     "rm3.log": "PASS",
     "rm4.log": "PASS",
     "rm5.log": "PASS",
