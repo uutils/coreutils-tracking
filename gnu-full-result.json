@@ -129,7 +129,7 @@
   "du": {
     "2g.log": "PASS",
     "8gb.log": "PASS",
-    "apparent.log": "FAIL",
+    "apparent.log": "PASS",
     "basic.log": "PASS",
     "bigtime.log": "SKIP",
     "bind-mount-dir-cycle-v2.log": "PASS",
@@ -561,7 +561,7 @@
     "read-only.log": "PASS",
     "readdir-bug.log": "PASS",
     "rm-readdir-fail.log": "SKIP",
-    "rm1.log": "FAIL",
+    "rm1.log": "PASS",
     "rm2.log": "PASS",
     "rm3.log": "PASS",
     "rm4.log": "PASS",
