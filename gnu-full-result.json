@@ -129,7 +129,7 @@
   "du": {
     "2g.log": "PASS",
     "8gb.log": "PASS",
-    "apparent.log": "PASS",
+    "apparent.log": "FAIL",
     "basic.log": "PASS",
     "bigtime.log": "SKIP",
     "bind-mount-dir-cycle-v2.log": "PASS",
@@ -470,7 +470,7 @@
     "atomic.log": "PASS",
     "atomic2.log": "PASS",
     "backup-dir.log": "PASS",
-    "backup-is-src.log": "FAIL",
+    "backup-is-src.log": "PASS",
     "childproof.log": "FAIL",
     "diag.log": "PASS",
     "dir-file.log": "PASS",
