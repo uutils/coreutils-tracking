@@ -129,7 +129,7 @@
   "du": {
     "2g.log": "PASS",
     "8gb.log": "PASS",
-    "apparent.log": "FAIL",
+    "apparent.log": "PASS",
     "basic.log": "PASS",
     "bigtime.log": "SKIP",
     "bind-mount-dir-cycle-v2.log": "PASS",
@@ -386,7 +386,7 @@
     "sort-u-FMR.log": "PASS",
     "sort-unique-segv.log": "PASS",
     "sort-unique.log": "PASS",
-    "sort-version.log": "FAIL",
+    "sort-version.log": "PASS",
     "sort.log": "FAIL",
     "stat-birthtime.log": "PASS",
     "stat-fmt.log": "FAIL",
