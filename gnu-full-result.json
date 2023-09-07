@@ -583,7 +583,7 @@
   "split": {
     "additional-suffix.log": "PASS",
     "b-chunk.log": "FAIL",
-    "fail.log": "PASS",
+    "fail.log": "FAIL",
     "filter.log": "FAIL",
     "guard-input.log": "PASS",
     "l-chunk-root.log": "FAIL",
