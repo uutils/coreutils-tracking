@@ -516,7 +516,7 @@
     "readdir-bug.log": "PASS",
     "rm-readdir-fail.log": "SKIP",
     "rm1.log": "PASS",
-    "rm2.log": "PASS",
+    "rm2.log": "FAIL",
     "rm3.log": "PASS",
     "rm4.log": "PASS",
     "rm5.log": "PASS",
@@ -583,7 +583,7 @@
   "split": {
     "additional-suffix.log": "PASS",
     "b-chunk.log": "FAIL",
-    "fail.log": "FAIL",
+    "fail.log": "PASS",
     "filter.log": "FAIL",
     "guard-input.log": "PASS",
     "l-chunk-root.log": "FAIL",
