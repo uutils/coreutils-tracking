@@ -155,7 +155,7 @@
     "nocache_eof.log": "FAIL",
     "not-rewound.log": "FAIL",
     "reblock.log": "FAIL",
-    "skip-seek-past-dev.log": "FAIL",
+    "skip-seek-past-dev.log": "PASS",
     "skip-seek-past-file.log": "FAIL",
     "skip-seek.log": "PASS",
     "skip-seek2.log": "PASS",
