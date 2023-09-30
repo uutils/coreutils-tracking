@@ -392,7 +392,7 @@
     "childproof.log": "FAIL",
     "diag.log": "PASS",
     "dir-file.log": "PASS",
-    "dir2dir.log": "FAIL",
+    "dir2dir.log": "PASS",
     "dup-source.log": "FAIL",
     "force.log": "PASS",
     "hard-2.log": "PASS",
@@ -592,7 +592,7 @@
     "lines.log": "PASS",
     "numeric.log": "PASS",
     "r-chunk.log": "FAIL",
-    "record-sep.log": "PASS",
+    "record-sep.log": "FAIL",
     "suffix-auto-length.log": "FAIL",
     "suffix-length.log": "PASS"
   },
