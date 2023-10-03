@@ -411,7 +411,7 @@
     "into-self-4.log": "PASS",
     "into-self.log": "PASS",
     "leak-fd.log": "PASS",
-    "mv-n.log": "PASS",
+    "mv-n.log": "FAIL",
     "mv-special-1.log": "FAIL",
     "no-copy.log": "PASS",
     "no-target-dir.log": "PASS",
@@ -592,7 +592,7 @@
     "lines.log": "PASS",
     "numeric.log": "PASS",
     "r-chunk.log": "FAIL",
-    "record-sep.log": "FAIL",
+    "record-sep.log": "PASS",
     "suffix-auto-length.log": "FAIL",
     "suffix-length.log": "PASS"
   },
