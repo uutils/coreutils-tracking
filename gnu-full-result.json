@@ -490,7 +490,7 @@
     "empty-name.log": "PASS",
     "ext3-perf.log": "PASS",
     "f-1.log": "PASS",
-    "fail-2eperm.log": "FAIL",
+    "fail-2eperm.log": "PASS",
     "fail-eacces.log": "PASS",
     "fail-eperm.log": "PASS",
     "hash.log": "PASS",
@@ -593,7 +593,7 @@
     "numeric.log": "PASS",
     "r-chunk.log": "FAIL",
     "record-sep.log": "PASS",
-    "suffix-auto-length.log": "PASS",
+    "suffix-auto-length.log": "FAIL",
     "suffix-length.log": "PASS"
   },
   "stat": {
