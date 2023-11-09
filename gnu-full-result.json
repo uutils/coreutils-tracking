@@ -582,11 +582,11 @@
   },
   "split": {
     "additional-suffix.log": "PASS",
-    "b-chunk.log": "PASS",
+    "b-chunk.log": "FAIL",
     "fail.log": "PASS",
     "filter.log": "PASS",
     "guard-input.log": "PASS",
-    "l-chunk-root.log": "PASS",
+    "l-chunk-root.log": "FAIL",
     "l-chunk.log": "FAIL",
     "line-bytes.log": "PASS",
     "lines.log": "PASS",
