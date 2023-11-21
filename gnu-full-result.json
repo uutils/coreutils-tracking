@@ -587,7 +587,7 @@
     "filter.log": "PASS",
     "guard-input.log": "PASS",
     "l-chunk-root.log": "PASS",
-    "l-chunk.log": "PASS",
+    "l-chunk.log": "FAIL",
     "line-bytes.log": "PASS",
     "lines.log": "PASS",
     "numeric.log": "PASS",
@@ -648,7 +648,7 @@
     "tail-c.log": "PASS",
     "tail-n0f.log": "PASS",
     "tail.log": "PASS",
-    "truncate.log": "FAIL",
+    "truncate.log": "PASS",
     "wait.log": "PASS"
   },
   "test": {
