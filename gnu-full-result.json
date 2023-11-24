@@ -644,7 +644,7 @@
     "proc-ksyms.log": "PASS",
     "retry.log": "PASS",
     "start-middle.log": "PASS",
-    "symlink.log": "PASS",
+    "symlink.log": "FAIL",
     "tail-c.log": "PASS",
     "tail-n0f.log": "PASS",
     "tail.log": "PASS",
