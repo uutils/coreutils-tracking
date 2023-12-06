@@ -307,7 +307,7 @@
     "readdir-mountpoint-inode.log": "PASS",
     "recursive.log": "PASS",
     "removed-directory.log": "PASS",
-    "root-rel-symlink-color.log": "PASS",
+    "root-rel-symlink-color.log": "FAIL",
     "rt-1.log": "PASS",
     "selinux-segfault.log": "PASS",
     "slink-acl.log": "PASS",
