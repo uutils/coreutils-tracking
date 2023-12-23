@@ -261,7 +261,7 @@
     "install-C-selinux.log": "SKIP",
     "install-C.log": "PASS",
     "install-Z-selinux.log": "SKIP",
-    "strip-program.log": "FAIL",
+    "strip-program.log": "PASS",
     "trap.log": "PASS"
   },
   "ln": {
@@ -389,7 +389,7 @@
     "atomic2.log": "PASS",
     "backup-dir.log": "PASS",
     "backup-is-src.log": "PASS",
-    "childproof.log": "PASS",
+    "childproof.log": "FAIL",
     "diag.log": "PASS",
     "dir-file.log": "PASS",
     "dir2dir.log": "PASS",
