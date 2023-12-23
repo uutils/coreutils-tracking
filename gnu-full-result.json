@@ -254,7 +254,7 @@
     "zero.log": "PASS"
   },
   "install": {
-    "basic-1.log": "PASS",
+    "basic-1.log": "FAIL",
     "create-leading.log": "PASS",
     "d-slashdot.log": "PASS",
     "install-C-root.log": "FAIL",
@@ -389,7 +389,7 @@
     "atomic2.log": "PASS",
     "backup-dir.log": "PASS",
     "backup-is-src.log": "PASS",
-    "childproof.log": "FAIL",
+    "childproof.log": "PASS",
     "diag.log": "PASS",
     "dir-file.log": "PASS",
     "dir2dir.log": "PASS",
@@ -629,7 +629,7 @@
     "flush-initial.log": "PASS",
     "follow-name.log": "PASS",
     "follow-stdin.log": "FAIL",
-    "inotify-dir-recreate.log": "FAIL",
+    "inotify-dir-recreate.log": "PASS",
     "inotify-hash-abuse.log": "PASS",
     "inotify-hash-abuse2.log": "PASS",
     "inotify-only-regular.log": "PASS",
