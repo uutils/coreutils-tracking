@@ -1,13 +1,12 @@
 This file documents the pending improvements or regression:
 
-https://github.com/uutils/coreutils/pull/5475
-https://github.com/uutils/coreutils/pull/5567
-
-https://github.com/uutils/coreutils/pull/5603
-https://github.com/uutils/coreutils/pull/5656
-https://github.com/uutils/coreutils/pull/5672
-https://github.com/uutils/coreutils/pull/5685
-https://github.com/uutils/coreutils/pull/5686
-https://github.com/uutils/coreutils/pull/5697
-https://github.com/uutils/coreutils/pull/5701
-https://github.com/uutils/coreutils/pull/5700
+* https://github.com/uutils/coreutils/pull/5475
+* https://github.com/uutils/coreutils/pull/5567
+* https://github.com/uutils/coreutils/pull/5603
+* https://github.com/uutils/coreutils/pull/5656
+* https://github.com/uutils/coreutils/pull/5672
+* https://github.com/uutils/coreutils/pull/5685
+* https://github.com/uutils/coreutils/pull/5686
+* https://github.com/uutils/coreutils/pull/5697
+* https://github.com/uutils/coreutils/pull/5701
+* https://github.com/uutils/coreutils/pull/5700
