@@ -130,7 +130,7 @@
   "csplit": {
     "csplit-1000.log": "PASS",
     "csplit-heap.log": "SKIP",
-    "csplit-io-err.log": "ERROR",
+    "csplit-io-err.log": "SKIP",
     "csplit-suppress-matched.log": "FAIL",
     "csplit.log": "FAIL"
   },
@@ -539,7 +539,7 @@
   "seq": {
     "seq-epipe.log": "SKIP",
     "seq-extra-number.log": "PASS",
-    "seq-io-errors.log": "FAIL",
+    "seq-io-errors.log": "PASS",
     "seq-locale.log": "PASS",
     "seq-long-double.log": "PASS",
     "seq.log": "FAIL"
@@ -629,13 +629,13 @@
     "flush-initial.log": "PASS",
     "follow-name.log": "PASS",
     "follow-stdin.log": "FAIL",
-    "inotify-dir-recreate.log": "PASS",
+    "inotify-dir-recreate.log": "FAIL",
     "inotify-hash-abuse.log": "PASS",
     "inotify-hash-abuse2.log": "PASS",
     "inotify-only-regular.log": "PASS",
     "inotify-race.log": "SKIP",
     "inotify-race2.log": "SKIP",
-    "inotify-rotate-resources.log": "ERROR",
+    "inotify-rotate-resources.log": "FAIL",
     "inotify-rotate.log": "PASS",
     "overlay-headers.log": "PASS",
     "pid.log": "PASS",
