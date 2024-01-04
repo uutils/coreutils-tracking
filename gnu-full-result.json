@@ -192,7 +192,7 @@
     "exclude.log": "PASS",
     "fd-leak.log": "PASS",
     "files0-from-dir.log": "PASS",
-    "files0-from.log": "FAIL",
+    "files0-from.log": "PASS",
     "hard-link.log": "FAIL",
     "inacc-dest.log": "PASS",
     "inacc-dir.log": "PASS",
@@ -425,7 +425,7 @@
     "symlink-onto-hardlink-to-self.log": "PASS",
     "symlink-onto-hardlink.log": "PASS",
     "to-symlink.log": "FAIL",
-    "trailing-slash.log": "FAIL",
+    "trailing-slash.log": "PASS",
     "update.log": "PASS"
   },
   "nice": {
@@ -629,7 +629,7 @@
     "flush-initial.log": "PASS",
     "follow-name.log": "PASS",
     "follow-stdin.log": "FAIL",
-    "inotify-dir-recreate.log": "PASS",
+    "inotify-dir-recreate.log": "FAIL",
     "inotify-hash-abuse.log": "PASS",
     "inotify-hash-abuse2.log": "PASS",
     "inotify-only-regular.log": "PASS",
