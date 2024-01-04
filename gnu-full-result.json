@@ -425,7 +425,7 @@
     "symlink-onto-hardlink-to-self.log": "PASS",
     "symlink-onto-hardlink.log": "PASS",
     "to-symlink.log": "FAIL",
-    "trailing-slash.log": "PASS",
+    "trailing-slash.log": "FAIL",
     "update.log": "PASS"
   },
   "nice": {
@@ -629,7 +629,7 @@
     "flush-initial.log": "PASS",
     "follow-name.log": "PASS",
     "follow-stdin.log": "FAIL",
-    "inotify-dir-recreate.log": "FAIL",
+    "inotify-dir-recreate.log": "PASS",
     "inotify-hash-abuse.log": "PASS",
     "inotify-hash-abuse2.log": "PASS",
     "inotify-only-regular.log": "PASS",
