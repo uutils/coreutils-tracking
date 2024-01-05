@@ -86,7 +86,7 @@
     "dir-vs-file.log": "PASS",
     "existing-perm-dir.log": "PASS",
     "existing-perm-race.log": "PASS",
-    "fail-perm.log": "FAIL",
+    "fail-perm.log": "PASS",
     "file-perm-race.log": "PASS",
     "into-self.log": "PASS",
     "link-deref.log": "FAIL",
@@ -425,7 +425,7 @@
     "symlink-onto-hardlink-to-self.log": "PASS",
     "symlink-onto-hardlink.log": "PASS",
     "to-symlink.log": "FAIL",
-    "trailing-slash.log": "FAIL",
+    "trailing-slash.log": "PASS",
     "update.log": "PASS"
   },
   "nice": {
