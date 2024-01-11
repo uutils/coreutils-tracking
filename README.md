@@ -6,11 +6,11 @@ Tracking the evolution of https://github.com/uutils/coreutils
 
 Below is the evolution of how many GNU tests uutils passes. A more detailed
 breakdown of the GNU test results of the main branch can be found
-[in the user manual](https://uutils.github.io/user/test_coverage.html).
+[in the user manual](https://uutils.github.io/coreutils/book/test_coverage.html).
 
 ![GNU testsuite evolution](https://github.com/uutils/coreutils-tracking/blob/main/gnu-results.png?raw=true)
 
-Refreshed once a day by github actions. Changes are documented in the json file ([gnu-result.json](https://github.com/uutils/coreutils-tracking/blob/main/gnu-result.json)).
+Refreshed twice a day by github actions. Changes are documented in the json file ([gnu-result.json](https://github.com/uutils/coreutils-tracking/blob/main/gnu-result.json)).
 
 Compares only the Linux execution.
 
