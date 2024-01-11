@@ -46,7 +46,7 @@
     "cksum-a.log": "FAIL",
     "cksum-base64.log": "FAIL",
     "cksum-c.log": "FAIL",
-    "cksum-raw.log": "FAIL",
+    "cksum-raw.log": "PASS",
     "cksum.log": "PASS",
     "md5sum-bsd.log": "FAIL",
     "md5sum-newline.log": "FAIL",
@@ -213,7 +213,7 @@
   },
   "env": {
     "env-S-script.log": "PASS",
-    "env-S.log": "FAIL",
+    "env-S.log": "PASS",
     "env-null.log": "PASS",
     "env-signal-handler.log": "SKIP",
     "env.log": "PASS"
