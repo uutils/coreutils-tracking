@@ -8,12 +8,25 @@ df = pd.read_json(sys.argv[1], orient="index")
 
 Path("individual-size-results").mkdir(exist_ok=True)
 
-for name, _ in df.sizes.values[0].items():
-    print(name)
-    sizes = df.sizes.map(lambda v: v[name])
-    print(sizes)
-    sizes.plot(y="size", color="green")
-    plt.title(f'Size evolution of "{name}" binary (byte)')
-    plt.xticks(rotation=45)
-    plt.savefig(f"individual-size-results/{name}.png", dpi=199)
-    plt.clf()
+
+df = pd.read_json(sys.argv[1], orient="index")
+
+Path("individual-size-results").mkdir(exist_ok=True)
+
+for name in df.sizes.values[0].keys():
+    # Check if the name exists in each dictionary
+    sizes = df.sizes.map(lambda v: v.get(name))
+
+    # Filter out None values which indicate missing data for 'name'
+    sizes = sizes[sizes.notnull()]
+
+    if not sizes.empty:
+        print(name)
+        print(sizes)
+        sizes.plot(y="size", color="green")
+        plt.title(f'Size evolution of "{name}" binary (bytes)')
+        plt.xticks(rotation=45)
+        plt.savefig(f"individual-size-results/{name}.png", dpi=199)
+        plt.clf()
+    else:
+        print(f"Warning: No data found for '{name}'")
