@@ -213,7 +213,7 @@
   },
   "env": {
     "env-S-script.log": "PASS",
-    "env-S.log": "PASS",
+    "env-S.log": "FAIL",
     "env-null.log": "PASS",
     "env-signal-handler.log": "SKIP",
     "env.log": "PASS"
