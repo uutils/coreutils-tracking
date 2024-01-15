@@ -64,7 +64,7 @@
   },
   "cp": {
     "abuse.log": "PASS",
-    "acl.log": "FAIL",
+    "acl.log": "PASS",
     "attr-existing.log": "FAIL",
     "backup-1.log": "PASS",
     "backup-dir.log": "PASS",
@@ -384,7 +384,7 @@
     "writable-under-readonly.log": "SKIP"
   },
   "mv": {
-    "acl.log": "FAIL",
+    "acl.log": "PASS",
     "atomic.log": "PASS",
     "atomic2.log": "PASS",
     "backup-dir.log": "PASS",
@@ -629,7 +629,7 @@
     "flush-initial.log": "PASS",
     "follow-name.log": "PASS",
     "follow-stdin.log": "FAIL",
-    "inotify-dir-recreate.log": "FAIL",
+    "inotify-dir-recreate.log": "PASS",
     "inotify-hash-abuse.log": "PASS",
     "inotify-hash-abuse2.log": "PASS",
     "inotify-only-regular.log": "PASS",
