@@ -213,7 +213,7 @@
   },
   "env": {
     "env-S-script.log": "PASS",
-    "env-S.log": "PASS",
+    "env-S.log": "FAIL",
     "env-null.log": "PASS",
     "env-signal-handler.log": "SKIP",
     "env.log": "PASS"
@@ -384,7 +384,7 @@
     "writable-under-readonly.log": "SKIP"
   },
   "mv": {
-    "acl.log": "FAIL",
+    "acl.log": "PASS",
     "atomic.log": "PASS",
     "atomic2.log": "PASS",
     "backup-dir.log": "PASS",
