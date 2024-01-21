@@ -49,7 +49,7 @@
     "cksum-raw.log": "PASS",
     "cksum.log": "PASS",
     "md5sum-bsd.log": "FAIL",
-    "md5sum-newline.log": "FAIL",
+    "md5sum-newline.log": "PASS",
     "md5sum-parallel.log": "PASS",
     "md5sum.log": "FAIL",
     "sha1sum-vec.log": "PASS",
