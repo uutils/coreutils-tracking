@@ -552,7 +552,7 @@
   },
   "shuf": {
     "shuf-reservoir.log": "PASS",
-    "shuf.log": "FAIL"
+    "shuf.log": "PASS"
   },
   "sort": {
     "sort-NaN-infloop.log": "PASS",
@@ -702,7 +702,7 @@
   "uniq": {
     "uniq-collate.log": "PASS",
     "uniq-perf.log": "PASS",
-    "uniq.log": "FAIL"
+    "uniq.log": "PASS"
   },
   "wc": {
     "wc-files0-from.log": "PASS",
