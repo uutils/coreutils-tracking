@@ -34,7 +34,7 @@
   "chown": {
     "basic.log": "PASS",
     "deref.log": "PASS",
-    "preserve-root.log": "FAIL",
+    "preserve-root.log": "PASS",
     "separator.log": "PASS"
   },
   "chroot": {
@@ -160,7 +160,7 @@
     "skip-seek.log": "PASS",
     "skip-seek2.log": "PASS",
     "sparse.log": "PASS",
-    "stats.log": "PASS",
+    "stats.log": "FAIL",
     "stderr.log": "FAIL",
     "unblock-sync.log": "PASS",
     "unblock.log": "PASS"
