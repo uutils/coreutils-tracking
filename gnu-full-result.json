@@ -65,7 +65,7 @@
   "cp": {
     "abuse.log": "PASS",
     "acl.log": "PASS",
-    "attr-existing.log": "FAIL",
+    "attr-existing.log": "PASS",
     "backup-1.log": "PASS",
     "backup-dir.log": "PASS",
     "backup-is-src.log": "PASS",
