@@ -150,7 +150,7 @@
     "bytes.log": "PASS",
     "direct.log": "FAIL",
     "misc.log": "FAIL",
-    "no-allocate.log": "FAIL",
+    "no-allocate.log": "PASS",
     "nocache.log": "PASS",
     "nocache_eof.log": "FAIL",
     "not-rewound.log": "FAIL",
