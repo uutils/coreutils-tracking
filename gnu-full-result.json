@@ -132,7 +132,7 @@
     "csplit-heap.log": "SKIP",
     "csplit-io-err.log": "SKIP",
     "csplit-suppress-matched.log": "FAIL",
-    "csplit.log": "FAIL"
+    "csplit.log": "PASS"
   },
   "cut": {
     "cut-huge-range.log": "PASS",
@@ -149,7 +149,7 @@
     "ascii.log": "PASS",
     "bytes.log": "PASS",
     "direct.log": "FAIL",
-    "misc.log": "PASS",
+    "misc.log": "FAIL",
     "no-allocate.log": "FAIL",
     "nocache.log": "PASS",
     "nocache_eof.log": "FAIL",
@@ -362,7 +362,7 @@
     "usage_vs_getopt.log": "FAIL",
     "write-errors.log": "FAIL",
     "xattr.log": "SKIP",
-    "xstrtol.log": "FAIL",
+    "xstrtol.log": "PASS",
     "yes.log": "PASS"
   },
   "mkdir": {
