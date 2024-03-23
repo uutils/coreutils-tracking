@@ -629,7 +629,7 @@
     "flush-initial.log": "PASS",
     "follow-name.log": "PASS",
     "follow-stdin.log": "FAIL",
-    "inotify-dir-recreate.log": "FAIL",
+    "inotify-dir-recreate.log": "PASS",
     "inotify-hash-abuse.log": "PASS",
     "inotify-hash-abuse2.log": "PASS",
     "inotify-only-regular.log": "PASS",
@@ -692,7 +692,7 @@
     "truncate-no-create-missing.log": "PASS",
     "truncate-overflow.log": "PASS",
     "truncate-owned-by-other.log": "FAIL",
-    "truncate-parameters.log": "FAIL",
+    "truncate-parameters.log": "PASS",
     "truncate-relative.log": "PASS"
   },
   "tty": {
