@@ -1,4 +1,8 @@
 {
+  "basenc": {
+    "base64.log": "FAIL",
+    "basenc.log": "FAIL"
+  },
   "cat": {
     "cat-E.log": "PASS",
     "cat-buf.log": "PASS",
@@ -13,6 +17,7 @@
     "basic.log": "PASS",
     "default-no-deref.log": "PASS",
     "deref.log": "PASS",
+    "from.log": "FAIL",
     "no-x.log": "PASS",
     "posix-H.log": "PASS",
     "recurse.log": "PASS"
@@ -27,6 +32,7 @@
     "octal.log": "PASS",
     "setgid.log": "PASS",
     "silent.log": "PASS",
+    "symlinks.log": "FAIL",
     "thru-dangling.log": "PASS",
     "umask-x.log": "PASS",
     "usage.log": "PASS"
@@ -74,7 +80,7 @@
     "cp-HL.log": "PASS",
     "cp-a-selinux.log": "SKIP",
     "cp-deref.log": "PASS",
-    "cp-i.log": "PASS",
+    "cp-i.log": "FAIL",
     "cp-mv-backup.log": "PASS",
     "cp-mv-enotsup-xattr.log": "SKIP",
     "cp-parents.log": "FAIL",
@@ -89,6 +95,7 @@
     "fail-perm.log": "PASS",
     "file-perm-race.log": "PASS",
     "into-self.log": "PASS",
+    "keep-directory-symlink.log": "PASS",
     "link-deref.log": "FAIL",
     "link-heap.log": "PASS",
     "link-no-deref.log": "PASS",
@@ -216,7 +223,7 @@
     "env-S.log": "PASS",
     "env-null.log": "PASS",
     "env-signal-handler.log": "SKIP",
-    "env.log": "PASS"
+    "env.log": "FAIL"
   },
   "expr": {
     "expr-multibyte.log": "FAIL",
@@ -264,6 +271,10 @@
     "strip-program.log": "PASS",
     "trap.log": "PASS"
   },
+  "join": {
+    "join-utf8.log": "FAIL",
+    "join.log": "PASS"
+  },
   "ln": {
     "backup-1.log": "PASS",
     "hard-backup.log": "PASS",
@@ -277,6 +288,7 @@
   "ls": {
     "a-option.log": "PASS",
     "abmon-align.log": "PASS",
+    "acl.log": "PASS",
     "birthtime.log": "PASS",
     "block-size.log": "PASS",
     "capability.log": "FAIL",
@@ -287,7 +299,7 @@
     "color-norm.log": "FAIL",
     "color-term.log": "PASS",
     "dangle.log": "PASS",
-    "dired.log": "PASS",
+    "dired.log": "FAIL",
     "file-type.log": "PASS",
     "follow-slink.log": "PASS",
     "getxattr-speedup.log": "PASS",
@@ -310,6 +322,7 @@
     "root-rel-symlink-color.log": "PASS",
     "rt-1.log": "PASS",
     "selinux-segfault.log": "PASS",
+    "size-align.log": "PASS",
     "slink-acl.log": "PASS",
     "sort-width-option.log": "PASS",
     "stat-dtype.log": "FAIL",
@@ -327,9 +340,7 @@
   },
   "misc": {
     "arch.log": "PASS",
-    "base64.log": "PASS",
     "basename.log": "PASS",
-    "basenc.log": "FAIL",
     "close-stdout.log": "FAIL",
     "comm.log": "FAIL",
     "coreutils.log": "SKIP",
@@ -339,8 +350,7 @@
     "expand.log": "PASS",
     "false-status.log": "PASS",
     "fold.log": "PASS",
-    "join.log": "PASS",
-    "kill.log": "FAIL",
+    "kill.log": "ERROR",
     "mknod.log": "FAIL",
     "mktemp.log": "PASS",
     "nl.log": "PASS",
@@ -411,7 +421,8 @@
     "into-self-4.log": "PASS",
     "into-self.log": "PASS",
     "leak-fd.log": "PASS",
-    "mv-n.log": "PASS",
+    "mv-exchange.log": "FAIL",
+    "mv-n.log": "FAIL",
     "mv-special-1.log": "FAIL",
     "no-copy.log": "PASS",
     "no-target-dir.log": "PASS",
@@ -426,7 +437,7 @@
     "symlink-onto-hardlink.log": "PASS",
     "to-symlink.log": "FAIL",
     "trailing-slash.log": "PASS",
-    "update.log": "PASS"
+    "update.log": "FAIL"
   },
   "nice": {
     "nice-fail.log": "PASS",
@@ -440,9 +451,9 @@
   "od": {
     "od-N.log": "FAIL",
     "od-endian.log": "PASS",
-    "od-float.log": "PASS",
+    "od-float.log": "FAIL",
     "od-j.log": "PASS",
-    "od-multiple-t.log": "FAIL",
+    "od-multiple-t.log": "PASS",
     "od-x8.log": "PASS",
     "od.log": "PASS"
   },
@@ -567,7 +578,7 @@
     "sort-exit-early.log": "PASS",
     "sort-files0-from.log": "FAIL",
     "sort-float.log": "FAIL",
-    "sort-h-thousands-sep.log": "SKIP",
+    "sort-h-thousands-sep.log": "FAIL",
     "sort-merge-fdlimit.log": "FAIL",
     "sort-merge.log": "FAIL",
     "sort-month.log": "FAIL",
@@ -588,7 +599,7 @@
     "guard-input.log": "PASS",
     "l-chunk-root.log": "PASS",
     "l-chunk.log": "PASS",
-    "line-bytes.log": "PASS",
+    "line-bytes.log": "FAIL",
     "lines.log": "PASS",
     "numeric.log": "PASS",
     "r-chunk.log": "PASS",
@@ -638,7 +649,7 @@
     "inotify-rotate-resources.log": "FAIL",
     "inotify-rotate.log": "PASS",
     "overlay-headers.log": "PASS",
-    "pid.log": "PASS",
+    "pid.log": "FAIL",
     "pipe-f.log": "SKIP",
     "pipe-f2.log": "PASS",
     "proc-ksyms.log": "PASS",
@@ -647,6 +658,7 @@
     "symlink.log": "FAIL",
     "tail-c.log": "PASS",
     "tail-n0f.log": "PASS",
+    "tail-sysfs.log": "PASS",
     "tail.log": "PASS",
     "truncate.log": "PASS",
     "wait.log": "PASS"
@@ -702,7 +714,7 @@
   "uniq": {
     "uniq-collate.log": "PASS",
     "uniq-perf.log": "PASS",
-    "uniq.log": "PASS"
+    "uniq.log": "FAIL"
   },
   "wc": {
     "wc-files0-from.log": "PASS",
@@ -711,6 +723,6 @@
     "wc-parallel.log": "PASS",
     "wc-proc.log": "PASS",
     "wc-total.log": "PASS",
-    "wc.log": "PASS"
+    "wc.log": "FAIL"
   }
 }
