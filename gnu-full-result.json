@@ -223,7 +223,7 @@
     "env-S.log": "PASS",
     "env-null.log": "PASS",
     "env-signal-handler.log": "SKIP",
-    "env.log": "FAIL"
+    "env.log": "PASS"
   },
   "expr": {
     "expr-multibyte.log": "FAIL",
@@ -640,7 +640,7 @@
     "flush-initial.log": "PASS",
     "follow-name.log": "PASS",
     "follow-stdin.log": "FAIL",
-    "inotify-dir-recreate.log": "PASS",
+    "inotify-dir-recreate.log": "FAIL",
     "inotify-hash-abuse.log": "PASS",
     "inotify-hash-abuse2.log": "PASS",
     "inotify-only-regular.log": "PASS",
