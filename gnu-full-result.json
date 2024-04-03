@@ -223,7 +223,7 @@
     "env-S.log": "PASS",
     "env-null.log": "PASS",
     "env-signal-handler.log": "SKIP",
-    "env.log": "PASS"
+    "env.log": "FAIL"
   },
   "expr": {
     "expr-multibyte.log": "FAIL",
