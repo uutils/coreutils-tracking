@@ -223,7 +223,7 @@
     "env-S.log": "PASS",
     "env-null.log": "PASS",
     "env-signal-handler.log": "SKIP",
-    "env.log": "FAIL"
+    "env.log": "PASS"
   },
   "expr": {
     "expr-multibyte.log": "FAIL",
@@ -526,7 +526,7 @@
     "read-only.log": "PASS",
     "readdir-bug.log": "PASS",
     "rm-readdir-fail.log": "SKIP",
-    "rm1.log": "PASS",
+    "rm1.log": "FAIL",
     "rm2.log": "FAIL",
     "rm3.log": "PASS",
     "rm4.log": "PASS",
@@ -723,6 +723,6 @@
     "wc-parallel.log": "PASS",
     "wc-proc.log": "PASS",
     "wc-total.log": "PASS",
-    "wc.log": "FAIL"
+    "wc.log": "PASS"
   }
 }
