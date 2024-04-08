@@ -350,7 +350,7 @@
     "expand.log": "PASS",
     "false-status.log": "PASS",
     "fold.log": "PASS",
-    "kill.log": "ERROR",
+    "kill.log": "FAIL",
     "mknod.log": "FAIL",
     "mktemp.log": "PASS",
     "nl.log": "PASS",
