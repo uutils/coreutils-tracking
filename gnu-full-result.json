@@ -49,7 +49,7 @@
   },
   "cksum": {
     "b2sum.log": "FAIL",
-    "cksum-a.log": "PASS",
+    "cksum-a.log": "FAIL",
     "cksum-base64.log": "FAIL",
     "cksum-c.log": "FAIL",
     "cksum-raw.log": "PASS",
@@ -64,7 +64,7 @@
     "sha256sum.log": "PASS",
     "sha384sum.log": "PASS",
     "sha512sum.log": "PASS",
-    "sm3sum.log": "PASS",
+    "sm3sum.log": "FAIL",
     "sum-sysv.log": "PASS",
     "sum.log": "PASS"
   },
@@ -231,7 +231,7 @@
   },
   "factor": {
     "factor-parallel.log": "PASS",
-    "factor.log": "FAIL"
+    "factor.log": "PASS"
   },
   "fmt": {
     "base.log": "PASS",
@@ -640,7 +640,7 @@
     "flush-initial.log": "PASS",
     "follow-name.log": "PASS",
     "follow-stdin.log": "FAIL",
-    "inotify-dir-recreate.log": "FAIL",
+    "inotify-dir-recreate.log": "PASS",
     "inotify-hash-abuse.log": "PASS",
     "inotify-hash-abuse2.log": "PASS",
     "inotify-only-regular.log": "PASS",
