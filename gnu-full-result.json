@@ -155,7 +155,7 @@
   "dd": {
     "ascii.log": "PASS",
     "bytes.log": "PASS",
-    "direct.log": "PASS",
+    "direct.log": "FAIL",
     "misc.log": "PASS",
     "no-allocate.log": "FAIL",
     "nocache.log": "PASS",
@@ -640,7 +640,7 @@
     "flush-initial.log": "PASS",
     "follow-name.log": "PASS",
     "follow-stdin.log": "FAIL",
-    "inotify-dir-recreate.log": "FAIL",
+    "inotify-dir-recreate.log": "PASS",
     "inotify-hash-abuse.log": "PASS",
     "inotify-hash-abuse2.log": "PASS",
     "inotify-only-regular.log": "PASS",
