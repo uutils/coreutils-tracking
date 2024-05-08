@@ -49,7 +49,7 @@
   },
   "cksum": {
     "b2sum.log": "FAIL",
-    "cksum-a.log": "FAIL",
+    "cksum-a.log": "PASS",
     "cksum-base64.log": "FAIL",
     "cksum-c.log": "FAIL",
     "cksum-raw.log": "PASS",
@@ -64,7 +64,7 @@
     "sha256sum.log": "PASS",
     "sha384sum.log": "PASS",
     "sha512sum.log": "PASS",
-    "sm3sum.log": "FAIL",
+    "sm3sum.log": "PASS",
     "sum-sysv.log": "PASS",
     "sum.log": "PASS"
   },
