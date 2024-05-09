@@ -96,7 +96,7 @@
     "file-perm-race.log": "PASS",
     "into-self.log": "PASS",
     "keep-directory-symlink.log": "PASS",
-    "link-deref.log": "PASS",
+    "link-deref.log": "FAIL",
     "link-heap.log": "PASS",
     "link-no-deref.log": "PASS",
     "link-preserve.log": "PASS",
