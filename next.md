@@ -5,3 +5,4 @@ This file documents the pending improvements or regression:
 * https://github.com/uutils/coreutils/issues/5705
 * https://github.com/uutils/coreutils/pull/6378
 * https://github.com/uutils/coreutils/pull/6403
+* https://github.com/uutils/coreutils/pull/6432
