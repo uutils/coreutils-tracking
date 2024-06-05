@@ -50,7 +50,7 @@
   "cksum": {
     "b2sum.log": "FAIL",
     "cksum-a.log": "PASS",
-    "cksum-base64.log": "FAIL",
+    "cksum-base64.log": "PASS",
     "cksum-c.log": "PASS",
     "cksum-raw.log": "PASS",
     "cksum.log": "PASS",
@@ -83,7 +83,7 @@
     "cp-i.log": "FAIL",
     "cp-mv-backup.log": "PASS",
     "cp-mv-enotsup-xattr.log": "SKIP",
-    "cp-parents.log": "PASS",
+    "cp-parents.log": "FAIL",
     "cross-dev-symlink.log": "PASS",
     "debug.log": "PASS",
     "deref-slink.log": "PASS",
