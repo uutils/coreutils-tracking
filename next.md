@@ -9,3 +9,4 @@ This file documents the pending improvements or regression:
 * https://github.com/uutils/coreutils/pull/6446
 * https://github.com/uutils/coreutils/pull/6472
 * https://github.com/uutils/coreutils/pull/6144
+* https://github.com/uutils/coreutils/pull/6481
