@@ -350,6 +350,7 @@
     "expand.log": "PASS",
     "false-status.log": "PASS",
     "fold.log": "PASS",
+    "invalid-opt.log": "PASS",
     "kill.log": "FAIL",
     "mknod.log": "FAIL",
     "mktemp.log": "PASS",
@@ -545,7 +546,7 @@
   },
   "runcon": {
     "runcon-compute.log": "PASS",
-    "runcon-no-reorder.log": "FAIL"
+    "runcon-no-reorder.log": "PASS"
   },
   "seq": {
     "seq-epipe.log": "SKIP",
