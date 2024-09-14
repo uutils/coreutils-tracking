@@ -423,7 +423,7 @@
     "into-self.log": "PASS",
     "leak-fd.log": "PASS",
     "mv-exchange.log": "PASS",
-    "mv-n.log": "FAIL",
+    "mv-n.log": "PASS",
     "mv-special-1.log": "FAIL",
     "no-copy.log": "PASS",
     "no-target-dir.log": "PASS",
@@ -438,7 +438,7 @@
     "symlink-onto-hardlink.log": "PASS",
     "to-symlink.log": "PASS",
     "trailing-slash.log": "PASS",
-    "update.log": "FAIL"
+    "update.log": "PASS"
   },
   "nice": {
     "nice-fail.log": "PASS",
