@@ -75,50 +75,50 @@ jobs:
        echo "== dl/gnu-result.json =="
        cat dl/gnu-result.json
        echo "== gnu-result.json =="
-       cat gnu-result.json
+       cat gnu-result.json|tail -100
        jq -s '.[0] * .[1]' gnu-result.json dl/gnu-result.json > merged.json
        echo "== merged.json ="
-       cat merged.json
+       cat merged.json|tail -100
        mv merged.json gnu-result.json
 
        echo "== dl/busybox-result.json =="
-       cat dl/busybox-result.json
+       cat dl/busybox-result.json|tail -100
        echo "== busybox-result.json =="
-       cat busybox-result.json
+       cat busybox-result.json|tail -100
        jq -s '.[0] * .[1]' busybox-result.json dl/busybox-result.json > merged.json
        echo "== merged.json ="
        cat merged.json
        mv merged.json busybox-result.json
 
        echo "== dl/toybox-result.json =="
-       cat dl/toybox-result.json
+       cat dl/toybox-result.json|tail -100
        echo "== toybox-result.json =="
-       cat toybox-result.json
+       cat toybox-result.json|tail -100
        jq -s '.[0] * .[1]' toybox-result.json dl/toybox-result.json > merged.json
        echo "== merged.json ="
-       cat merged.json
+       cat merged.json|tail -100
        mv merged.json toybox-result.json
 
        echo "== dl/individual-size-result.json =="
        cat dl/individual-size-result.json
        echo "== individual-size-result.json =="
-       cat individual-size-result.json
+       cat individual-size-result.json|tail -100
        jq -s '.[0] * .[1]' individual-size-result.json dl/individual-size-result.json > merged.json
        echo "== merged.json ="
-       cat merged.json
+       cat merged.json|tail -100
        mv merged.json individual-size-result.json
 
        echo "== dl/size-result.json =="
-       cat dl/size-result.json
+       cat dl/size-result.json|tail -100
        echo "== size-result.json =="
-       cat size-result.json
+       cat size-result.json|tail -100
        jq -s '.[0] * .[1]' size-result.json dl/size-result.json > merged.json
        echo "== merged.json ="
-       cat merged.json
+       cat merged.json|tail -100
        mv merged.json size-result.json
 
        echo "== dl/gnu-full-result.json =="
-       cat dl/gnu-full-result.json
+       cat dl/gnu-full-result.json|tail -100
        mv dl/gnu-full-result.json gnu-full-result.json
 
        rm -rf dl
