@@ -134,7 +134,7 @@ jobs:
       run: |
         python graph.py gnu-result.json gnu
         python graph.py busybox-result.json busybox
-        python graph.py toybox-result.json toybox-result
+        python graph.py toybox-result.json toybox
         python individual-size-graph.py individual-size-result.json
         python size-graph.py size-result.json
 
