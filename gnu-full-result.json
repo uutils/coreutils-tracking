@@ -404,7 +404,7 @@
     "diag.log": "PASS",
     "dir-file.log": "PASS",
     "dir2dir.log": "PASS",
-    "dup-source.log": "FAIL",
+    "dup-source.log": "PASS",
     "force.log": "PASS",
     "hard-2.log": "PASS",
     "hard-3.log": "PASS",
@@ -674,7 +674,7 @@
     "timeout-group.log": "SKIP",
     "timeout-large-parameters.log": "PASS",
     "timeout-parameters.log": "PASS",
-    "timeout.log": "PASS"
+    "timeout.log": "FAIL"
   },
   "touch": {
     "60-seconds.log": "PASS",
