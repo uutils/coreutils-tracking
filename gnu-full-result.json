@@ -522,7 +522,7 @@
     "r-1.log": "PASS",
     "r-2.log": "PASS",
     "r-3.log": "PASS",
-    "r-4.log": "FAIL",
+    "r-4.log": "PASS",
     "r-root.log": "SKIP",
     "read-only.log": "PASS",
     "readdir-bug.log": "PASS",
@@ -674,7 +674,7 @@
     "timeout-group.log": "SKIP",
     "timeout-large-parameters.log": "PASS",
     "timeout-parameters.log": "PASS",
-    "timeout.log": "FAIL"
+    "timeout.log": "PASS"
   },
   "touch": {
     "60-seconds.log": "PASS",
