@@ -610,11 +610,11 @@
   },
   "stat": {
     "stat-birthtime.log": "PASS",
-    "stat-fmt.log": "FAIL",
+    "stat-fmt.log": "PASS",
     "stat-hyphen.log": "PASS",
     "stat-mount.log": "PASS",
     "stat-nanoseconds.log": "FAIL",
-    "stat-printf.log": "FAIL",
+    "stat-printf.log": "PASS",
     "stat-slash.log": "PASS"
   },
   "stty": {
@@ -674,7 +674,7 @@
     "timeout-group.log": "SKIP",
     "timeout-large-parameters.log": "PASS",
     "timeout-parameters.log": "PASS",
-    "timeout.log": "PASS"
+    "timeout.log": "FAIL"
   },
   "touch": {
     "60-seconds.log": "PASS",
