@@ -502,7 +502,7 @@
     "empty-name.log": "PASS",
     "ext3-perf.log": "PASS",
     "f-1.log": "PASS",
-    "fail-2eperm.log": "FAIL",
+    "fail-2eperm.log": "PASS",
     "fail-eacces.log": "PASS",
     "fail-eperm.log": "PASS",
     "hash.log": "PASS",
@@ -674,7 +674,7 @@
     "timeout-group.log": "SKIP",
     "timeout-large-parameters.log": "PASS",
     "timeout-parameters.log": "PASS",
-    "timeout.log": "PASS"
+    "timeout.log": "FAIL"
   },
   "touch": {
     "60-seconds.log": "PASS",
