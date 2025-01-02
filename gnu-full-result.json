@@ -674,7 +674,7 @@
     "timeout-group.log": "SKIP",
     "timeout-large-parameters.log": "PASS",
     "timeout-parameters.log": "PASS",
-    "timeout.log": "FAIL"
+    "timeout.log": "PASS"
   },
   "touch": {
     "60-seconds.log": "PASS",
@@ -715,7 +715,7 @@
   "uniq": {
     "uniq-collate.log": "PASS",
     "uniq-perf.log": "PASS",
-    "uniq.log": "FAIL"
+    "uniq.log": "PASS"
   },
   "wc": {
     "wc-files0-from.log": "PASS",
