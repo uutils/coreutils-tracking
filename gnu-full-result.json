@@ -255,7 +255,7 @@
     "context.log": "SKIP",
     "gnu-zero-uids.log": "SKIP",
     "no-context.log": "SKIP",
-    "setgid.log": "FAIL",
+    "setgid.log": "PASS",
     "smack.log": "SKIP",
     "uid.log": "PASS",
     "zero.log": "PASS"
@@ -687,7 +687,7 @@
     "no-dereference.log": "PASS",
     "no-rights.log": "PASS",
     "not-owner.log": "PASS",
-    "now-owned-by-other.log": "FAIL",
+    "now-owned-by-other.log": "PASS",
     "obsolescent.log": "FAIL",
     "read-only.log": "PASS",
     "relative.log": "PASS",
@@ -704,7 +704,7 @@
     "truncate-fifo.log": "PASS",
     "truncate-no-create-missing.log": "PASS",
     "truncate-overflow.log": "PASS",
-    "truncate-owned-by-other.log": "FAIL",
+    "truncate-owned-by-other.log": "PASS",
     "truncate-parameters.log": "PASS",
     "truncate-relative.log": "PASS"
   },
