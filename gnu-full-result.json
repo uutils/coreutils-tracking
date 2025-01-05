@@ -372,7 +372,7 @@
     "unexpand.log": "PASS",
     "usage_vs_getopt.log": "PASS",
     "write-errors.log": "FAIL",
-    "xattr.log": "FAIL",
+    "xattr.log": "PASS",
     "xstrtol.log": "PASS",
     "yes.log": "PASS"
   },
@@ -641,7 +641,7 @@
     "flush-initial.log": "PASS",
     "follow-name.log": "PASS",
     "follow-stdin.log": "FAIL",
-    "inotify-dir-recreate.log": "PASS",
+    "inotify-dir-recreate.log": "FAIL",
     "inotify-hash-abuse.log": "PASS",
     "inotify-hash-abuse2.log": "PASS",
     "inotify-only-regular.log": "PASS",
@@ -674,7 +674,7 @@
     "timeout-group.log": "SKIP",
     "timeout-large-parameters.log": "PASS",
     "timeout-parameters.log": "PASS",
-    "timeout.log": "PASS"
+    "timeout.log": "FAIL"
   },
   "touch": {
     "60-seconds.log": "PASS",
