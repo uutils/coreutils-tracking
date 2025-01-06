@@ -80,7 +80,7 @@
     "cp-HL.log": "PASS",
     "cp-a-selinux.log": "SKIP",
     "cp-deref.log": "PASS",
-    "cp-i.log": "FAIL",
+    "cp-i.log": "PASS",
     "cp-mv-backup.log": "PASS",
     "cp-mv-enotsup-xattr.log": "SKIP",
     "cp-parents.log": "PASS",
@@ -346,7 +346,7 @@
     "coreutils.log": "SKIP",
     "dircolors.log": "FAIL",
     "dirname.log": "PASS",
-    "echo.log": "FAIL",
+    "echo.log": "PASS",
     "expand.log": "PASS",
     "false-status.log": "PASS",
     "fold.log": "PASS",
@@ -674,7 +674,7 @@
     "timeout-group.log": "SKIP",
     "timeout-large-parameters.log": "PASS",
     "timeout-parameters.log": "PASS",
-    "timeout.log": "FAIL"
+    "timeout.log": "PASS"
   },
   "touch": {
     "60-seconds.log": "PASS",
