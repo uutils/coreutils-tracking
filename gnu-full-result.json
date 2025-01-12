@@ -32,7 +32,7 @@
     "octal.log": "PASS",
     "setgid.log": "PASS",
     "silent.log": "PASS",
-    "symlinks.log": "FAIL",
+    "symlinks.log": "PASS",
     "thru-dangling.log": "PASS",
     "umask-x.log": "PASS",
     "usage.log": "PASS"
@@ -675,7 +675,7 @@
     "timeout-group.log": "SKIP",
     "timeout-large-parameters.log": "PASS",
     "timeout-parameters.log": "PASS",
-    "timeout.log": "FAIL"
+    "timeout.log": "PASS"
   },
   "touch": {
     "60-seconds.log": "PASS",
