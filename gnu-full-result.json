@@ -44,7 +44,7 @@
     "separator.log": "PASS"
   },
   "chroot": {
-    "chroot-credentials.log": "FAIL",
+    "chroot-credentials.log": "PASS",
     "chroot-fail.log": "PASS"
   },
   "cksum": {
@@ -675,7 +675,7 @@
     "timeout-group.log": "SKIP",
     "timeout-large-parameters.log": "PASS",
     "timeout-parameters.log": "PASS",
-    "timeout.log": "PASS"
+    "timeout.log": "FAIL"
   },
   "touch": {
     "60-seconds.log": "PASS",
