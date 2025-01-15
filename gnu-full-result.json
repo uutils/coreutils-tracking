@@ -344,7 +344,7 @@
     "close-stdout.log": "FAIL",
     "comm.log": "FAIL",
     "coreutils.log": "SKIP",
-    "dircolors.log": "FAIL",
+    "dircolors.log": "PASS",
     "dirname.log": "PASS",
     "echo.log": "PASS",
     "expand.log": "PASS",
@@ -642,7 +642,7 @@
     "flush-initial.log": "PASS",
     "follow-name.log": "PASS",
     "follow-stdin.log": "FAIL",
-    "inotify-dir-recreate.log": "FAIL",
+    "inotify-dir-recreate.log": "PASS",
     "inotify-hash-abuse.log": "PASS",
     "inotify-hash-abuse2.log": "PASS",
     "inotify-only-regular.log": "PASS",
@@ -675,7 +675,7 @@
     "timeout-group.log": "SKIP",
     "timeout-large-parameters.log": "PASS",
     "timeout-parameters.log": "PASS",
-    "timeout.log": "PASS"
+    "timeout.log": "FAIL"
   },
   "touch": {
     "60-seconds.log": "PASS",
