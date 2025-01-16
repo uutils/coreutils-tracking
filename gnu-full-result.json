@@ -554,7 +554,7 @@
     "seq-io-errors.log": "PASS",
     "seq-locale.log": "PASS",
     "seq-long-double.log": "PASS",
-    "seq-precision.log": "FAIL",
+    "seq-precision.log": "PASS",
     "seq.log": "PASS"
   },
   "shred": {
@@ -675,7 +675,7 @@
     "timeout-group.log": "SKIP",
     "timeout-large-parameters.log": "PASS",
     "timeout-parameters.log": "PASS",
-    "timeout.log": "PASS"
+    "timeout.log": "FAIL"
   },
   "touch": {
     "60-seconds.log": "PASS",
