@@ -7,7 +7,7 @@
     "cat-E.log": "PASS",
     "cat-buf.log": "PASS",
     "cat-proc.log": "PASS",
-    "cat-self.log": "PASS"
+    "cat-self.log": "FAIL"
   },
   "chcon": {
     "chcon-fail.log": "PASS",
@@ -32,7 +32,7 @@
     "octal.log": "PASS",
     "setgid.log": "PASS",
     "silent.log": "PASS",
-    "symlinks.log": "PASS",
+    "symlinks.log": "FAIL",
     "thru-dangling.log": "PASS",
     "umask-x.log": "PASS",
     "usage.log": "PASS"
@@ -50,10 +50,10 @@
   "cksum": {
     "b2sum.log": "PASS",
     "cksum-a.log": "PASS",
-    "cksum-base64.log": "PASS",
-    "cksum-c.log": "PASS",
+    "cksum-base64.log": "FAIL",
+    "cksum-c.log": "FAIL",
     "cksum-raw.log": "PASS",
-    "cksum.log": "PASS",
+    "cksum.log": "FAIL",
     "md5sum-bsd.log": "PASS",
     "md5sum-newline.log": "PASS",
     "md5sum-parallel.log": "PASS",
@@ -80,7 +80,7 @@
     "cp-HL.log": "PASS",
     "cp-a-selinux.log": "SKIP",
     "cp-deref.log": "PASS",
-    "cp-i.log": "PASS",
+    "cp-i.log": "FAIL",
     "cp-mv-backup.log": "PASS",
     "cp-mv-enotsup-xattr.log": "SKIP",
     "cp-parents.log": "PASS",
@@ -231,7 +231,8 @@
   },
   "factor": {
     "factor-parallel.log": "PASS",
-    "factor.log": "PASS"
+    "factor.log": "PASS",
+    "t37.log": "PASS"
   },
   "fmt": {
     "base.log": "PASS",
@@ -245,7 +246,7 @@
     "groups-version.log": "PASS"
   },
   "head": {
-    "head-c.log": "PASS",
+    "head-c.log": "FAIL",
     "head-elide-tail.log": "FAIL",
     "head-pos.log": "FAIL",
     "head-write-error.log": "FAIL",
@@ -266,7 +267,7 @@
     "d-slashdot.log": "PASS",
     "install-C-root.log": "PASS",
     "install-C-selinux.log": "SKIP",
-    "install-C.log": "PASS",
+    "install-C.log": "FAIL",
     "install-Z-selinux.log": "SKIP",
     "strip-program.log": "PASS",
     "trap.log": "PASS"
@@ -309,7 +310,7 @@
     "infloop.log": "PASS",
     "inode.log": "PASS",
     "ls-misc.log": "FAIL",
-    "ls-time.log": "PASS",
+    "ls-time.log": "FAIL",
     "m-option.log": "PASS",
     "multihardlink.log": "PASS",
     "nameless-uid.log": "PASS",
@@ -322,6 +323,7 @@
     "root-rel-symlink-color.log": "PASS",
     "rt-1.log": "PASS",
     "selinux-segfault.log": "PASS",
+    "selinux.log": "SKIP",
     "size-align.log": "PASS",
     "slink-acl.log": "PASS",
     "sort-width-option.log": "PASS",
@@ -438,7 +440,7 @@
     "symlink-onto-hardlink.log": "PASS",
     "to-symlink.log": "PASS",
     "trailing-slash.log": "PASS",
-    "update.log": "PASS"
+    "update.log": "FAIL"
   },
   "nice": {
     "nice-fail.log": "PASS",
@@ -464,6 +466,7 @@
   "printf": {
     "printf-cov.log": "FAIL",
     "printf-hex.log": "PASS",
+    "printf-indexed.log": "FAIL",
     "printf-mb.log": "FAIL",
     "printf-quote.log": "FAIL",
     "printf-surprise.log": "SKIP",
@@ -614,7 +617,7 @@
     "stat-fmt.log": "PASS",
     "stat-hyphen.log": "PASS",
     "stat-mount.log": "PASS",
-    "stat-nanoseconds.log": "FAIL",
+    "stat-nanoseconds.log": "PASS",
     "stat-printf.log": "PASS",
     "stat-slash.log": "PASS"
   },
@@ -640,7 +643,7 @@
     "descriptor-vs-rename.log": "PASS",
     "end-of-device.log": "FAIL",
     "flush-initial.log": "PASS",
-    "follow-name.log": "PASS",
+    "follow-name.log": "FAIL",
     "follow-stdin.log": "FAIL",
     "inotify-dir-recreate.log": "PASS",
     "inotify-hash-abuse.log": "PASS",
@@ -651,6 +654,7 @@
     "inotify-rotate-resources.log": "FAIL",
     "inotify-rotate.log": "PASS",
     "overlay-headers.log": "PASS",
+    "pid-pipe.log": "FAIL",
     "pid.log": "PASS",
     "pipe-f.log": "SKIP",
     "pipe-f2.log": "PASS",
@@ -658,24 +662,24 @@
     "retry.log": "PASS",
     "start-middle.log": "PASS",
     "symlink.log": "FAIL",
-    "tail-c.log": "PASS",
+    "tail-c.log": "FAIL",
     "tail-n0f.log": "PASS",
     "tail-sysfs.log": "PASS",
-    "tail.log": "PASS",
+    "tail.log": "FAIL",
     "truncate.log": "PASS",
     "wait.log": "PASS"
   },
   "test": {
     "test-N.log": "PASS",
     "test-diag.log": "PASS",
-    "test.log": "PASS"
+    "test.log": "FAIL"
   },
   "timeout": {
     "timeout-blocked.log": "PASS",
     "timeout-group.log": "SKIP",
     "timeout-large-parameters.log": "PASS",
     "timeout-parameters.log": "PASS",
-    "timeout.log": "FAIL"
+    "timeout.log": "PASS"
   },
   "touch": {
     "60-seconds.log": "PASS",
