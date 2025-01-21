@@ -50,10 +50,10 @@
   "cksum": {
     "b2sum.log": "PASS",
     "cksum-a.log": "PASS",
-    "cksum-base64.log": "FAIL",
+    "cksum-base64.log": "PASS",
     "cksum-c.log": "FAIL",
     "cksum-raw.log": "PASS",
-    "cksum.log": "FAIL",
+    "cksum.log": "PASS",
     "md5sum-bsd.log": "PASS",
     "md5sum-newline.log": "PASS",
     "md5sum-parallel.log": "PASS",
@@ -679,7 +679,7 @@
     "timeout-group.log": "SKIP",
     "timeout-large-parameters.log": "PASS",
     "timeout-parameters.log": "PASS",
-    "timeout.log": "FAIL"
+    "timeout.log": "PASS"
   },
   "touch": {
     "60-seconds.log": "PASS",
