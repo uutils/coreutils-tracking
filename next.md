@@ -53,4 +53,6 @@ This file documents the pending improvements or regression:
 * https://github.com/uutils/coreutils/pull/7149 - upstream 9.6
 * https://github.com/uutils/coreutils/pull/7178
 * https://github.com/uutils/coreutils/pull/7169
+* https://github.com/uutils/coreutils/pull/7192
+
 
