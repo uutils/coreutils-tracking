@@ -17,7 +17,7 @@
     "basic.log": "PASS",
     "default-no-deref.log": "PASS",
     "deref.log": "PASS",
-    "from.log": "FAIL",
+    "from.log": "PASS",
     "no-x.log": "PASS",
     "posix-H.log": "PASS",
     "recurse.log": "PASS"
@@ -679,7 +679,7 @@
     "timeout-group.log": "SKIP",
     "timeout-large-parameters.log": "PASS",
     "timeout-parameters.log": "PASS",
-    "timeout.log": "PASS"
+    "timeout.log": "FAIL"
   },
   "touch": {
     "60-seconds.log": "PASS",
