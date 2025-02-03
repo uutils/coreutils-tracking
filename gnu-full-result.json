@@ -365,13 +365,13 @@
     "realpath.log": "PASS",
     "selinux.log": "SKIP",
     "sleep.log": "PASS",
-    "stdbuf.log": "PASS",
+    "stdbuf.log": "FAIL",
     "sync.log": "PASS",
     "tee.log": "FAIL",
     "time-style.log": "FAIL",
     "tsort.log": "FAIL",
     "unexpand.log": "PASS",
-    "usage_vs_getopt.log": "FAIL",
+    "usage_vs_getopt.log": "PASS",
     "write-errors.log": "FAIL",
     "xattr.log": "PASS",
     "xstrtol.log": "PASS",
@@ -678,7 +678,7 @@
     "timeout-group.log": "SKIP",
     "timeout-large-parameters.log": "PASS",
     "timeout-parameters.log": "PASS",
-    "timeout.log": "FAIL"
+    "timeout.log": "PASS"
   },
   "touch": {
     "60-seconds.log": "PASS",
