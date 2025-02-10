@@ -136,7 +136,7 @@
   },
   "csplit": {
     "csplit-1000.log": "PASS",
-    "csplit-heap.log": "SKIP",
+    "csplit-heap.log": "PASS",
     "csplit-io-err.log": "SKIP",
     "csplit-suppress-matched.log": "FAIL",
     "csplit.log": "PASS"
