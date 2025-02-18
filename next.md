@@ -56,5 +56,6 @@ This file documents the pending improvements or regression:
 * https://github.com/uutils/coreutils/pull/7192
 * https://github.com/uutils/coreutils/pull/7129
 * https://github.com/uutils/coreutils/pull/7225
+* https://github.com/uutils/coreutils/pull/7304
 
 
