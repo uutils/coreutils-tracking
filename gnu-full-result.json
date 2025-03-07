@@ -248,7 +248,7 @@
     "head-c.log": "FAIL",
     "head-elide-tail.log": "FAIL",
     "head-pos.log": "PASS",
-    "head-write-error.log": "FAIL",
+    "head-write-error.log": "PASS",
     "head.log": "PASS"
   },
   "id": {
@@ -365,7 +365,7 @@
     "realpath.log": "PASS",
     "selinux.log": "SKIP",
     "sleep.log": "PASS",
-    "stdbuf.log": "PASS",
+    "stdbuf.log": "FAIL",
     "sync.log": "PASS",
     "tee.log": "FAIL",
     "time-style.log": "FAIL",
