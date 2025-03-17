@@ -65,7 +65,7 @@ jobs:
       uses: dawidd6/action-download-artifact@v9
       with:
         workflow: GnuTests.yml
-        name: agregated-results.json
+        name: aggregated-result.json
         repo: uutils/coreutils
         path: dl
 
@@ -117,9 +117,9 @@ jobs:
        cat merged.json|tail -100
        mv merged.json size-result.json
 
-       echo "== dl/agregated-results.json =="
-       cat dl/agregated-results.json|tail -100
-       mv dl/agregated-results.json agregated-results.json
+       echo "== dl/aggregated-result.json =="
+       cat dl/aggregated-result.json|tail -100
+       mv dl/aggregated-result.json aggregated-result.json
 
        rm -rf dl
 
