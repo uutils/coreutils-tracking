@@ -65,7 +65,7 @@ jobs:
       uses: dawidd6/action-download-artifact@v9
       with:
         workflow: GnuTests.yml
-        name: aggregated-result.json
+        name: aggregated-result
         repo: uutils/coreutils
         path: dl
 
