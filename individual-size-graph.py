@@ -29,7 +29,7 @@ for name in df.sizes.values[0].keys():
         print(name)
         print(sizes)
         sizes.plot(y="size", color="green")
-        plt.title(f'Size evolution of "{name}" binary (bytes)')
+        plt.title(f'Size evolution of "{name}" binary (kilobytes)')
         plt.xticks(rotation=45)
         plt.savefig(f"individual-size-results/{name}.png", dpi=199)
         plt.clf()
