@@ -78,7 +78,7 @@
     "capability.log": "PASS",
     "copy-FMR.log": "PASS",
     "cp-HL.log": "PASS",
-    "cp-a-selinux.log": "ERROR",
+    "cp-a-selinux.log": "SKIP",
     "cp-deref.log": "PASS",
     "cp-i.log": "PASS",
     "cp-mv-backup.log": "PASS",
@@ -160,6 +160,7 @@
     "no-allocate.log": "FAIL",
     "nocache.log": "PASS",
     "nocache_eof.log": "FAIL",
+    "nocache_fail.log": "FAIL",
     "not-rewound.log": "PASS",
     "reblock.log": "PASS",
     "skip-seek-past-dev.log": "PASS",
@@ -364,7 +365,7 @@
     "read-errors.log": "PASS",
     "realpath.log": "PASS",
     "selinux.log": "SKIP",
-    "sleep.log": "PASS",
+    "sleep.log": "FAIL",
     "stdbuf.log": "PASS",
     "sync.log": "PASS",
     "tee.log": "FAIL",
@@ -678,7 +679,7 @@
     "timeout-group.log": "SKIP",
     "timeout-large-parameters.log": "PASS",
     "timeout-parameters.log": "PASS",
-    "timeout.log": "FAIL"
+    "timeout.log": "PASS"
   },
   "touch": {
     "60-seconds.log": "PASS",
