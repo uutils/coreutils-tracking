@@ -366,7 +366,7 @@
     "realpath.log": "PASS",
     "selinux.log": "SKIP",
     "sleep.log": "PASS",
-    "stdbuf.log": "PASS",
+    "stdbuf.log": "FAIL",
     "sync.log": "PASS",
     "tee.log": "FAIL",
     "time-style.log": "FAIL",
