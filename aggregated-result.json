@@ -366,7 +366,7 @@
     "realpath.log": "PASS",
     "selinux.log": "SKIP",
     "sleep.log": "PASS",
-    "stdbuf.log": "PASS",
+    "stdbuf.log": "FAIL",
     "sync.log": "PASS",
     "tee.log": "FAIL",
     "time-style.log": "FAIL",
@@ -452,7 +452,7 @@
     "nproc-positive.log": "PASS"
   },
   "od": {
-    "od-N.log": "FAIL",
+    "od-N.log": "PASS",
     "od-endian.log": "PASS",
     "od-float.log": "FAIL",
     "od-j.log": "PASS",
@@ -679,7 +679,7 @@
     "timeout-group.log": "SKIP",
     "timeout-large-parameters.log": "PASS",
     "timeout-parameters.log": "PASS",
-    "timeout.log": "PASS"
+    "timeout.log": "FAIL"
   },
   "touch": {
     "60-seconds.log": "PASS",
