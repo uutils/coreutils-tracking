@@ -147,7 +147,7 @@
   },
   "date": {
     "date-debug.log": "FAIL",
-    "date-next-dow.log": "FAIL",
+    "date-next-dow.log": "PASS",
     "date-sec.log": "PASS",
     "date-tz.log": "FAIL",
     "date.log": "FAIL"
@@ -368,7 +368,7 @@
     "sleep.log": "PASS",
     "stdbuf.log": "PASS",
     "sync.log": "PASS",
-    "tee.log": "PASS",
+    "tee.log": "FAIL",
     "time-style.log": "FAIL",
     "tsort.log": "FAIL",
     "unexpand.log": "PASS",
