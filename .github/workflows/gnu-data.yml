@@ -132,9 +132,9 @@ jobs:
     - name: Generate the graphs
       shell: bash
       run: |
-        python graph.py gnu-result.json gnu
-        python graph.py busybox-result.json busybox
-        python graph.py toybox-result.json toybox
+        python graph.py gnu-result.json GNU
+        python graph.py busybox-result.json BusyBox
+        python graph.py toybox-result.json Toybox
         python individual-size-graph.py individual-size-result.json
         python size-graph.py size-result.json
 
