@@ -11,7 +11,7 @@
   },
   "chcon": {
     "chcon-fail.log": "PASS",
-    "chcon.log": "SKIP"
+    "chcon.log": "PASS"
   },
   "chgrp": {
     "basic.log": "PASS",
@@ -78,7 +78,7 @@
     "capability.log": "PASS",
     "copy-FMR.log": "PASS",
     "cp-HL.log": "PASS",
-    "cp-a-selinux.log": "SKIP",
+    "cp-a-selinux.log": "FAIL",
     "cp-deref.log": "PASS",
     "cp-i.log": "PASS",
     "cp-mv-backup.log": "PASS",
@@ -97,7 +97,7 @@
     "into-self.log": "PASS",
     "keep-directory-symlink.log": "PASS",
     "link-deref.log": "PASS",
-    "link-heap.log": "PASS",
+    "link-heap.log": "FAIL",
     "link-no-deref.log": "PASS",
     "link-preserve.log": "PASS",
     "link-symlink.log": "PASS",
@@ -323,7 +323,7 @@
     "root-rel-symlink-color.log": "PASS",
     "rt-1.log": "PASS",
     "selinux-segfault.log": "PASS",
-    "selinux.log": "SKIP",
+    "selinux.log": "FAIL",
     "size-align.log": "PASS",
     "slink-acl.log": "PASS",
     "sort-width-option.log": "PASS",
@@ -364,7 +364,7 @@
     "printenv.log": "PASS",
     "read-errors.log": "PASS",
     "realpath.log": "PASS",
-    "selinux.log": "SKIP",
+    "selinux.log": "FAIL",
     "sleep.log": "PASS",
     "stdbuf.log": "PASS",
     "sync.log": "PASS",
@@ -389,7 +389,7 @@
     "parents.log": "PASS",
     "perm.log": "PASS",
     "restorecon.log": "FAIL",
-    "selinux.log": "FAIL",
+    "selinux.log": "PASS",
     "smack-no-root.log": "SKIP",
     "smack-root.log": "SKIP",
     "special-1.log": "PASS",
@@ -679,7 +679,7 @@
     "timeout-group.log": "SKIP",
     "timeout-large-parameters.log": "PASS",
     "timeout-parameters.log": "PASS",
-    "timeout.log": "PASS"
+    "timeout.log": "FAIL"
   },
   "touch": {
     "60-seconds.log": "PASS",
