@@ -11,15 +11,14 @@ import pandas as pd
 
 df = pd.read_json(sys.argv[1], orient="index")
 
+df.index = pd.to_datetime(df.index, utc=True)
+
 Path("individual-size-results").mkdir(exist_ok=True)
 
 
-for name in df.sizes.values[0]:
-    # Check if the name exists in each dictionary
-    sizes = df.sizes.map(lambda v: v.get(name))
-
+for name, series in df["sizes"].apply(pd.Series).items():
     # Filter out None values which indicate missing data for 'name'
-    sizes = sizes[sizes.notnull()]
+    sizes = series.dropna()
 
     if not sizes.empty:
         print(name)
@@ -30,6 +29,6 @@ for name in df.sizes.values[0]:
         fig.autofmt_xdate()
         plt.margins(0.01)
         plt.savefig(f"individual-size-results/{name}.svg", format="svg", dpi=199, bbox_inches="tight")
-        plt.clf()
+        plt.close(fig)
     else:
         print(f"Warning: No data found for '{name}'")
