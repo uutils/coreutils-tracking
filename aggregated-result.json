@@ -7,7 +7,7 @@
     "cat-E.log": "PASS",
     "cat-buf.log": "PASS",
     "cat-proc.log": "PASS",
-    "cat-self.log": "FAIL"
+    "cat-self.log": "PASS"
   },
   "chcon": {
     "chcon-fail.log": "PASS",
@@ -679,7 +679,7 @@
     "timeout-group.log": "SKIP",
     "timeout-large-parameters.log": "PASS",
     "timeout-parameters.log": "PASS",
-    "timeout.log": "FAIL"
+    "timeout.log": "PASS"
   },
   "touch": {
     "60-seconds.log": "PASS",
