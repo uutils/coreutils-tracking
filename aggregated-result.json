@@ -366,7 +366,7 @@
     "realpath.log": "PASS",
     "selinux.log": "FAIL",
     "sleep.log": "PASS",
-    "stdbuf.log": "PASS",
+    "stdbuf.log": "FAIL",
     "sync.log": "PASS",
     "tee.log": "PASS",
     "time-style.log": "FAIL",
@@ -662,7 +662,7 @@
     "retry.log": "PASS",
     "start-middle.log": "PASS",
     "symlink.log": "FAIL",
-    "tail-c.log": "FAIL",
+    "tail-c.log": "PASS",
     "tail-n0f.log": "PASS",
     "tail-sysfs.log": "PASS",
     "tail.log": "FAIL",
@@ -679,7 +679,7 @@
     "timeout-group.log": "SKIP",
     "timeout-large-parameters.log": "PASS",
     "timeout-parameters.log": "PASS",
-    "timeout.log": "PASS"
+    "timeout.log": "FAIL"
   },
   "touch": {
     "60-seconds.log": "PASS",
