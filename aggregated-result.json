@@ -247,7 +247,7 @@
   },
   "head": {
     "head-c.log": "PASS",
-    "head-elide-tail.log": "FAIL",
+    "head-elide-tail.log": "PASS",
     "head-pos.log": "PASS",
     "head-write-error.log": "PASS",
     "head.log": "PASS"
@@ -366,7 +366,7 @@
     "realpath.log": "PASS",
     "selinux.log": "FAIL",
     "sleep.log": "PASS",
-    "stdbuf.log": "FAIL",
+    "stdbuf.log": "PASS",
     "sync.log": "PASS",
     "tee.log": "FAIL",
     "time-style.log": "FAIL",
@@ -679,7 +679,7 @@
     "timeout-group.log": "SKIP",
     "timeout-large-parameters.log": "PASS",
     "timeout-parameters.log": "PASS",
-    "timeout.log": "FAIL"
+    "timeout.log": "PASS"
   },
   "touch": {
     "60-seconds.log": "PASS",
