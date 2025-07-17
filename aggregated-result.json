@@ -641,7 +641,7 @@
     "assert.log": "PASS",
     "big-4gb.log": "PASS",
     "descriptor-vs-rename.log": "PASS",
-    "end-of-device.log": "FAIL",
+    "end-of-device.log": "PASS",
     "flush-initial.log": "PASS",
     "follow-name.log": "FAIL",
     "follow-stdin.log": "FAIL",
