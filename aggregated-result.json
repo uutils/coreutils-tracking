@@ -223,7 +223,7 @@
     "env-S-script.log": "PASS",
     "env-S.log": "PASS",
     "env-null.log": "PASS",
-    "env-signal-handler.log": "SKIP",
+    "env-signal-handler.log": "ERROR",
     "env.log": "PASS"
   },
   "expr": {
@@ -469,7 +469,7 @@
     "printf-indexed.log": "PASS",
     "printf-mb.log": "PASS",
     "printf-quote.log": "PASS",
-    "printf-surprise.log": "SKIP",
+    "printf-surprise.log": "FAIL",
     "printf.log": "PASS"
   },
   "ptx": {
@@ -552,7 +552,7 @@
     "runcon-no-reorder.log": "PASS"
   },
   "seq": {
-    "seq-epipe.log": "SKIP",
+    "seq-epipe.log": "FAIL",
     "seq-extra-number.log": "PASS",
     "seq-io-errors.log": "PASS",
     "seq-locale.log": "PASS",
@@ -656,7 +656,7 @@
     "overlay-headers.log": "PASS",
     "pid-pipe.log": "FAIL",
     "pid.log": "PASS",
-    "pipe-f.log": "SKIP",
+    "pipe-f.log": "FAIL",
     "pipe-f2.log": "PASS",
     "proc-ksyms.log": "PASS",
     "retry.log": "PASS",
