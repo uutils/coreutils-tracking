@@ -180,7 +180,7 @@
     "header.log": "PASS",
     "no-mtab-status.log": "SKIP",
     "over-mount-device.log": "PASS",
-    "problematic-chars.log": "FAIL",
+    "problematic-chars.log": "PASS",
     "skip-duplicates.log": "SKIP",
     "skip-rootfs.log": "SKIP",
     "total-unprocessed.log": "PASS",
@@ -366,9 +366,9 @@
     "realpath.log": "PASS",
     "selinux.log": "FAIL",
     "sleep.log": "PASS",
-    "stdbuf.log": "FAIL",
+    "stdbuf.log": "PASS",
     "sync.log": "PASS",
-    "tee.log": "FAIL",
+    "tee.log": "PASS",
     "time-style.log": "FAIL",
     "tsort.log": "FAIL",
     "unexpand.log": "PASS",
@@ -679,7 +679,7 @@
     "timeout-group.log": "SKIP",
     "timeout-large-parameters.log": "PASS",
     "timeout-parameters.log": "PASS",
-    "timeout.log": "PASS"
+    "timeout.log": "FAIL"
   },
   "touch": {
     "60-seconds.log": "PASS",
