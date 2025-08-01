@@ -310,7 +310,7 @@
     "infloop.log": "PASS",
     "inode.log": "PASS",
     "ls-misc.log": "FAIL",
-    "ls-time.log": "FAIL",
+    "ls-time.log": "PASS",
     "m-option.log": "PASS",
     "multihardlink.log": "PASS",
     "nameless-uid.log": "PASS",
@@ -364,9 +364,9 @@
     "printenv.log": "PASS",
     "read-errors.log": "PASS",
     "realpath.log": "PASS",
-    "selinux.log": "FAIL",
+    "selinux.log": "PASS",
     "sleep.log": "PASS",
-    "stdbuf.log": "PASS",
+    "stdbuf.log": "FAIL",
     "sync.log": "PASS",
     "tee.log": "FAIL",
     "time-style.log": "FAIL",
@@ -679,7 +679,7 @@
     "timeout-group.log": "SKIP",
     "timeout-large-parameters.log": "PASS",
     "timeout-parameters.log": "PASS",
-    "timeout.log": "PASS"
+    "timeout.log": "FAIL"
   },
   "touch": {
     "60-seconds.log": "PASS",
