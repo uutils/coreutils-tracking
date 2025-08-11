@@ -19,7 +19,7 @@ jobs:
         sudo apt-get install jq python3-pandas python3-matplotlib
 
     - name: Checkout repo
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
 
     - name: Download the GNU result
       uses: dawidd6/action-download-artifact@v11
