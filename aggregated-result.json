@@ -227,7 +227,7 @@
     "env.log": "PASS"
   },
   "expr": {
-    "expr-multibyte.log": "FAIL",
+    "expr-multibyte.log": "PASS",
     "expr.log": "PASS"
   },
   "factor": {
@@ -679,7 +679,7 @@
     "timeout-group.log": "SKIP",
     "timeout-large-parameters.log": "PASS",
     "timeout-parameters.log": "PASS",
-    "timeout.log": "FAIL"
+    "timeout.log": "PASS"
   },
   "touch": {
     "60-seconds.log": "PASS",
