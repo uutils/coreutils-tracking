@@ -1,13 +1,13 @@
 {
   "basenc": {
-    "base64.log": "PASS",
-    "basenc.log": "PASS"
+    "base64.log": "FAIL",
+    "basenc.log": "FAIL"
   },
   "cat": {
     "cat-E.log": "PASS",
     "cat-buf.log": "PASS",
     "cat-proc.log": "PASS",
-    "cat-self.log": "PASS"
+    "cat-self.log": "FAIL"
   },
   "chcon": {
     "chcon-fail.log": "PASS",
@@ -48,12 +48,13 @@
     "chroot-fail.log": "PASS"
   },
   "cksum": {
-    "b2sum.log": "PASS",
-    "cksum-a.log": "PASS",
-    "cksum-base64.log": "PASS",
-    "cksum-c.log": "PASS",
-    "cksum-raw.log": "PASS",
-    "cksum.log": "PASS",
+    "b2sum.log": "FAIL",
+    "cksum-a.log": "FAIL",
+    "cksum-base64.log": "FAIL",
+    "cksum-c.log": "FAIL",
+    "cksum-raw.log": "FAIL",
+    "cksum-sha3.log": "FAIL",
+    "cksum.log": "FAIL",
     "md5sum-bsd.log": "PASS",
     "md5sum-newline.log": "PASS",
     "md5sum-parallel.log": "PASS",
@@ -147,8 +148,11 @@
   },
   "date": {
     "date-debug.log": "FAIL",
+    "date-ethiopia.log": "SKIP",
+    "date-iran.log": "SKIP",
     "date-next-dow.log": "PASS",
     "date-sec.log": "PASS",
+    "date-thailand.log": "SKIP",
     "date-tz.log": "FAIL",
     "date.log": "FAIL"
   },
@@ -200,7 +204,7 @@
     "exclude.log": "PASS",
     "fd-leak.log": "PASS",
     "files0-from-dir.log": "PASS",
-    "files0-from.log": "PASS",
+    "files0-from.log": "FAIL",
     "hard-link.log": "PASS",
     "inacc-dest.log": "PASS",
     "inacc-dir.log": "PASS",
@@ -232,13 +236,21 @@
   },
   "factor": {
     "factor-parallel.log": "PASS",
-    "factor.log": "PASS"
+    "factor.log": "PASS",
+    "t38.log": "PASS"
   },
   "fmt": {
     "base.log": "PASS",
     "goal-option.log": "PASS",
     "long-line.log": "PASS",
     "non-space.log": "FAIL"
+  },
+  "fold": {
+    "fold-characters.log": "FAIL",
+    "fold-nbsp.log": "FAIL",
+    "fold-spaces.log": "PASS",
+    "fold-zero-width.log": "FAIL",
+    "fold.log": "FAIL"
   },
   "groups": {
     "groups-dash.log": "PASS",
@@ -262,7 +274,7 @@
     "zero.log": "PASS"
   },
   "install": {
-    "basic-1.log": "PASS",
+    "basic-1.log": "FAIL",
     "create-leading.log": "PASS",
     "d-slashdot.log": "PASS",
     "install-C-root.log": "PASS",
@@ -351,7 +363,6 @@
     "echo.log": "PASS",
     "expand.log": "PASS",
     "false-status.log": "PASS",
-    "fold.log": "PASS",
     "invalid-opt.log": "PASS",
     "kill.log": "PASS",
     "mknod.log": "PASS",
@@ -359,11 +370,12 @@
     "nl.log": "PASS",
     "nohup.log": "FAIL",
     "numfmt.log": "FAIL",
+    "option-aliases.log": "FAIL",
     "paste.log": "PASS",
     "pathchk.log": "PASS",
     "printenv.log": "PASS",
     "read-errors.log": "PASS",
-    "realpath.log": "PASS",
+    "realpath.log": "FAIL",
     "selinux.log": "PASS",
     "sleep.log": "PASS",
     "stdbuf.log": "PASS",
@@ -449,16 +461,18 @@
   "nproc": {
     "nproc-avail.log": "PASS",
     "nproc-override.log": "PASS",
-    "nproc-positive.log": "PASS"
+    "nproc-positive.log": "PASS",
+    "nproc-quota.log": "SKIP"
   },
   "od": {
-    "od-N.log": "PASS",
+    "big-w.log": "PASS",
+    "od-N.log": "FAIL",
     "od-endian.log": "PASS",
     "od-float.log": "FAIL",
     "od-j.log": "PASS",
     "od-multiple-t.log": "PASS",
     "od-x8.log": "PASS",
-    "od.log": "PASS"
+    "od.log": "FAIL"
   },
   "pr": {
     "pr-tests.log": "SKIP"
@@ -486,6 +500,7 @@
     "can-m.log": "PASS",
     "multi.log": "PASS",
     "readlink-fp-loop.log": "PASS",
+    "readlink-posix.log": "FAIL",
     "readlink-root.log": "PASS",
     "rl-1.log": "PASS"
   },
@@ -581,7 +596,8 @@
     "sort-debug-warn.log": "FAIL",
     "sort-discrim.log": "PASS",
     "sort-exit-early.log": "PASS",
-    "sort-files0-from.log": "PASS",
+    "sort-field-limit.log": "FAIL",
+    "sort-files0-from.log": "FAIL",
     "sort-float.log": "FAIL",
     "sort-h-thousands-sep.log": "FAIL",
     "sort-merge-fdlimit.log": "FAIL",
@@ -622,6 +638,7 @@
     "stat-slash.log": "PASS"
   },
   "stty": {
+    "bad-speed.log": "SKIP",
     "stty-invalid.log": "SKIP",
     "stty-pairs.log": "SKIP",
     "stty-row-col.log": "SKIP",
@@ -645,7 +662,7 @@
     "flush-initial.log": "PASS",
     "follow-name.log": "FAIL",
     "follow-stdin.log": "FAIL",
-    "inotify-dir-recreate.log": "PASS",
+    "inotify-dir-recreate.log": "SKIP",
     "inotify-hash-abuse.log": "PASS",
     "inotify-hash-abuse2.log": "PASS",
     "inotify-only-regular.log": "PASS",
@@ -723,7 +740,8 @@
     "uniq.log": "PASS"
   },
   "wc": {
-    "wc-files0-from.log": "PASS",
+    "wc-cpu.log": "FAIL",
+    "wc-files0-from.log": "FAIL",
     "wc-files0.log": "PASS",
     "wc-nbsp.log": "PASS",
     "wc-parallel.log": "PASS",
