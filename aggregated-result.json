@@ -466,7 +466,7 @@
   },
   "od": {
     "big-w.log": "PASS",
-    "od-N.log": "FAIL",
+    "od-N.log": "PASS",
     "od-endian.log": "PASS",
     "od-float.log": "FAIL",
     "od-j.log": "PASS",
@@ -545,7 +545,7 @@
     "read-only.log": "PASS",
     "readdir-bug.log": "PASS",
     "rm-readdir-fail.log": "SKIP",
-    "rm1.log": "FAIL",
+    "rm1.log": "PASS",
     "rm2.log": "PASS",
     "rm3.log": "PASS",
     "rm4.log": "PASS",
