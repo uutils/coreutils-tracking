@@ -49,10 +49,10 @@
   },
   "cksum": {
     "b2sum.log": "FAIL",
-    "cksum-a.log": "FAIL",
-    "cksum-base64.log": "FAIL",
+    "cksum-a.log": "PASS",
+    "cksum-base64.log": "PASS",
     "cksum-c.log": "FAIL",
-    "cksum-raw.log": "FAIL",
+    "cksum-raw.log": "PASS",
     "cksum-sha3.log": "FAIL",
     "cksum.log": "FAIL",
     "md5sum-bsd.log": "PASS",
