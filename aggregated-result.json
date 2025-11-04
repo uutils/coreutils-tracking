@@ -380,7 +380,7 @@
     "sleep.log": "PASS",
     "stdbuf.log": "FAIL",
     "sync.log": "PASS",
-    "tee.log": "FAIL",
+    "tee.log": "PASS",
     "time-style.log": "FAIL",
     "tsort.log": "FAIL",
     "unexpand.log": "PASS",
@@ -483,7 +483,7 @@
     "printf-indexed.log": "PASS",
     "printf-mb.log": "PASS",
     "printf-quote.log": "PASS",
-    "printf-surprise.log": "FAIL",
+    "printf-surprise.log": "PASS",
     "printf.log": "PASS"
   },
   "ptx": {
@@ -670,7 +670,7 @@
     "inotify-race2.log": "SKIP",
     "inotify-rotate-resources.log": "FAIL",
     "inotify-rotate.log": "PASS",
-    "overlay-headers.log": "PASS",
+    "overlay-headers.log": "FAIL",
     "pid-pipe.log": "FAIL",
     "pid.log": "PASS",
     "pipe-f.log": "FAIL",
