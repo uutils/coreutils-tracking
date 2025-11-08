@@ -380,7 +380,7 @@
     "sleep.log": "PASS",
     "stdbuf.log": "FAIL",
     "sync.log": "PASS",
-    "tee.log": "PASS",
+    "tee.log": "FAIL",
     "time-style.log": "FAIL",
     "tsort.log": "FAIL",
     "unexpand.log": "PASS",
@@ -500,7 +500,7 @@
     "can-m.log": "PASS",
     "multi.log": "PASS",
     "readlink-fp-loop.log": "PASS",
-    "readlink-posix.log": "FAIL",
+    "readlink-posix.log": "PASS",
     "readlink-root.log": "PASS",
     "rl-1.log": "PASS"
   },
