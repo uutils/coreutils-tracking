@@ -274,7 +274,7 @@
     "zero.log": "PASS"
   },
   "install": {
-    "basic-1.log": "FAIL",
+    "basic-1.log": "PASS",
     "create-leading.log": "PASS",
     "d-slashdot.log": "PASS",
     "install-C-root.log": "PASS",
@@ -370,7 +370,7 @@
     "nl.log": "PASS",
     "nohup.log": "FAIL",
     "numfmt.log": "FAIL",
-    "option-aliases.log": "FAIL",
+    "option-aliases.log": "PASS",
     "paste.log": "PASS",
     "pathchk.log": "PASS",
     "printenv.log": "PASS",
@@ -380,7 +380,7 @@
     "sleep.log": "PASS",
     "stdbuf.log": "FAIL",
     "sync.log": "PASS",
-    "tee.log": "FAIL",
+    "tee.log": "PASS",
     "time-style.log": "FAIL",
     "tsort.log": "FAIL",
     "unexpand.log": "PASS",
