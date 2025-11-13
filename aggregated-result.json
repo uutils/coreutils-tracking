@@ -254,8 +254,8 @@
     "non-space.log": "FAIL"
   },
   "fold": {
-    "fold-characters.log": "FAIL",
-    "fold-nbsp.log": "FAIL",
+    "fold-characters.log": "PASS",
+    "fold-nbsp.log": "PASS",
     "fold-spaces.log": "PASS",
     "fold-zero-width.log": "FAIL",
     "fold.log": "FAIL"
@@ -682,7 +682,7 @@
     "inotify-race2.log": "SKIP",
     "inotify-rotate-resources.log": "FAIL",
     "inotify-rotate.log": "PASS",
-    "overlay-headers.log": "PASS",
+    "overlay-headers.log": "FAIL",
     "pid-pipe.log": "FAIL",
     "pid.log": "PASS",
     "pipe-f.log": "FAIL",
