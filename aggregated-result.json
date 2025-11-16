@@ -575,7 +575,7 @@
   },
   "runcon": {
     "runcon-compute.log": "PASS",
-    "runcon-no-reorder.log": "PASS"
+    "runcon-no-reorder.log": "FAIL"
   },
   "seq": {
     "seq-epipe.log": "FAIL",
