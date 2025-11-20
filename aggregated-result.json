@@ -258,7 +258,7 @@
     "fold-nbsp.log": "PASS",
     "fold-spaces.log": "PASS",
     "fold-zero-width.log": "FAIL",
-    "fold.log": "FAIL"
+    "fold.log": "PASS"
   },
   "groups": {
     "groups-dash.log": "PASS",
@@ -682,7 +682,7 @@
     "inotify-race2.log": "SKIP",
     "inotify-rotate-resources.log": "FAIL",
     "inotify-rotate.log": "PASS",
-    "overlay-headers.log": "PASS",
+    "overlay-headers.log": "FAIL",
     "pid-pipe.log": "FAIL",
     "pid.log": "PASS",
     "pipe-f.log": "FAIL",
