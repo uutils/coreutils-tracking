@@ -233,7 +233,7 @@
     "env-S-script.log": "PASS",
     "env-S.log": "PASS",
     "env-null.log": "PASS",
-    "env-signal-handler.log": "ERROR",
+    "env-signal-handler.log": "FAIL",
     "env.log": "PASS"
   },
   "expr": {
@@ -682,7 +682,7 @@
     "inotify-race2.log": "SKIP",
     "inotify-rotate-resources.log": "FAIL",
     "inotify-rotate.log": "PASS",
-    "overlay-headers.log": "PASS",
+    "overlay-headers.log": "FAIL",
     "pid-pipe.log": "FAIL",
     "pid.log": "PASS",
     "pipe-f.log": "FAIL",
