@@ -2,7 +2,7 @@
   "basenc": {
     "base64.log": "PASS",
     "basenc.log": "PASS",
-    "bounded-memory.log": "FAIL",
+    "bounded-memory.log": "PASS",
     "large-input.log": "PASS"
   },
   "cat": {
@@ -682,7 +682,7 @@
     "inotify-race2.log": "SKIP",
     "inotify-rotate-resources.log": "FAIL",
     "inotify-rotate.log": "PASS",
-    "overlay-headers.log": "FAIL",
+    "overlay-headers.log": "PASS",
     "pid-pipe.log": "FAIL",
     "pid.log": "PASS",
     "pipe-f.log": "FAIL",
