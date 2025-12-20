@@ -574,8 +574,8 @@
     "t-slash.log": "PASS"
   },
   "runcon": {
-    "runcon-compute.log": "PASS",
-    "runcon-no-reorder.log": "FAIL"
+    "runcon-compute.log": "FAIL",
+    "runcon-no-reorder.log": "PASS"
   },
   "seq": {
     "seq-epipe.log": "FAIL",
