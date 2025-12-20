@@ -86,7 +86,7 @@
     "cp-deref.log": "PASS",
     "cp-i.log": "PASS",
     "cp-mv-backup.log": "PASS",
-    "cp-mv-enotsup-xattr.log": "SKIP",
+    "cp-mv-enotsup-xattr.log": "PASS",
     "cp-parents.log": "PASS",
     "cross-dev-symlink.log": "PASS",
     "debug.log": "PASS",
@@ -153,7 +153,7 @@
     "date-debug.log": "FAIL",
     "date-ethiopia.log": "FAIL",
     "date-iran.log": "FAIL",
-    "date-locale-hour.log": "FAIL",
+    "date-locale-hour.log": "PASS",
     "date-next-dow.log": "PASS",
     "date-sec.log": "PASS",
     "date-thailand.log": "FAIL",
@@ -413,7 +413,7 @@
     "smack-root.log": "SKIP",
     "special-1.log": "PASS",
     "t-slash.log": "PASS",
-    "writable-under-readonly.log": "SKIP"
+    "writable-under-readonly.log": "PASS"
   },
   "mv": {
     "acl.log": "PASS",
@@ -674,7 +674,7 @@
     "flush-initial.log": "PASS",
     "follow-name.log": "FAIL",
     "follow-stdin.log": "FAIL",
-    "inotify-dir-recreate.log": "SKIP",
+    "inotify-dir-recreate.log": "PASS",
     "inotify-hash-abuse.log": "PASS",
     "inotify-hash-abuse2.log": "PASS",
     "inotify-only-regular.log": "PASS",
