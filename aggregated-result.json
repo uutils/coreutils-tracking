@@ -674,7 +674,7 @@
     "flush-initial.log": "PASS",
     "follow-name.log": "FAIL",
     "follow-stdin.log": "FAIL",
-    "inotify-dir-recreate.log": "PASS",
+    "inotify-dir-recreate.log": "SKIP",
     "inotify-hash-abuse.log": "PASS",
     "inotify-hash-abuse2.log": "PASS",
     "inotify-only-regular.log": "PASS",
