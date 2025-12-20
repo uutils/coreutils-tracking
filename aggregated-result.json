@@ -602,7 +602,7 @@
     "sort-compress-hang.log": "PASS",
     "sort-compress-proc.log": "PASS",
     "sort-compress.log": "PASS",
-    "sort-continue.log": "FAIL",
+    "sort-continue.log": "PASS",
     "sort-debug-keys.log": "FAIL",
     "sort-debug-warn.log": "FAIL",
     "sort-discrim.log": "PASS",
@@ -709,7 +709,7 @@
     "timeout-group.log": "SKIP",
     "timeout-large-parameters.log": "PASS",
     "timeout-parameters.log": "PASS",
-    "timeout.log": "PASS"
+    "timeout.log": "FAIL"
   },
   "touch": {
     "60-seconds.log": "PASS",
