@@ -188,7 +188,7 @@
     "df-output.log": "PASS",
     "df-symlink.log": "PASS",
     "header.log": "PASS",
-    "no-mtab-status.log": "SKIP",
+    "no-mtab-status.log": "FAIL",
     "over-mount-device.log": "PASS",
     "problematic-chars.log": "PASS",
     "skip-duplicates.log": "SKIP",
@@ -588,7 +588,7 @@
   },
   "shred": {
     "shred-exact.log": "PASS",
-    "shred-passes.log": "FAIL",
+    "shred-passes.log": "PASS",
     "shred-remove.log": "PASS",
     "shred-size.log": "PASS"
   },
