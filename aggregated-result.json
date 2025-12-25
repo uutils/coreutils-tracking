@@ -170,7 +170,7 @@
     "no-allocate.log": "FAIL",
     "nocache.log": "PASS",
     "nocache_eof.log": "FAIL",
-    "nocache_fail.log": "FAIL",
+    "nocache_fail.log": "PASS",
     "not-rewound.log": "PASS",
     "reblock.log": "PASS",
     "skip-seek-past-dev.log": "PASS",
@@ -472,7 +472,7 @@
     "nproc-quota.log": "SKIP"
   },
   "numfmt": {
-    "mb-non-utf8.log": "SKIP",
+    "mb-non-utf8.log": "FAIL",
     "numfmt.log": "FAIL"
   },
   "od": {
