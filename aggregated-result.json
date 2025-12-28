@@ -86,7 +86,7 @@
     "cp-deref.log": "PASS",
     "cp-i.log": "PASS",
     "cp-mv-backup.log": "PASS",
-    "cp-mv-enotsup-xattr.log": "PASS",
+    "cp-mv-enotsup-xattr.log": "FAIL",
     "cp-parents.log": "PASS",
     "cross-dev-symlink.log": "PASS",
     "debug.log": "PASS",
@@ -141,7 +141,7 @@
   "csplit": {
     "csplit-1000.log": "PASS",
     "csplit-heap.log": "PASS",
-    "csplit-io-err.log": "SKIP",
+    "csplit-io-err.log": "FAIL",
     "csplit-suppress-matched.log": "PASS",
     "csplit.log": "PASS"
   },
