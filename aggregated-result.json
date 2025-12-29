@@ -277,7 +277,7 @@
     "gnu-zero-uids.log": "SKIP",
     "no-context.log": "PASS",
     "setgid.log": "PASS",
-    "smack.log": "SKIP",
+    "smack.log": "FAIL",
     "uid.log": "PASS",
     "zero.log": "PASS"
   },
@@ -409,8 +409,8 @@
     "perm.log": "PASS",
     "restorecon.log": "PASS",
     "selinux.log": "PASS",
-    "smack-no-root.log": "SKIP",
-    "smack-root.log": "SKIP",
+    "smack-no-root.log": "FAIL",
+    "smack-root.log": "FAIL",
     "special-1.log": "PASS",
     "t-slash.log": "PASS",
     "writable-under-readonly.log": "PASS"
