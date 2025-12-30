@@ -82,7 +82,7 @@
     "capability.log": "PASS",
     "copy-FMR.log": "PASS",
     "cp-HL.log": "PASS",
-    "cp-a-selinux.log": "FAIL",
+    "cp-a-selinux.log": "SKIP",
     "cp-deref.log": "PASS",
     "cp-i.log": "PASS",
     "cp-mv-backup.log": "PASS",
@@ -574,7 +574,7 @@
     "t-slash.log": "PASS"
   },
   "runcon": {
-    "runcon-compute.log": "FAIL",
+    "runcon-compute.log": "ERROR",
     "runcon-no-reorder.log": "PASS"
   },
   "seq": {
