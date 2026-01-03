@@ -61,7 +61,7 @@
     "md5sum-bsd.log": "PASS",
     "md5sum-newline.log": "PASS",
     "md5sum-parallel.log": "PASS",
-    "md5sum.log": "PASS",
+    "md5sum.log": "FAIL",
     "sha1sum-vec.log": "PASS",
     "sha1sum.log": "PASS",
     "sha224sum.log": "PASS",
@@ -709,7 +709,7 @@
     "timeout-group.log": "SKIP",
     "timeout-large-parameters.log": "PASS",
     "timeout-parameters.log": "PASS",
-    "timeout.log": "PASS"
+    "timeout.log": "FAIL"
   },
   "touch": {
     "60-seconds.log": "PASS",
