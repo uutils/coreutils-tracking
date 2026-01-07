@@ -4,10 +4,32 @@ on:
   push:
     branches:
     - main
+  pull_request:
   schedule:
   - cron: "0 2,14 * * *"
 
 jobs:
+  lint:
+    name: Lint and format check
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v6
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+
+    - name: Install ruff
+      run: pip install ruff
+
+    - name: Run ruff linter
+      run: ruff check .
+
+    - name: Run ruff format check
+      run: ruff format --check .
+
   gnu:
     name: Process the GNU and size test results
     runs-on: ubuntu-latest
