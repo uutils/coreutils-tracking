@@ -494,7 +494,7 @@
     "printf-indexed.log": "PASS",
     "printf-mb.log": "PASS",
     "printf-quote.log": "PASS",
-    "printf-surprise.log": "PASS",
+    "printf-surprise.log": "SKIP",
     "printf.log": "PASS"
   },
   "ptx": {
@@ -574,7 +574,7 @@
     "t-slash.log": "PASS"
   },
   "runcon": {
-    "runcon-compute.log": "ERROR",
+    "runcon-compute.log": "PASS",
     "runcon-no-reorder.log": "PASS"
   },
   "seq": {
@@ -709,7 +709,7 @@
     "timeout-group.log": "SKIP",
     "timeout-large-parameters.log": "PASS",
     "timeout-parameters.log": "PASS",
-    "timeout.log": "PASS"
+    "timeout.log": "FAIL"
   },
   "touch": {
     "60-seconds.log": "PASS",
@@ -744,7 +744,7 @@
     "truncate-relative.log": "PASS"
   },
   "tty": {
-    "tty-eof.log": "FAIL",
+    "tty-eof.log": "PASS",
     "tty.log": "PASS"
   },
   "uniq": {
