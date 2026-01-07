@@ -28,7 +28,13 @@ def setup_theme():
     plt.rcParams.update(
         {
             "font.family": "sans-serif",
-            "font.sans-serif": ["Inter", "SF Pro Display", "Segoe UI", "Arial"],
+            "font.sans-serif": [
+                "Inter",
+                "SF Pro Display",
+                "Segoe UI",
+                "DejaVu Sans",
+                "Arial",
+            ],
             "axes.facecolor": "#FAFAFA",
             "figure.facecolor": "white",
             "axes.edgecolor": "#CCCCCC",
