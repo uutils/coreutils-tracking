@@ -4,10 +4,32 @@ on:
   push:
     branches:
     - main
+  pull_request:
   schedule:
   - cron: "0 2,14 * * *"
 
 jobs:
+  lint:
+    name: Lint and format check
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v6
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+
+    - name: Install ruff
+      run: pip install ruff
+
+    - name: Run ruff linter
+      run: ruff check .
+
+    - name: Run ruff format check
+      run: ruff format --check .
+
   gnu:
     name: Process the GNU and size test results
     runs-on: ubuntu-latest
@@ -16,7 +38,7 @@ jobs:
       shell: bash
       run: |
         sudo apt-get update
-        sudo apt-get install jq python3-pandas python3-matplotlib python3-seaborn
+        sudo apt-get install jq python3-pandas python3-matplotlib python3-seaborn fonts-dejavu-core
 
     - name: Checkout repo
       uses: actions/checkout@v6
@@ -124,6 +146,7 @@ jobs:
        rm -rf dl
 
     - name: Add & Commit
+      if: github.event_name != 'pull_request'
       uses: EndBug/add-and-commit@v9.1.4
       with:
         default_author: github_actions
@@ -139,6 +162,7 @@ jobs:
         python size-graph.py size-result.json
 
     - name: Add & Commit the GNU graph
+      if: github.event_name != 'pull_request'
       uses: EndBug/add-and-commit@v9.1.4
       with:
         default_author: github_actions
@@ -146,6 +170,7 @@ jobs:
         add: gnu-results.svg
 
     - name: Add & Commit the busybox graph
+      if: github.event_name != 'pull_request'
       uses: EndBug/add-and-commit@v9.1.4
       with:
         default_author: github_actions
@@ -153,6 +178,7 @@ jobs:
         add: busybox-results.svg
 
     - name: Add & Commit the toybox graph
+      if: github.event_name != 'pull_request'
       uses: EndBug/add-and-commit@v9.1.4
       with:
         default_author: github_actions
@@ -160,6 +186,7 @@ jobs:
         add: toybox-results.svg
 
     - name: Add & Commit the individual size graph
+      if: github.event_name != 'pull_request'
       uses: EndBug/add-and-commit@v9.1.4
       with:
         default_author: github_actions
@@ -167,6 +194,7 @@ jobs:
         add: individual-size-results
 
     - name: Add & Commit the size graph
+      if: github.event_name != 'pull_request'
       uses: EndBug/add-and-commit@v9.1.4
       with:
         default_author: github_actions
