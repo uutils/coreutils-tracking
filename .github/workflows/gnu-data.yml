@@ -146,6 +146,7 @@ jobs:
        rm -rf dl
 
     - name: Add & Commit
+      if: github.event_name != 'pull_request'
       uses: EndBug/add-and-commit@v9.1.4
       with:
         default_author: github_actions
@@ -161,6 +162,7 @@ jobs:
         python size-graph.py size-result.json
 
     - name: Add & Commit the GNU graph
+      if: github.event_name != 'pull_request'
       uses: EndBug/add-and-commit@v9.1.4
       with:
         default_author: github_actions
@@ -168,6 +170,7 @@ jobs:
         add: gnu-results.svg
 
     - name: Add & Commit the busybox graph
+      if: github.event_name != 'pull_request'
       uses: EndBug/add-and-commit@v9.1.4
       with:
         default_author: github_actions
@@ -175,6 +178,7 @@ jobs:
         add: busybox-results.svg
 
     - name: Add & Commit the toybox graph
+      if: github.event_name != 'pull_request'
       uses: EndBug/add-and-commit@v9.1.4
       with:
         default_author: github_actions
@@ -182,6 +186,7 @@ jobs:
         add: toybox-results.svg
 
     - name: Add & Commit the individual size graph
+      if: github.event_name != 'pull_request'
       uses: EndBug/add-and-commit@v9.1.4
       with:
         default_author: github_actions
@@ -189,6 +194,7 @@ jobs:
         add: individual-size-results
 
     - name: Add & Commit the size graph
+      if: github.event_name != 'pull_request'
       uses: EndBug/add-and-commit@v9.1.4
       with:
         default_author: github_actions
