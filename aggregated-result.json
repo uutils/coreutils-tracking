@@ -106,7 +106,7 @@
     "link-preserve.log": "PASS",
     "link-symlink.log": "PASS",
     "link.log": "PASS",
-    "nfs-removal-race.log": "SKIP",
+    "nfs-removal-race.log": "PASS",
     "no-ctx.log": "PASS",
     "no-deref-link1.log": "PASS",
     "no-deref-link2.log": "PASS",
@@ -494,7 +494,7 @@
     "printf-indexed.log": "PASS",
     "printf-mb.log": "PASS",
     "printf-quote.log": "PASS",
-    "printf-surprise.log": "SKIP",
+    "printf-surprise.log": "PASS",
     "printf.log": "PASS"
   },
   "ptx": {
