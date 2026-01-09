@@ -329,7 +329,7 @@
     "hyperlink.log": "PASS",
     "infloop.log": "PASS",
     "inode.log": "PASS",
-    "ls-misc.log": "FAIL",
+    "ls-misc.log": "PASS",
     "ls-time.log": "PASS",
     "m-option.log": "PASS",
     "multihardlink.log": "PASS",
@@ -672,7 +672,7 @@
     "descriptor-vs-rename.log": "PASS",
     "end-of-device.log": "PASS",
     "flush-initial.log": "PASS",
-    "follow-name.log": "PASS",
+    "follow-name.log": "FAIL",
     "follow-stdin.log": "FAIL",
     "inotify-dir-recreate.log": "SKIP",
     "inotify-hash-abuse.log": "PASS",
@@ -744,7 +744,7 @@
     "truncate-relative.log": "PASS"
   },
   "tty": {
-    "tty-eof.log": "FAIL",
+    "tty-eof.log": "PASS",
     "tty.log": "PASS"
   },
   "uniq": {
