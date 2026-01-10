@@ -82,7 +82,7 @@
     "capability.log": "PASS",
     "copy-FMR.log": "PASS",
     "cp-HL.log": "PASS",
-    "cp-a-selinux.log": "SKIP",
+    "cp-a-selinux.log": "FAIL",
     "cp-deref.log": "PASS",
     "cp-i.log": "PASS",
     "cp-mv-backup.log": "PASS",
@@ -192,7 +192,7 @@
     "over-mount-device.log": "PASS",
     "problematic-chars.log": "PASS",
     "skip-duplicates.log": "SKIP",
-    "skip-rootfs.log": "SKIP",
+    "skip-rootfs.log": "FAIL",
     "total-unprocessed.log": "PASS",
     "total-verify.log": "PASS",
     "unreadable.log": "PASS"
@@ -472,7 +472,7 @@
     "nproc-quota.log": "SKIP"
   },
   "numfmt": {
-    "mb-non-utf8.log": "FAIL",
+    "mb-non-utf8.log": "PASS",
     "numfmt.log": "FAIL"
   },
   "od": {
@@ -649,7 +649,7 @@
     "stat-slash.log": "PASS"
   },
   "stty": {
-    "bad-speed.log": "SKIP",
+    "bad-speed.log": "PASS",
     "stty-invalid.log": "PASS",
     "stty-pairs.log": "PASS",
     "stty-row-col.log": "PASS",
