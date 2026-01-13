@@ -174,7 +174,7 @@
     "not-rewound.log": "PASS",
     "reblock.log": "PASS",
     "skip-seek-past-dev.log": "PASS",
-    "skip-seek-past-file.log": "FAIL",
+    "skip-seek-past-file.log": "PASS",
     "skip-seek.log": "PASS",
     "skip-seek2.log": "PASS",
     "sparse.log": "PASS",
@@ -251,7 +251,7 @@
     "base.log": "PASS",
     "goal-option.log": "PASS",
     "long-line.log": "PASS",
-    "non-space.log": "FAIL"
+    "non-space.log": "PASS"
   },
   "fold": {
     "fold-characters.log": "PASS",
