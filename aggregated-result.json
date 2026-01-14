@@ -604,7 +604,7 @@
     "sort-compress.log": "PASS",
     "sort-continue.log": "PASS",
     "sort-debug-keys.log": "PASS",
-    "sort-debug-warn.log": "FAIL",
+    "sort-debug-warn.log": "PASS",
     "sort-discrim.log": "PASS",
     "sort-exit-early.log": "PASS",
     "sort-field-limit.log": "PASS",
@@ -706,7 +706,6 @@
   },
   "timeout": {
     "timeout-blocked.log": "PASS",
-    "timeout-group.log": "SKIP",
     "timeout-large-parameters.log": "PASS",
     "timeout-parameters.log": "PASS",
     "timeout.log": "FAIL"
