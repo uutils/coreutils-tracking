@@ -272,6 +272,9 @@
     "head-write-error.log": "PASS",
     "head.log": "PASS"
   },
+  "help": {
+    "help-version-getopt.log": "PASS"
+  },
   "id": {
     "context.log": "PASS",
     "gnu-zero-uids.log": "SKIP",
@@ -706,6 +709,7 @@
   },
   "timeout": {
     "timeout-blocked.log": "PASS",
+    "timeout-group.log": "SKIP",
     "timeout-large-parameters.log": "PASS",
     "timeout-parameters.log": "PASS",
     "timeout.log": "FAIL"
