@@ -672,7 +672,7 @@
     "descriptor-vs-rename.log": "PASS",
     "end-of-device.log": "PASS",
     "flush-initial.log": "PASS",
-    "follow-name.log": "PASS",
+    "follow-name.log": "FAIL",
     "follow-stdin.log": "FAIL",
     "inotify-dir-recreate.log": "SKIP",
     "inotify-hash-abuse.log": "PASS",
@@ -706,7 +706,6 @@
   },
   "timeout": {
     "timeout-blocked.log": "PASS",
-    "timeout-group.log": "SKIP",
     "timeout-large-parameters.log": "PASS",
     "timeout-parameters.log": "PASS",
     "timeout.log": "FAIL"
