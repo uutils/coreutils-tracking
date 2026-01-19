@@ -86,7 +86,7 @@
     "cp-deref.log": "PASS",
     "cp-i.log": "PASS",
     "cp-mv-backup.log": "PASS",
-    "cp-mv-enotsup-xattr.log": "FAIL",
+    "cp-mv-enotsup-xattr.log": "PASS",
     "cp-parents.log": "PASS",
     "cross-dev-symlink.log": "PASS",
     "debug.log": "PASS",
@@ -188,7 +188,7 @@
     "df-output.log": "PASS",
     "df-symlink.log": "PASS",
     "header.log": "PASS",
-    "no-mtab-status.log": "FAIL",
+    "no-mtab-status-masked-proc.log": "FAIL",
     "over-mount-device.log": "PASS",
     "problematic-chars.log": "PASS",
     "skip-duplicates.log": "SKIP",
@@ -472,7 +472,7 @@
     "nproc-avail.log": "PASS",
     "nproc-override.log": "PASS",
     "nproc-positive.log": "PASS",
-    "nproc-quota.log": "SKIP"
+    "nproc-quota-systemd.log": "FAIL"
   },
   "numfmt": {
     "mb-non-utf8.log": "PASS",
@@ -501,7 +501,7 @@
     "printf.log": "PASS"
   },
   "ptx": {
-    "ptx-overrun.log": "FAIL",
+    "ptx-overrun.log": "PASS",
     "ptx.log": "PASS"
   },
   "pwd": {
@@ -614,7 +614,7 @@
     "sort-files0-from.log": "PASS",
     "sort-float.log": "PASS",
     "sort-h-thousands-sep.log": "FAIL",
-    "sort-merge-fdlimit.log": "FAIL",
+    "sort-merge-fdlimit.log": "PASS",
     "sort-merge.log": "PASS",
     "sort-month.log": "FAIL",
     "sort-rand.log": "PASS",
@@ -709,6 +709,7 @@
   },
   "timeout": {
     "timeout-blocked.log": "PASS",
+    "timeout-group.log": "SKIP",
     "timeout-large-parameters.log": "PASS",
     "timeout-parameters.log": "PASS",
     "timeout.log": "FAIL"
