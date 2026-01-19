@@ -105,6 +105,39 @@ handles, labels = ax.get_legend_handles_labels()
 labels = [label.capitalize() for label in labels]
 style_legend(ax, handles, labels, ncol=len(plot_columns), loc="upper left")
 
+# Add percentage box on the top right
+latest_data = df.iloc[-1]
+total = pd.to_numeric(latest_data["total"], errors="coerce")
+pass_count = pd.to_numeric(latest_data["pass"], errors="coerce")
+fail_count = pd.to_numeric(latest_data["fail"], errors="coerce")
+skip_count = pd.to_numeric(latest_data["skip"], errors="coerce")
+
+pass_pct = (pass_count / total) * 100 if total > 0 else 0
+fail_pct = (fail_count / total) * 100 if total > 0 else 0
+skip_pct = (skip_count / total) * 100 if total > 0 else 0
+
+# Create text box
+textstr = f"Latest Results:\n"
+textstr += f"Pass: {pass_pct:.1f}%\n"
+textstr += f"Fail: {fail_pct:.1f}%\n"
+textstr += f"Skip: {skip_pct:.1f}%"
+
+# Add text box on the top right
+props = dict(boxstyle="round,pad=0.8", facecolor="#FFFFFF", edgecolor="#D1D5DB", linewidth=2, alpha=0.95)
+ax.text(
+    0.98,
+    1.15,
+    textstr,
+    transform=ax.transAxes,
+    fontsize=14,
+    verticalalignment="top",
+    horizontalalignment="right",
+    bbox=props,
+    color="#374151",
+    fontweight="600",
+    zorder=10,
+)
+
 # Tight layout
 plt.tight_layout()
 
