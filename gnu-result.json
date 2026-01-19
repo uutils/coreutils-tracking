@@ -260,7 +260,7 @@
   },
   "Fri, 04 Jun 2021 23:31:57 +0000": {
     "sha": "3478dfcb9302f91009d0596a8361c6f76f043f7b",
-    "comment": "Improved by https://github.com/uutils/coreutils/pull/2341",
+    "comment": "https://github.com/uutils/coreutils/pull/2341",
     "total": "601",
     "pass": " 160",
     "skip": " 90",
@@ -19026,6 +19026,7 @@
     "error": "1"
   },
   "Mon, 27 Oct 2025 09:59:51 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9016",
     "sha": "6cf658c31045f844e657e87c97ee069a87cf7c13",
     "total": "634",
     "pass": "533",
@@ -19035,8 +19036,8 @@
     "error": "1"
   },
   "Mon, 27 Oct 2025 11:02:12 +0000": {
-    "sha": "870bc29cb45155d3a476d1461cd67151ba7ce27e",
     "comment": "https://github.com/uutils/coreutils/pull/9035",
+    "sha": "870bc29cb45155d3a476d1461cd67151ba7ce27e",
     "total": "634",
     "pass": "536",
     "skip": "33",
@@ -19045,6 +19046,7 @@
     "error": "1"
   },
   "Mon, 27 Oct 2025 22:32:39 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9016",
     "sha": "76c4278f38a25b5db56637bc7923b119bdc607c8",
     "total": "634",
     "pass": "534",
@@ -19054,6 +19056,7 @@
     "error": "1"
   },
   "Mon, 27 Oct 2025 22:53:21 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9016",
     "sha": "c85d8b5ed3916839bc4d73a4278ebe75e9250abc",
     "total": "634",
     "pass": "537",
@@ -19063,6 +19066,7 @@
     "error": "1"
   },
   "Tue, 28 Oct 2025 12:38:58 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9063",
     "sha": "130bbf5729ab68cb532f64b03fc72ab8e0006136",
     "total": "634",
     "pass": "537",
@@ -19072,6 +19076,7 @@
     "error": "1"
   },
   "Tue, 28 Oct 2025 22:15:18 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9063",
     "sha": "517ecdd15f632e84e5ee1ce3d78184d2ca3427cb",
     "total": "634",
     "pass": "538",
@@ -19171,6 +19176,7 @@
     "error": "1"
   },
   "Tue, 04 Nov 2025 08:58:17 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9133",
     "sha": "e84b261ff1e67dab5531b643bb82fecc480c6522",
     "total": "634",
     "pass": "540",
@@ -19180,6 +19186,7 @@
     "error": "1"
   },
   "Tue, 04 Nov 2025 23:11:17 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9133",
     "sha": "c5554ab9cba34c82c4aae98ceb771ece4fb64f08",
     "total": "634",
     "pass": "541",
@@ -19225,6 +19232,7 @@
     "error": "1"
   },
   "Sat, 08 Nov 2025 13:56:57 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9189, https://github.com/uutils/coreutils/pull/9188, https://github.com/uutils/coreutils/pull/9194",
     "sha": "700bb1c7eac1fcc83164f9ffad0a5b02877af10b",
     "total": "634",
     "pass": "542",
@@ -19234,6 +19242,7 @@
     "error": "1"
   },
   "Sat, 08 Nov 2025 14:29:13 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9189, https://github.com/uutils/coreutils/pull/9188, https://github.com/uutils/coreutils/pull/9194",
     "sha": "690405d72f23f3113d3311a521c77750640617b3",
     "total": "634",
     "pass": "542",
@@ -19243,6 +19252,7 @@
     "error": "1"
   },
   "Sat, 08 Nov 2025 20:12:56 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9189, https://github.com/uutils/coreutils/pull/9188, https://github.com/uutils/coreutils/pull/9194",
     "sha": "859a1ed2e3e17fbaf87b1f9c66aa0354832685ed",
     "total": "634",
     "pass": "543",
@@ -19252,6 +19262,7 @@
     "error": "1"
   },
   "Sat, 08 Nov 2025 23:24:06 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9189, https://github.com/uutils/coreutils/pull/9188, https://github.com/uutils/coreutils/pull/9194",
     "sha": "9b9a913d68028b90f67e71442578498bc62dda1d",
     "total": "634",
     "pass": "544",
@@ -19279,6 +19290,7 @@
     "error": "1"
   },
   "Mon, 10 Nov 2025 20:14:35 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9203",
     "sha": "997d9562533b7ed6a4949d419a7ce55fc4b461f9",
     "total": "645",
     "pass": "550",
@@ -19324,6 +19336,7 @@
     "error": "1"
   },
   "Thu, 13 Nov 2025 10:34:48 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9126",
     "sha": "fe6407779a28480f81514611ecdb1c760e2b311b",
     "total": "645",
     "pass": "551",
@@ -19333,6 +19346,7 @@
     "error": "1"
   },
   "Thu, 13 Nov 2025 11:27:59 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9126",
     "sha": "baf0a737f7f7db3427ba675c8e75cac46cf7a85c",
     "total": "645",
     "pass": "552",
@@ -19342,6 +19356,7 @@
     "error": "1"
   },
   "Thu, 13 Nov 2025 14:13:24 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9126",
     "sha": "ceeacf4a5fe34cb0aa50786a3c5fb97d633fe595",
     "total": "645",
     "pass": "553",
@@ -19351,6 +19366,7 @@
     "error": "1"
   },
   "Fri, 14 Nov 2025 08:23:58 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9252",
     "sha": "49f82da04d6b75c50cab786f89d204f3103c65ba",
     "total": "645",
     "pass": "554",
@@ -19360,6 +19376,7 @@
     "error": "1"
   },
   "Fri, 14 Nov 2025 09:51:05 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9252",
     "sha": "73d1bce20d060d636b06e2aba024eb8088ca3e6c",
     "total": "645",
     "pass": "554",
@@ -19441,6 +19458,7 @@
     "error": "1"
   },
   "Thu, 20 Nov 2025 01:02:21 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9328",
     "sha": "d977a349ba9972392cccb5c2ae8dad99803c0583",
     "total": "645",
     "pass": "554",
@@ -19450,6 +19468,7 @@
     "error": "1"
   },
   "Thu, 20 Nov 2025 08:52:46 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9328",
     "sha": "2a314c7ff397472e6ae38b618059ab95dd408833",
     "total": "645",
     "pass": "554",
@@ -19549,6 +19568,7 @@
     "error": "0"
   },
   "Fri, 28 Nov 2025 13:43:30 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9334",
     "sha": "b8edd13eb657166e6b7a99e7589bd86ec4aa36a7",
     "total": "645",
     "pass": "557",
@@ -19558,6 +19578,7 @@
     "error": "0"
   },
   "Fri, 28 Nov 2025 20:58:40 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9334",
     "sha": "b16ae56cd973c16fa7cf34e99f966f027134f57e",
     "total": "645",
     "pass": "557",
@@ -19657,6 +19678,7 @@
     "error": "0"
   },
   "Fri, 05 Dec 2025 09:50:02 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/8985",
     "sha": "bed70126d5c7689b501ebec19fb0a504c728fc66",
     "total": "645",
     "pass": "559",
@@ -19666,6 +19688,7 @@
     "error": "0"
   },
   "Fri, 05 Dec 2025 20:23:48 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/8985",
     "sha": "443c2014fb0ceb93b247a4b3fa2bc12aebe203c0",
     "total": "645",
     "pass": "559",
@@ -19675,6 +19698,7 @@
     "error": "0"
   },
   "Fri, 05 Dec 2025 22:23:21 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/8985",
     "sha": "5b261bc1af5234ae4a469ababcbf9ca999ca47e5",
     "total": "645",
     "pass": "560",
@@ -19684,6 +19708,7 @@
     "error": "0"
   },
   "Sat, 06 Dec 2025 13:53:09 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9573",
     "sha": "8d590ca4cc1663024829f0dadcf7985a061b79df",
     "total": "645",
     "pass": "560",
@@ -19693,6 +19718,7 @@
     "error": "0"
   },
   "Sat, 06 Dec 2025 14:08:47 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9573",
     "sha": "a0c14aacbbce7d015c02a0cb0e5758bb9237f87e",
     "total": "645",
     "pass": "561",
@@ -19702,6 +19728,7 @@
     "error": "0"
   },
   "Sat, 06 Dec 2025 16:16:59 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9573",
     "sha": "7c62885c843a915cd2f0d893dae3768b7366dee8",
     "total": "645",
     "pass": "562",
@@ -19711,6 +19738,7 @@
     "error": "0"
   },
   "Sun, 07 Dec 2025 13:47:39 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9336",
     "sha": "45c974f99212c7acc9490e3658aec952a0949bdb",
     "total": "645",
     "pass": "562",
@@ -19720,6 +19748,7 @@
     "error": "0"
   },
   "Sun, 07 Dec 2025 16:53:02 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9336",
     "sha": "dd118e057096a42df72eee0c7e7d87712264c5c6",
     "total": "645",
     "pass": "561",
@@ -19729,6 +19758,7 @@
     "error": "1"
   },
   "Sun, 07 Dec 2025 21:18:39 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9336",
     "sha": "67ede852a0f3e752f815a45d3cc7d70a55335b27",
     "total": "645",
     "pass": "563",
@@ -19900,6 +19930,7 @@
     "error": "1"
   },
   "Fri, 19 Dec 2025 12:53:12 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9652",
     "sha": "280d96c705cfa022017be47ee5e1a25ed9a281a4",
     "total": "645",
     "pass": "569",
@@ -19909,6 +19940,7 @@
     "error": "1"
   },
   "Fri, 19 Dec 2025 15:53:37 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9652",
     "sha": "a8e169ebffb3ee8be8c73c475282db71c7c3b502",
     "total": "645",
     "pass": "569",
@@ -19918,6 +19950,7 @@
     "error": "1"
   },
   "Fri, 19 Dec 2025 23:39:01 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9652",
     "sha": "9acff1db9e09737df9fe48801bdf9b7e80e74b8e",
     "total": "645",
     "pass": "573",
@@ -19927,6 +19960,7 @@
     "error": "1"
   },
   "Sat, 20 Dec 2025 06:31:32 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9107, https://github.com/uutils/coreutils/pull/9607",
     "sha": "1044809bdf0e9ab436ded9530185b6f2b850ae97",
     "total": "645",
     "pass": "572",
@@ -19936,6 +19970,7 @@
     "error": "1"
   },
   "Sat, 20 Dec 2025 09:56:01 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9107, https://github.com/uutils/coreutils/pull/9607",
     "sha": "33e803665a49a1e142b387a1f4d306be5bbe719e",
     "total": "645",
     "pass": "572",
@@ -19945,6 +19980,7 @@
     "error": "1"
   },
   "Sat, 20 Dec 2025 13:03:36 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9107, https://github.com/uutils/coreutils/pull/9607",
     "sha": "4401eb12059a1055e57ac10b2cfe8097acaa47ac",
     "total": "645",
     "pass": "572",
@@ -19954,6 +19990,7 @@
     "error": "1"
   },
   "Sat, 20 Dec 2025 18:19:37 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9107, https://github.com/uutils/coreutils/pull/9607",
     "sha": "1fca82965dbc1074d23f565e3574cd4a01a1b8f8",
     "total": "645",
     "pass": "572",
@@ -19990,6 +20027,7 @@
     "error": "1"
   },
   "Tue, 23 Dec 2025 02:19:53 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9289",
     "sha": "df6feedd131c774498f06b83295909bbaf1f3396",
     "total": "645",
     "pass": "573",
@@ -19999,6 +20037,7 @@
     "error": "1"
   },
   "Tue, 23 Dec 2025 11:07:02 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9289",
     "sha": "370ea745d163d892c9b96a236ca285a131ef4063",
     "total": "645",
     "pass": "573",
@@ -20008,6 +20047,7 @@
     "error": "1"
   },
   "Tue, 23 Dec 2025 13:43:16 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9289",
     "sha": "0f8eb45ebd18381e73171348993c10ec31d22531",
     "total": "645",
     "pass": "575",
@@ -20017,6 +20057,7 @@
     "error": "1"
   },
   "Wed, 24 Dec 2025 01:58:48 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9468",
     "sha": "4e1c15294c645cd55200cf9a2d79844eb1714069",
     "total": "645",
     "pass": "574",
@@ -20026,6 +20067,7 @@
     "error": "1"
   },
   "Wed, 24 Dec 2025 10:14:45 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9468",
     "sha": "cc103ec80c2f302276c4a3b52aa5e33987000b97",
     "total": "645",
     "pass": "574",
@@ -20035,6 +20077,7 @@
     "error": "1"
   },
   "Wed, 24 Dec 2025 15:16:52 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9468",
     "sha": "8689fb17c4efbcf8755a7cd1796a89709f79d49a",
     "total": "645",
     "pass": "574",
@@ -20044,6 +20087,7 @@
     "error": "1"
   },
   "Wed, 24 Dec 2025 22:10:53 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9468",
     "sha": "4aaceafaf76382d560c7bc11b8da56bcc3afaaf1",
     "total": "645",
     "pass": "575",
@@ -20071,6 +20115,7 @@
     "error": "1"
   },
   "Fri, 26 Dec 2025 00:58:29 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9516, https://github.com/uutils/coreutils/pull/9490, https://github.com/uutils/coreutils/pull/9465",
     "sha": "3e71f638bc710cd0004719a67e26df7609f1a186",
     "total": "645",
     "pass": "576",
@@ -20080,6 +20125,7 @@
     "error": "1"
   },
   "Fri, 26 Dec 2025 10:07:59 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9516, https://github.com/uutils/coreutils/pull/9490, https://github.com/uutils/coreutils/pull/9465",
     "sha": "efa1aa706005c093a436ec37ec4692a08d697f1f",
     "total": "645",
     "pass": "576",
@@ -20089,6 +20135,7 @@
     "error": "1"
   },
   "Sat, 27 Dec 2025 00:50:07 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9516, https://github.com/uutils/coreutils/pull/9490, https://github.com/uutils/coreutils/pull/9465, https://github.com/uutils/coreutils/pull/9144, https://github.com/uutils/coreutils/pull/9599",
     "sha": "e6467b1a195ad518213d1cf828b9c495d0d72780",
     "total": "645",
     "pass": "581",
@@ -20098,6 +20145,7 @@
     "error": "1"
   },
   "Sat, 27 Dec 2025 10:32:16 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9516, https://github.com/uutils/coreutils/pull/9490, https://github.com/uutils/coreutils/pull/9465, https://github.com/uutils/coreutils/pull/9144, https://github.com/uutils/coreutils/pull/9599",
     "sha": "51d6efdf4c4c31b5aceceb63be65bb5dfb05e23e",
     "total": "645",
     "pass": "581",
@@ -20107,6 +20155,7 @@
     "error": "1"
   },
   "Sun, 28 Dec 2025 01:09:29 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9682",
     "sha": "95751917e9b366fc1759d259201be23641ab2b7f",
     "total": "645",
     "pass": "580",
@@ -20116,6 +20165,7 @@
     "error": "1"
   },
   "Sun, 28 Dec 2025 10:03:48 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9682",
     "sha": "1883daf9da992450fa60022b483f1245f693ad5d",
     "total": "645",
     "pass": "580",
@@ -20125,6 +20175,7 @@
     "error": "1"
   },
   "Sun, 28 Dec 2025 12:55:16 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9682",
     "sha": "3162c21db8ce1300adf0635202bd4822514974b1",
     "total": "645",
     "pass": "581",
@@ -20251,6 +20302,7 @@
     "error": "2"
   },
   "Mon, 05 Jan 2026 11:34:18 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/10065, https://github.com/uutils/coreutils/pull/9818",
     "sha": "924953991a94da8496823096de05d3fa3e6a26af",
     "total": "645",
     "pass": "582",
@@ -20260,6 +20312,7 @@
     "error": "2"
   },
   "Mon, 05 Jan 2026 14:01:12 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/10065, https://github.com/uutils/coreutils/pull/9818",
     "sha": "5ce558c5a3f869435dbc24f2afc2251fc6f342d9",
     "total": "645",
     "pass": "583",
@@ -20269,6 +20322,7 @@
     "error": "2"
   },
   "Mon, 05 Jan 2026 16:06:34 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/10065, https://github.com/uutils/coreutils/pull/9818",
     "sha": "1759ba474922ebaccda501f644d6e4f44b5fb6dd",
     "total": "645",
     "pass": "583",
@@ -20305,6 +20359,7 @@
     "error": "2"
   },
   "Wed, 07 Jan 2026 05:50:59 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/10088, https://github.com/uutils/coreutils/pull/10086",
     "sha": "c53400c7e85ad22d92a8e0c7eaff49029caf9f58",
     "total": "645",
     "pass": "584",
@@ -20314,6 +20369,7 @@
     "error": "2"
   },
   "Wed, 07 Jan 2026 06:13:27 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/10088, https://github.com/uutils/coreutils/pull/10086",
     "sha": "abd511a0e903553ac647853d0e286590b43451de",
     "total": "645",
     "pass": "584",
@@ -20323,6 +20379,7 @@
     "error": "1"
   },
   "Wed, 07 Jan 2026 13:33:47 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/10088, https://github.com/uutils/coreutils/pull/10086",
     "sha": "6745a03993188f9538b693ff31e2ca6de64ba7c1",
     "total": "645",
     "pass": "586",
@@ -20332,6 +20389,7 @@
     "error": "1"
   },
   "Wed, 07 Jan 2026 19:31:11 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/10088, https://github.com/uutils/coreutils/pull/10086",
     "sha": "75de71e6aa2f67c239e27093eb1d4e8f6027019c",
     "total": "645",
     "pass": "588",
@@ -20341,6 +20399,7 @@
     "error": "1"
   },
   "Thu, 08 Jan 2026 13:04:11 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9262",
     "sha": "6ca81481a80244f90cc3b3c52971760ab97d5274",
     "total": "645",
     "pass": "589",
@@ -20350,6 +20409,7 @@
     "error": "1"
   },
   "Thu, 08 Jan 2026 20:14:47 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9262",
     "sha": "d813ed22c47e7f56ee1ece96f34cd6cb2de1b84f",
     "total": "645",
     "pass": "590",
@@ -20359,6 +20419,7 @@
     "error": "1"
   },
   "Fri, 09 Jan 2026 13:59:45 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/10094, https://github.com/uutils/coreutils/pull/9805, https://github.com/uutils/coreutils/pull/9657, https://github.com/uutils/coreutils/pull/10150, https://github.com/uutils/coreutils/pull/10079, https://github.com/uutils/coreutils/pull/9517",
     "sha": "9a6059b68f6001cb8a0803ce70f7d0328050adea",
     "total": "645",
     "pass": "590",
@@ -20368,6 +20429,7 @@
     "error": "1"
   },
   "Fri, 09 Jan 2026 19:52:26 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/10094, https://github.com/uutils/coreutils/pull/9805, https://github.com/uutils/coreutils/pull/9657, https://github.com/uutils/coreutils/pull/10150, https://github.com/uutils/coreutils/pull/10079, https://github.com/uutils/coreutils/pull/9517",
     "sha": "3fddca9c5a3c0c41e1684ec29f3a9ed3cd872ed7",
     "total": "645",
     "pass": "591",
@@ -20377,6 +20439,7 @@
     "error": "1"
   },
   "Fri, 09 Jan 2026 22:34:34 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/10094, https://github.com/uutils/coreutils/pull/9805, https://github.com/uutils/coreutils/pull/9657, https://github.com/uutils/coreutils/pull/10150, https://github.com/uutils/coreutils/pull/10079, https://github.com/uutils/coreutils/pull/9517",
     "sha": "b684d1606d6f942fbf81aea5b08c38c194254d4e",
     "total": "645",
     "pass": "593",
@@ -20386,6 +20449,7 @@
     "error": "1"
   },
   "Fri, 09 Jan 2026 22:57:11 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/10094, https://github.com/uutils/coreutils/pull/9805, https://github.com/uutils/coreutils/pull/9657, https://github.com/uutils/coreutils/pull/10150, https://github.com/uutils/coreutils/pull/10079, https://github.com/uutils/coreutils/pull/9517",
     "sha": "d737450383f72c1512773af46f471981bb2b6ac7",
     "total": "645",
     "pass": "595",
@@ -20395,6 +20459,7 @@
     "error": "1"
   },
   "Sat, 10 Jan 2026 09:15:22 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9663, https://github.com/uutils/coreutils/pull/10155, https://github.com/uutils/coreutils/pull/10156",
     "sha": "bb88fb2de76db11bffe822d41799b51365bab365",
     "total": "645",
     "pass": "595",
@@ -20404,6 +20469,7 @@
     "error": "1"
   },
   "Sat, 10 Jan 2026 11:48:33 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9663, https://github.com/uutils/coreutils/pull/10155, https://github.com/uutils/coreutils/pull/10156",
     "sha": "3441de92f27c693d4cb9fd7630e49fce19ba0e34",
     "total": "645",
     "pass": "596",
@@ -20413,6 +20479,7 @@
     "error": "1"
   },
   "Sat, 10 Jan 2026 15:31:22 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9663, https://github.com/uutils/coreutils/pull/10155, https://github.com/uutils/coreutils/pull/10156",
     "sha": "8041772c4e41957b00c77580e4c68633f96e6c96",
     "total": "645",
     "pass": "598",
@@ -20422,6 +20489,7 @@
     "error": "1"
   },
   "Sat, 10 Jan 2026 22:32:57 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9663, https://github.com/uutils/coreutils/pull/10155, https://github.com/uutils/coreutils/pull/10156",
     "sha": "5142df1e7bfa03e90baf06114f2ea55135ac52b4",
     "total": "645",
     "pass": "599",
@@ -20467,6 +20535,7 @@
     "error": "1"
   },
   "Tue, 13 Jan 2026 16:38:34 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9821, https://github.com/uutils/coreutils/pull/9329, https://github.com/uutils/coreutils/pull/9900",
     "sha": "718ee7f857eeb53992c30bba5e2cc59bd1bad64a",
     "total": "645",
     "pass": "600",
@@ -20476,6 +20545,7 @@
     "error": "1"
   },
   "Tue, 13 Jan 2026 21:27:23 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9821, https://github.com/uutils/coreutils/pull/9329, https://github.com/uutils/coreutils/pull/9900",
     "sha": "574f6ba2ef95af91e5c6e36f6491fa358701e555",
     "total": "645",
     "pass": "602",
@@ -20485,6 +20555,7 @@
     "error": "1"
   },
   "Tue, 13 Jan 2026 21:52:16 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/9821, https://github.com/uutils/coreutils/pull/9329, https://github.com/uutils/coreutils/pull/9900",
     "sha": "4ba5db0903ece9541ad55c0ca2ab4f13f927c3d5",
     "total": "644",
     "pass": "603",
@@ -20566,6 +20637,7 @@
     "error": "1"
   },
   "Sun, 18 Jan 2026 12:02:29 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/10083, https://github.com/uutils/coreutils/pull/9849, https://github.com/uutils/coreutils/pull/9823",
     "sha": "037b9583bc03d814e8516df54ebcda6f681fe1f8",
     "total": "646",
     "pass": "604",
@@ -20575,6 +20647,7 @@
     "error": "1"
   },
   "Sun, 18 Jan 2026 20:30:26 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/10083, https://github.com/uutils/coreutils/pull/9849, https://github.com/uutils/coreutils/pull/9823",
     "sha": "4e7fa9fc94eb6b5a07005f969a1e64471b958de1",
     "total": "645",
     "pass": "604",
@@ -20584,6 +20657,7 @@
     "error": "1"
   },
   "Sun, 18 Jan 2026 22:37:28 +0000": {
+    "comment": "https://github.com/uutils/coreutils/pull/10083, https://github.com/uutils/coreutils/pull/9849, https://github.com/uutils/coreutils/pull/9823",
     "sha": "356567edb30c2acebb3b0df74bedfc8e89503c4c",
     "total": "646",
     "pass": "607",
