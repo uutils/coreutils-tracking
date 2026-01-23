@@ -497,7 +497,7 @@
     "printf-indexed.log": "PASS",
     "printf-mb.log": "PASS",
     "printf-quote.log": "PASS",
-    "printf-surprise.log": "SKIP",
+    "printf-surprise.log": "PASS",
     "printf.log": "PASS"
   },
   "ptx": {
@@ -709,7 +709,6 @@
   },
   "timeout": {
     "timeout-blocked.log": "PASS",
-    "timeout-group.log": "SKIP",
     "timeout-large-parameters.log": "PASS",
     "timeout-parameters.log": "PASS",
     "timeout.log": "FAIL"
