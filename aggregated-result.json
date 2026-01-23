@@ -257,7 +257,7 @@
     "fold-characters.log": "PASS",
     "fold-nbsp.log": "PASS",
     "fold-spaces.log": "PASS",
-    "fold-zero-width.log": "FAIL",
+    "fold-zero-width.log": "PASS",
     "fold.log": "PASS"
   },
   "groups": {
@@ -497,7 +497,7 @@
     "printf-indexed.log": "PASS",
     "printf-mb.log": "PASS",
     "printf-quote.log": "PASS",
-    "printf-surprise.log": "PASS",
+    "printf-surprise.log": "SKIP",
     "printf.log": "PASS"
   },
   "ptx": {
