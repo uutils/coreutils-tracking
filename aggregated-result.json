@@ -709,6 +709,7 @@
   },
   "timeout": {
     "timeout-blocked.log": "PASS",
+    "timeout-group.log": "SKIP",
     "timeout-large-parameters.log": "PASS",
     "timeout-parameters.log": "PASS",
     "timeout.log": "FAIL"
