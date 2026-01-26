@@ -746,7 +746,7 @@
     "truncate-relative.log": "PASS"
   },
   "tty": {
-    "tty-eof.log": "PASS",
+    "tty-eof.log": "FAIL",
     "tty.log": "PASS"
   },
   "uniq": {
