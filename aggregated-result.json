@@ -390,7 +390,7 @@
     "sleep.log": "PASS",
     "stdbuf.log": "FAIL",
     "sync.log": "PASS",
-    "tee.log": "FAIL",
+    "tee.log": "PASS",
     "time-style.log": "PASS",
     "tsort.log": "PASS",
     "unexpand.log": "PASS",
@@ -675,7 +675,7 @@
     "descriptor-vs-rename.log": "PASS",
     "end-of-device.log": "PASS",
     "flush-initial.log": "PASS",
-    "follow-name.log": "FAIL",
+    "follow-name.log": "PASS",
     "follow-stdin.log": "PASS",
     "inotify-dir-recreate.log": "PASS",
     "inotify-hash-abuse.log": "PASS",
@@ -709,10 +709,10 @@
   },
   "timeout": {
     "timeout-blocked.log": "PASS",
-    "timeout-group.log": "SKIP",
+    "timeout-group.log": "PASS",
     "timeout-large-parameters.log": "PASS",
     "timeout-parameters.log": "PASS",
-    "timeout.log": "FAIL"
+    "timeout.log": "PASS"
   },
   "touch": {
     "60-seconds.log": "PASS",
