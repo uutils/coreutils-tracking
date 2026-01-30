@@ -123,7 +123,13 @@ textstr += f"Fail: {fail_pct:.1f}%\n"
 textstr += f"Skip: {skip_pct:.1f}%"
 
 # Add text box on the top right
-props = dict(boxstyle="round,pad=0.8", facecolor="#FFFFFF", edgecolor="#D1D5DB", linewidth=2, alpha=0.95)
+props = dict(
+    boxstyle="round,pad=0.8",
+    facecolor="#FFFFFF",
+    edgecolor="#D1D5DB",
+    linewidth=2,
+    alpha=0.95,
+)
 ax.text(
     0.98,
     1.15,
