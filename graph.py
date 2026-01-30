@@ -117,7 +117,7 @@ fail_pct = (fail_count / total) * 100 if total > 0 else 0
 skip_pct = (skip_count / total) * 100 if total > 0 else 0
 
 # Create text box
-textstr = f"Latest Results:\n"
+textstr = "Latest Results:\n"
 textstr += f"Pass: {pass_pct:.1f}%\n"
 textstr += f"Fail: {fail_pct:.1f}%\n"
 textstr += f"Skip: {skip_pct:.1f}%"
