@@ -311,7 +311,7 @@
   },
   "ls": {
     "a-option.log": "PASS",
-    "abmon-align.log": "PASS",
+    "abmon-align.log": "FAIL",
     "acl.log": "PASS",
     "birthtime.log": "PASS",
     "block-size.log": "PASS",
@@ -685,7 +685,7 @@
     "inotify-race2.log": "SKIP",
     "inotify-rotate-resources.log": "FAIL",
     "inotify-rotate.log": "PASS",
-    "overlay-headers.log": "PASS",
+    "overlay-headers.log": "FAIL",
     "pid-pipe.log": "PASS",
     "pid.log": "PASS",
     "pipe-f.log": "PASS",
@@ -747,7 +747,7 @@
     "truncate-relative.log": "PASS"
   },
   "tty": {
-    "tty-eof.log": "PASS",
+    "tty-eof.log": "FAIL",
     "tty.log": "PASS"
   },
   "uniq": {
