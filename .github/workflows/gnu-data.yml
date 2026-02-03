@@ -44,7 +44,7 @@ jobs:
       uses: actions/checkout@v6
 
     - name: Download the GNU result
-      uses: dawidd6/action-download-artifact@v12
+      uses: dawidd6/action-download-artifact@v14
       with:
         workflow: GnuTests.yml
         name: test-summary
@@ -52,7 +52,7 @@ jobs:
         path: dl
 
     - name: Download the busybox result
-      uses: dawidd6/action-download-artifact@v12
+      uses: dawidd6/action-download-artifact@v14
       with:
         workflow: CICD.yml
         name: busybox-result.json
@@ -60,7 +60,7 @@ jobs:
         path: dl
 
     - name: Download the toybox result
-      uses: dawidd6/action-download-artifact@v12
+      uses: dawidd6/action-download-artifact@v14
       with:
         workflow: CICD.yml
         name: toybox-result.json
@@ -68,7 +68,7 @@ jobs:
         path: dl
 
     - name: Download the individual size result
-      uses: dawidd6/action-download-artifact@v12
+      uses: dawidd6/action-download-artifact@v14
       with:
         workflow: CICD.yml
         name: individual-size-result
@@ -76,7 +76,7 @@ jobs:
         path: dl
 
     - name: Download the size result
-      uses: dawidd6/action-download-artifact@v12
+      uses: dawidd6/action-download-artifact@v14
       with:
         workflow: CICD.yml
         name: size-result
@@ -84,7 +84,7 @@ jobs:
         path: dl
 
     - name: Download the full test report
-      uses: dawidd6/action-download-artifact@v12
+      uses: dawidd6/action-download-artifact@v14
       with:
         workflow: GnuTests.yml
         name: aggregated-result
