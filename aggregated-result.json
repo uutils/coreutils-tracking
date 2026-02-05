@@ -2,7 +2,7 @@
   "basenc": {
     "base64.log": "PASS",
     "basenc.log": "PASS",
-    "bounded-memory.log": "PASS",
+    "bounded-memory.log": "SKIP",
     "large-input.log": "PASS"
   },
   "cat": {
