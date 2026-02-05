@@ -6,7 +6,7 @@ on:
     - main
   pull_request:
   schedule:
-  - cron: "0 2,14 * * *"
+  - cron: "0 2,8,14,20 * * *"
 
 jobs:
   lint:
