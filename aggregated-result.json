@@ -32,6 +32,7 @@
     "inaccessible.log": "PASS",
     "no-x.log": "PASS",
     "octal.log": "PASS",
+    "partial-fail.log": "PASS",
     "setgid.log": "PASS",
     "silent.log": "PASS",
     "symlinks.log": "PASS",
@@ -51,10 +52,10 @@
   },
   "cksum": {
     "b2sum.log": "PASS",
-    "cksum-a.log": "PASS",
+    "cksum-a.log": "FAIL",
     "cksum-base64-untagged.log": "PASS",
     "cksum-base64.log": "PASS",
-    "cksum-c.log": "PASS",
+    "cksum-c.log": "FAIL",
     "cksum-raw.log": "PASS",
     "cksum-sha3.log": "PASS",
     "cksum.log": "PASS",
@@ -146,6 +147,7 @@
     "csplit.log": "PASS"
   },
   "cut": {
+    "bounded-memory.log": "PASS",
     "cut-huge-range.log": "PASS",
     "cut.log": "PASS"
   },
@@ -153,19 +155,22 @@
     "date-debug.log": "FAIL",
     "date-ethiopia.log": "PASS",
     "date-iran.log": "PASS",
-    "date-locale-hour.log": "PASS",
+    "date-locale-hour.log": "FAIL",
     "date-next-dow.log": "PASS",
     "date-sec.log": "PASS",
     "date-thailand.log": "PASS",
     "date-tz.log": "PASS",
     "date.log": "FAIL",
+    "percent-percent.log": "PASS",
     "reference.log": "PASS",
     "resolution.log": "PASS"
   },
   "dd": {
     "ascii.log": "PASS",
     "bytes.log": "PASS",
+    "conv-case.log": "FAIL",
     "direct.log": "PASS",
+    "fail-ftruncate-fstat.log": "SKIP",
     "misc.log": "PASS",
     "no-allocate.log": "PASS",
     "nocache.log": "PASS",
@@ -189,6 +194,7 @@
     "df-symlink.log": "PASS",
     "header.log": "PASS",
     "no-mtab-status-masked-proc.log": "PASS",
+    "no-mtab-status.log": "SKIP",
     "over-mount-device.log": "PASS",
     "problematic-chars.log": "PASS",
     "skip-duplicates.log": "SKIP",
@@ -230,11 +236,15 @@
     "two-args.log": "PASS"
   },
   "env": {
-    "env-S-script.log": "PASS",
-    "env-S.log": "PASS",
+    "env-S-script.log": "SKIP",
+    "env-S.log": "FAIL",
     "env-null.log": "PASS",
-    "env-signal-handler.log": "PASS",
-    "env.log": "PASS"
+    "env-signal-handler.log": "FAIL",
+    "env.log": "SKIP"
+  },
+  "expand": {
+    "bounded-memory.log": "PASS",
+    "expand.log": "PASS"
   },
   "expr": {
     "expr-multibyte.log": "PASS",
@@ -243,44 +253,6 @@
   "factor": {
     "factor-parallel.log": "PASS",
     "factor.log": "PASS",
-    "t00.log": "PASS",
-    "t01.log": "PASS",
-    "t02.log": "PASS",
-    "t03.log": "PASS",
-    "t04.log": "PASS",
-    "t05.log": "PASS",
-    "t06.log": "PASS",
-    "t07.log": "PASS",
-    "t08.log": "PASS",
-    "t09.log": "PASS",
-    "t10.log": "PASS",
-    "t11.log": "PASS",
-    "t12.log": "PASS",
-    "t13.log": "PASS",
-    "t14.log": "PASS",
-    "t15.log": "PASS",
-    "t16.log": "PASS",
-    "t17.log": "PASS",
-    "t18.log": "PASS",
-    "t19.log": "PASS",
-    "t20.log": "PASS",
-    "t21.log": "PASS",
-    "t22.log": "PASS",
-    "t23.log": "PASS",
-    "t24.log": "PASS",
-    "t25.log": "PASS",
-    "t26.log": "FAIL",
-    "t27.log": "FAIL",
-    "t28.log": "PASS",
-    "t29.log": "PASS",
-    "t30.log": "FAIL",
-    "t31.log": "FAIL",
-    "t32.log": "FAIL",
-    "t33.log": "PASS",
-    "t34.log": "PASS",
-    "t35.log": "FAIL",
-    "t36.log": "FAIL",
-    "t37.log": "PASS",
     "t38.log": "PASS",
     "t39.log": "PASS",
     "t40.log": "PASS"
@@ -289,7 +261,8 @@
     "base.log": "PASS",
     "goal-option.log": "PASS",
     "long-line.log": "PASS",
-    "non-space.log": "PASS"
+    "non-space.log": "PASS",
+    "width.log": "FAIL"
   },
   "fold": {
     "fold-characters.log": "PASS",
@@ -311,8 +284,7 @@
     "head.log": "PASS"
   },
   "help": {
-    "help-version-getopt.log": "PASS",
-    "help-version.log": "FAIL"
+    "help-version-getopt.log": "PASS"
   },
   "id": {
     "context.log": "PASS",
@@ -324,7 +296,7 @@
     "zero.log": "PASS"
   },
   "install": {
-    "basic-1.log": "PASS",
+    "basic-1.log": "FAIL",
     "create-leading.log": "PASS",
     "d-slashdot.log": "PASS",
     "install-C-root.log": "PASS",
@@ -368,7 +340,7 @@
     "getxattr-speedup.log": "PASS",
     "group-dirs.log": "PASS",
     "hex-option.log": "PASS",
-    "hyperlink.log": "PASS",
+    "hyperlink.log": "FAIL",
     "infloop.log": "PASS",
     "inode.log": "PASS",
     "ls-misc.log": "PASS",
@@ -380,7 +352,7 @@
     "no-cap.log": "PASS",
     "quote-align.log": "PASS",
     "readdir-mountpoint-inode.log": "PASS",
-    "recursive.log": "PASS",
+    "recursive.log": "FAIL",
     "removed-directory.log": "PASS",
     "root-rel-symlink-color.log": "PASS",
     "rt-1.log": "PASS",
@@ -411,29 +383,27 @@
     "dircolors.log": "PASS",
     "dirname.log": "PASS",
     "echo.log": "PASS",
-    "expand.log": "PASS",
     "false-status.log": "PASS",
+    "getopt_vs_usage.log": "FAIL",
     "invalid-opt.log": "PASS",
-    "kill.log": "PASS",
+    "io-errors.log": "FAIL",
+    "kill.log": "FAIL",
     "mknod.log": "PASS",
-    "mktemp.log": "PASS",
     "nl.log": "PASS",
     "nohup.log": "PASS",
     "option-aliases.log": "PASS",
-    "paste.log": "PASS",
     "pathchk.log": "PASS",
     "printenv.log": "PASS",
-    "read-errors.log": "PASS",
+    "read-errors.log": "FAIL",
     "realpath.log": "PASS",
     "selinux.log": "PASS",
     "sleep.log": "PASS",
     "stdbuf.log": "FAIL",
-    "sync.log": "PASS",
-    "tee.log": "PASS",
+    "sync.log": "FAIL",
     "time-style.log": "PASS",
     "tsort.log": "PASS",
-    "unexpand.log": "PASS",
-    "usage_vs_getopt.log": "FAIL",
+    "usage_vs_getopt.log": "PASS",
+    "usage_vs_refs.log": "FAIL",
     "write-errors.log": "FAIL",
     "xattr.log": "PASS",
     "xstrtol.log": "PASS",
@@ -456,6 +426,10 @@
     "special-1.log": "PASS",
     "t-slash.log": "PASS",
     "writable-under-readonly.log": "PASS"
+  },
+  "mktemp": {
+    "bad-unicode.log": "FAIL",
+    "mktemp.log": "PASS"
   },
   "mv": {
     "acl.log": "PASS",
@@ -485,9 +459,11 @@
     "into-self-4.log": "PASS",
     "into-self.log": "PASS",
     "leak-fd.log": "PASS",
+    "meta-to-xpart.log": "FAIL",
     "mv-exchange.log": "PASS",
     "mv-n.log": "PASS",
-    "mv-special-1.log": "PASS",
+    "mv-special-1.log": "FAIL",
+    "mv-special-2.log": "FAIL",
     "no-copy.log": "PASS",
     "no-target-dir.log": "PASS",
     "part-fail.log": "PASS",
@@ -511,7 +487,8 @@
     "nproc-avail.log": "PASS",
     "nproc-override.log": "PASS",
     "nproc-positive.log": "PASS",
-    "nproc-quota-systemd.log": "FAIL"
+    "nproc-quota-systemd.log": "FAIL",
+    "nproc-quota.log": "SKIP"
   },
   "numfmt": {
     "mb-non-utf8.log": "PASS",
@@ -527,7 +504,12 @@
     "od-x8.log": "PASS",
     "od.log": "PASS"
   },
+  "paste": {
+    "multi-byte.log": "FAIL",
+    "paste.log": "FAIL"
+  },
   "pr": {
+    "bounded-memory.log": "PASS",
     "pr-tests.log": "FAIL"
   },
   "printf": {
@@ -535,16 +517,16 @@
     "printf-hex.log": "PASS",
     "printf-indexed.log": "PASS",
     "printf-mb.log": "PASS",
-    "printf-quote.log": "PASS",
+    "printf-quote.log": "FAIL",
     "printf-surprise.log": "PASS",
     "printf.log": "PASS"
   },
   "ptx": {
     "ptx-overrun.log": "PASS",
-    "ptx.log": "PASS"
+    "ptx.log": "FAIL"
   },
   "pwd": {
-    "pwd-long.log": "PASS",
+    "pwd-long.log": "FAIL",
     "pwd-option.log": "PASS"
   },
   "readlink": {
@@ -575,7 +557,6 @@
     "f-1.log": "PASS",
     "fail-2eperm.log": "PASS",
     "fail-eacces.log": "PASS",
-    "fail-eperm.log": "SKIP",
     "hash.log": "PASS",
     "i-1.log": "PASS",
     "i-never.log": "PASS",
@@ -635,7 +616,7 @@
     "shred-size.log": "PASS"
   },
   "shuf": {
-    "shuf-reservoir.log": "FAIL",
+    "shuf-reservoir.log": "PASS",
     "shuf.log": "PASS"
   },
   "sort": {
@@ -653,12 +634,13 @@
     "sort-files0-from.log": "PASS",
     "sort-float.log": "PASS",
     "sort-h-thousands-sep.log": "PASS",
+    "sort-locale.log": "SKIP",
     "sort-merge-fdlimit.log": "PASS",
     "sort-merge.log": "PASS",
     "sort-month.log": "FAIL",
     "sort-rand.log": "PASS",
     "sort-spinlock-abuse.log": "PASS",
-    "sort-stale-thread-mem.log": "FAIL",
+    "sort-stale-thread-mem.log": "PASS",
     "sort-u-FMR.log": "PASS",
     "sort-unique-segv.log": "PASS",
     "sort-unique.log": "PASS",
@@ -678,6 +660,7 @@
     "numeric.log": "PASS",
     "r-chunk.log": "PASS",
     "record-sep.log": "PASS",
+    "split-io-err.log": "FAIL",
     "suffix-auto-length.log": "PASS",
     "suffix-length.log": "PASS"
   },
@@ -700,7 +683,8 @@
   "tac": {
     "tac-2-nonseekable.log": "PASS",
     "tac-continue.log": "PASS",
-    "tac.log": "PASS"
+    "tac-locale.log": "FAIL",
+    "tac.log": "FAIL"
   },
   "tail": {
     "F-headers.log": "PASS",
@@ -711,6 +695,7 @@
     "assert.log": "PASS",
     "basic-seek.log": "PASS",
     "big-4gb.log": "PASS",
+    "debug.log": "FAIL",
     "descriptor-vs-rename.log": "PASS",
     "end-of-device.log": "PASS",
     "flush-initial.log": "PASS",
@@ -739,6 +724,10 @@
     "tail.log": "PASS",
     "truncate.log": "PASS",
     "wait.log": "PASS"
+  },
+  "tee": {
+    "append.log": "PASS",
+    "tee.log": "PASS"
   },
   "test": {
     "test-N.log": "PASS",
@@ -788,6 +777,10 @@
   "tty": {
     "tty-eof.log": "PASS",
     "tty.log": "PASS"
+  },
+  "unexpand": {
+    "bounded-memory.log": "PASS",
+    "unexpand.log": "PASS"
   },
   "uniq": {
     "uniq-collate.log": "PASS",
