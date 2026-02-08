@@ -428,7 +428,7 @@
     "writable-under-readonly.log": "PASS"
   },
   "mktemp": {
-    "bad-unicode.log": "FAIL",
+    "bad-unicode.log": "PASS",
     "mktemp.log": "PASS"
   },
   "mv": {
@@ -517,7 +517,7 @@
     "printf-hex.log": "PASS",
     "printf-indexed.log": "PASS",
     "printf-mb.log": "PASS",
-    "printf-quote.log": "FAIL",
+    "printf-quote.log": "PASS",
     "printf-surprise.log": "PASS",
     "printf.log": "PASS"
   },
