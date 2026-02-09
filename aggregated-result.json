@@ -719,7 +719,7 @@
     "start-middle.log": "PASS",
     "symlink.log": "PASS",
     "tail-c.log": "PASS",
-    "tail-n0f.log": "PASS",
+    "tail-n0f.log": "SKIP",
     "tail-sysfs.log": "PASS",
     "tail.log": "PASS",
     "truncate.log": "PASS",
