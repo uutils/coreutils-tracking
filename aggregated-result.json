@@ -340,7 +340,7 @@
     "getxattr-speedup.log": "PASS",
     "group-dirs.log": "PASS",
     "hex-option.log": "PASS",
-    "hyperlink.log": "FAIL",
+    "hyperlink.log": "PASS",
     "infloop.log": "PASS",
     "inode.log": "PASS",
     "ls-misc.log": "PASS",
@@ -399,7 +399,7 @@
     "selinux.log": "PASS",
     "sleep.log": "PASS",
     "stdbuf.log": "FAIL",
-    "sync.log": "FAIL",
+    "sync.log": "PASS",
     "time-style.log": "PASS",
     "tsort.log": "PASS",
     "usage_vs_getopt.log": "PASS",
@@ -509,7 +509,7 @@
     "paste.log": "FAIL"
   },
   "pr": {
-    "bounded-memory.log": "PASS",
+    "bounded-memory.log": "FAIL",
     "pr-tests.log": "FAIL"
   },
   "printf": {
@@ -719,7 +719,7 @@
     "start-middle.log": "PASS",
     "symlink.log": "PASS",
     "tail-c.log": "PASS",
-    "tail-n0f.log": "SKIP",
+    "tail-n0f.log": "PASS",
     "tail-sysfs.log": "PASS",
     "tail.log": "PASS",
     "truncate.log": "PASS",
