@@ -236,11 +236,11 @@
     "two-args.log": "PASS"
   },
   "env": {
-    "env-S-script.log": "SKIP",
-    "env-S.log": "FAIL",
+    "env-S-script.log": "PASS",
+    "env-S.log": "PASS",
     "env-null.log": "PASS",
     "env-signal-handler.log": "FAIL",
-    "env.log": "SKIP"
+    "env.log": "PASS"
   },
   "expand": {
     "bounded-memory.log": "PASS",
@@ -296,7 +296,7 @@
     "zero.log": "PASS"
   },
   "install": {
-    "basic-1.log": "FAIL",
+    "basic-1.log": "PASS",
     "create-leading.log": "PASS",
     "d-slashdot.log": "PASS",
     "install-C-root.log": "PASS",
@@ -379,7 +379,7 @@
     "basename.log": "PASS",
     "close-stdout.log": "FAIL",
     "comm.log": "PASS",
-    "coreutils.log": "PASS",
+    "coreutils.log": "SKIP",
     "dircolors.log": "PASS",
     "dirname.log": "PASS",
     "echo.log": "PASS",
@@ -505,8 +505,8 @@
     "od.log": "PASS"
   },
   "paste": {
-    "multi-byte.log": "FAIL",
-    "paste.log": "FAIL"
+    "multi-byte.log": "PASS",
+    "paste.log": "PASS"
   },
   "pr": {
     "bounded-memory.log": "PASS",
@@ -526,7 +526,7 @@
     "ptx.log": "FAIL"
   },
   "pwd": {
-    "pwd-long.log": "FAIL",
+    "pwd-long.log": "PASS",
     "pwd-option.log": "PASS"
   },
   "readlink": {
