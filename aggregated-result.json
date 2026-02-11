@@ -509,7 +509,7 @@
     "paste.log": "PASS"
   },
   "pr": {
-    "bounded-memory.log": "PASS",
+    "bounded-memory.log": "FAIL",
     "pr-tests.log": "FAIL"
   },
   "printf": {
