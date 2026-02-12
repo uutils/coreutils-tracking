@@ -379,7 +379,7 @@
     "basename.log": "PASS",
     "close-stdout.log": "FAIL",
     "comm.log": "PASS",
-    "coreutils.log": "SKIP",
+    "coreutils.log": "PASS",
     "dircolors.log": "PASS",
     "dirname.log": "PASS",
     "echo.log": "PASS",
@@ -523,7 +523,7 @@
   },
   "ptx": {
     "ptx-overrun.log": "PASS",
-    "ptx.log": "FAIL"
+    "ptx.log": "PASS"
   },
   "pwd": {
     "pwd-long.log": "PASS",
@@ -701,7 +701,7 @@
     "flush-initial.log": "PASS",
     "follow-name.log": "FAIL",
     "follow-stdin.log": "PASS",
-    "inotify-dir-recreate.log": "PASS",
+    "inotify-dir-recreate.log": "FAIL",
     "inotify-hash-abuse.log": "PASS",
     "inotify-hash-abuse2.log": "PASS",
     "inotify-only-regular.log": "PASS",
@@ -779,7 +779,7 @@
     "tty.log": "PASS"
   },
   "unexpand": {
-    "bounded-memory.log": "SKIP",
+    "bounded-memory.log": "PASS",
     "unexpand.log": "PASS"
   },
   "uniq": {
