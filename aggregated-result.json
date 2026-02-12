@@ -147,6 +147,7 @@
     "csplit.log": "PASS"
   },
   "cut": {
+    "bounded-memory.log": "PASS",
     "cut-huge-range.log": "PASS",
     "cut.log": "PASS"
   },
@@ -402,7 +403,6 @@
     "time-style.log": "PASS",
     "tsort.log": "PASS",
     "usage_vs_getopt.log": "PASS",
-    "usage_vs_refs.log": "FAIL",
     "write-errors.log": "FAIL",
     "xattr.log": "PASS",
     "xstrtol.log": "PASS",
