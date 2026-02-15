@@ -2,7 +2,7 @@
   "basenc": {
     "base64.log": "PASS",
     "basenc.log": "PASS",
-    "bounded-memory.log": "PASS",
+    "bounded-memory.log": "SKIP",
     "large-input.log": "PASS"
   },
   "cat": {
@@ -141,7 +141,7 @@
   },
   "csplit": {
     "csplit-1000.log": "PASS",
-    "csplit-heap.log": "SKIP",
+    "csplit-heap.log": "PASS",
     "csplit-io-err.log": "PASS",
     "csplit-suppress-matched.log": "PASS",
     "csplit.log": "PASS"
@@ -239,7 +239,7 @@
     "env-S-script.log": "PASS",
     "env-S.log": "PASS",
     "env-null.log": "PASS",
-    "env-signal-handler.log": "SKIP",
+    "env-signal-handler.log": "FAIL",
     "env.log": "PASS"
   },
   "expand": {
@@ -262,8 +262,8 @@
     "t06.log": "PASS",
     "t07.log": "PASS",
     "t08.log": "PASS",
-    "t09.log": "FAIL",
-    "t10.log": "FAIL",
+    "t09.log": "PASS",
+    "t10.log": "PASS",
     "t11.log": "PASS",
     "t12.log": "PASS",
     "t13.log": "PASS",
@@ -286,10 +286,10 @@
     "t30.log": "FAIL",
     "t31.log": "FAIL",
     "t32.log": "FAIL",
-    "t33.log": "FAIL",
-    "t34.log": "FAIL",
+    "t33.log": "PASS",
+    "t34.log": "PASS",
     "t35.log": "FAIL",
-    "t36.log": "PASS",
+    "t36.log": "FAIL",
     "t37.log": "PASS",
     "t38.log": "PASS",
     "t39.log": "PASS",
@@ -361,7 +361,7 @@
   },
   "ls": {
     "a-option.log": "PASS",
-    "abmon-align.log": "FAIL",
+    "abmon-align.log": "PASS",
     "acl.log": "PASS",
     "birthtime.log": "PASS",
     "block-size.log": "PASS",
@@ -425,7 +425,7 @@
     "false-status.log": "PASS",
     "getopt_vs_usage.log": "FAIL",
     "invalid-opt.log": "PASS",
-    "io-errors.log": "FAIL",
+    "io-errors.log": "PASS",
     "kill.log": "FAIL",
     "mknod.log": "PASS",
     "nl.log": "PASS",
@@ -548,7 +548,7 @@
     "paste.log": "PASS"
   },
   "pr": {
-    "bounded-memory.log": "FAIL",
+    "bounded-memory.log": "PASS",
     "pr-tests.log": "FAIL"
   },
   "printf": {
@@ -814,7 +814,7 @@
     "truncate-relative.log": "PASS"
   },
   "tty": {
-    "tty-eof.log": "PASS",
+    "tty-eof.log": "FAIL",
     "tty.log": "PASS"
   },
   "unexpand": {
