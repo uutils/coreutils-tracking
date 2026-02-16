@@ -148,11 +148,11 @@
   },
   "cut": {
     "bounded-memory.log": "PASS",
-    "cut-huge-range.log": "PASS",
+    "cut-huge-range.log": "SKIP",
     "cut.log": "PASS"
   },
   "date": {
-    "date-debug.log": "PASS",
+    "date-debug.log": "FAIL",
     "date-ethiopia.log": "PASS",
     "date-iran.log": "PASS",
     "date-locale-hour.log": "FAIL",
@@ -243,7 +243,7 @@
     "env.log": "PASS"
   },
   "expand": {
-    "bounded-memory.log": "SKIP",
+    "bounded-memory.log": "PASS",
     "expand.log": "PASS"
   },
   "expr": {
@@ -506,7 +506,7 @@
     "paste.log": "PASS"
   },
   "pr": {
-    "bounded-memory.log": "FAIL",
+    "bounded-memory.log": "SKIP",
     "pr-tests.log": "FAIL"
   },
   "printf": {
