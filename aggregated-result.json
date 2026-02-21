@@ -13,7 +13,7 @@
   },
   "chcon": {
     "chcon-fail.log": "PASS",
-    "chcon.log": "FAIL"
+    "chcon.log": "PASS"
   },
   "chgrp": {
     "basic.log": "PASS",
@@ -108,7 +108,7 @@
     "link-symlink.log": "PASS",
     "link.log": "PASS",
     "nfs-removal-race.log": "PASS",
-    "no-ctx.log": "FAIL",
+    "no-ctx.log": "PASS",
     "no-deref-link1.log": "PASS",
     "no-deref-link2.log": "PASS",
     "no-deref-link3.log": "PASS",
@@ -680,8 +680,8 @@
   "tac": {
     "tac-2-nonseekable.log": "PASS",
     "tac-continue.log": "PASS",
-    "tac-locale.log": "FAIL",
-    "tac.log": "FAIL"
+    "tac-locale.log": "PASS",
+    "tac.log": "PASS"
   },
   "tail": {
     "F-headers.log": "PASS",
@@ -716,7 +716,7 @@
     "start-middle.log": "PASS",
     "symlink.log": "PASS",
     "tail-c.log": "PASS",
-    "tail-n0f.log": "SKIP",
+    "tail-n0f.log": "PASS",
     "tail-sysfs.log": "PASS",
     "tail.log": "PASS",
     "truncate.log": "PASS",
