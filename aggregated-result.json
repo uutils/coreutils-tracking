@@ -52,10 +52,10 @@
   },
   "cksum": {
     "b2sum.log": "PASS",
-    "cksum-a.log": "FAIL",
+    "cksum-a.log": "PASS",
     "cksum-base64-untagged.log": "PASS",
     "cksum-base64.log": "PASS",
-    "cksum-c.log": "FAIL",
+    "cksum-c.log": "PASS",
     "cksum-raw.log": "PASS",
     "cksum-sha3.log": "PASS",
     "cksum.log": "PASS",
@@ -506,7 +506,7 @@
     "paste.log": "PASS"
   },
   "pr": {
-    "bounded-memory.log": "FAIL",
+    "bounded-memory.log": "PASS",
     "pr-tests.log": "FAIL"
   },
   "printf": {
@@ -716,7 +716,7 @@
     "start-middle.log": "PASS",
     "symlink.log": "PASS",
     "tail-c.log": "PASS",
-    "tail-n0f.log": "PASS",
+    "tail-n0f.log": "SKIP",
     "tail-sysfs.log": "PASS",
     "tail.log": "PASS",
     "truncate.log": "PASS",
