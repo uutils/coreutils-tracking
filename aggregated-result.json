@@ -155,7 +155,7 @@
     "date-debug.log": "FAIL",
     "date-ethiopia.log": "PASS",
     "date-iran.log": "PASS",
-    "date-locale-hour.log": "PASS",
+    "date-locale-hour.log": "FAIL",
     "date-next-dow.log": "PASS",
     "date-sec.log": "PASS",
     "date-thailand.log": "PASS",
@@ -506,7 +506,7 @@
     "paste.log": "PASS"
   },
   "pr": {
-    "bounded-memory.log": "PASS",
+    "bounded-memory.log": "FAIL",
     "pr-tests.log": "FAIL"
   },
   "printf": {
