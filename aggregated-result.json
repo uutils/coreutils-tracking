@@ -155,7 +155,7 @@
     "date-debug.log": "FAIL",
     "date-ethiopia.log": "PASS",
     "date-iran.log": "PASS",
-    "date-locale-hour.log": "PASS",
+    "date-locale-hour.log": "FAIL",
     "date-next-dow.log": "PASS",
     "date-sec.log": "PASS",
     "date-thailand.log": "PASS",
@@ -506,7 +506,7 @@
     "paste.log": "PASS"
   },
   "pr": {
-    "bounded-memory.log": "FAIL",
+    "bounded-memory.log": "PASS",
     "pr-tests.log": "FAIL"
   },
   "printf": {
@@ -709,10 +709,10 @@
     "overlay-headers.log": "PASS",
     "pid-pipe.log": "PASS",
     "pid.log": "PASS",
-    "pipe-f.log": "SKIP",
+    "pipe-f.log": "PASS",
     "pipe-f2.log": "PASS",
     "proc-ksyms.log": "PASS",
-    "retry.log": "FAIL",
+    "retry.log": "PASS",
     "start-middle.log": "PASS",
     "symlink.log": "PASS",
     "tail-c.log": "PASS",
@@ -776,7 +776,7 @@
     "tty.log": "PASS"
   },
   "unexpand": {
-    "bounded-memory.log": "PASS",
+    "bounded-memory.log": "SKIP",
     "unexpand.log": "PASS"
   },
   "uniq": {
