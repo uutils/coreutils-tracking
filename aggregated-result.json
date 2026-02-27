@@ -147,7 +147,7 @@
     "csplit.log": "PASS"
   },
   "cut": {
-    "bounded-memory.log": "PASS",
+    "bounded-memory.log": "SKIP",
     "cut-huge-range.log": "PASS",
     "cut.log": "PASS"
   },
@@ -506,7 +506,7 @@
     "paste.log": "PASS"
   },
   "pr": {
-    "bounded-memory.log": "PASS",
+    "bounded-memory.log": "FAIL",
     "pr-tests.log": "FAIL"
   },
   "printf": {
@@ -564,7 +564,7 @@
     "interactive-once.log": "PASS",
     "ir-1.log": "PASS",
     "isatty.log": "PASS",
-    "many-dir-entries-vs-OOM.log": "PASS",
+    "many-dir-entries-vs-OOM.log": "SKIP",
     "no-give-up.log": "PASS",
     "one-file-system.log": "FAIL",
     "one-file-system2.log": "PASS",
