@@ -148,14 +148,14 @@
   },
   "cut": {
     "bounded-memory.log": "PASS",
-    "cut-huge-range.log": "SKIP",
+    "cut-huge-range.log": "PASS",
     "cut.log": "PASS"
   },
   "date": {
     "date-debug.log": "FAIL",
     "date-ethiopia.log": "PASS",
     "date-iran.log": "PASS",
-    "date-locale-hour.log": "FAIL",
+    "date-locale-hour.log": "PASS",
     "date-next-dow.log": "PASS",
     "date-sec.log": "PASS",
     "date-thailand.log": "PASS",
@@ -772,7 +772,7 @@
     "truncate-relative.log": "PASS"
   },
   "tty": {
-    "tty-eof.log": "PASS",
+    "tty-eof.log": "FAIL",
     "tty.log": "PASS"
   },
   "unexpand": {
