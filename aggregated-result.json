@@ -148,7 +148,7 @@
   },
   "cut": {
     "bounded-memory.log": "PASS",
-    "cut-huge-range.log": "PASS",
+    "cut-huge-range.log": "SKIP",
     "cut.log": "PASS"
   },
   "date": {
@@ -506,7 +506,7 @@
     "paste.log": "PASS"
   },
   "pr": {
-    "bounded-memory.log": "FAIL",
+    "bounded-memory.log": "PASS",
     "pr-tests.log": "FAIL"
   },
   "printf": {
@@ -714,7 +714,7 @@
     "proc-ksyms.log": "PASS",
     "retry.log": "PASS",
     "start-middle.log": "PASS",
-    "symlink.log": "FAIL",
+    "symlink.log": "PASS",
     "tail-c.log": "PASS",
     "tail-n0f.log": "PASS",
     "tail-sysfs.log": "PASS",
@@ -772,7 +772,7 @@
     "truncate-relative.log": "PASS"
   },
   "tty": {
-    "tty-eof.log": "FAIL",
+    "tty-eof.log": "PASS",
     "tty.log": "PASS"
   },
   "unexpand": {
