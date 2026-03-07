@@ -155,7 +155,7 @@
     "date-debug.log": "FAIL",
     "date-ethiopia.log": "PASS",
     "date-iran.log": "PASS",
-    "date-locale-hour.log": "FAIL",
+    "date-locale-hour.log": "PASS",
     "date-next-dow.log": "PASS",
     "date-sec.log": "PASS",
     "date-thailand.log": "PASS",
@@ -163,7 +163,7 @@
     "date.log": "PASS",
     "percent-percent.log": "PASS",
     "reference.log": "PASS",
-    "resolution.log": "FAIL"
+    "resolution.log": "PASS"
   },
   "dd": {
     "ascii.log": "PASS",
@@ -239,7 +239,7 @@
     "env-S-script.log": "PASS",
     "env-S.log": "PASS",
     "env-null.log": "PASS",
-    "env-signal-handler.log": "FAIL",
+    "env-signal-handler.log": "SKIP",
     "env.log": "PASS"
   },
   "expand": {
