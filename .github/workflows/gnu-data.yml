@@ -152,6 +152,7 @@ jobs:
       with:
         default_author: github_actions
         message: "Update of the data"
+        pull: '--rebase --autostash'
 
     - name: Generate the graphs
       shell: bash
@@ -169,6 +170,7 @@ jobs:
         default_author: github_actions
         message: "Refresh the GNU graph"
         add: gnu-results.svg
+        pull: '--rebase --autostash'
 
     - name: Add & Commit the busybox graph
       if: github.event_name != 'pull_request'
@@ -177,6 +179,7 @@ jobs:
         default_author: github_actions
         message: "Refresh the busybox graph"
         add: busybox-results.svg
+        pull: '--rebase --autostash'
 
     - name: Add & Commit the toybox graph
       if: github.event_name != 'pull_request'
@@ -185,6 +188,7 @@ jobs:
         default_author: github_actions
         message: "Refresh the toybox graph"
         add: toybox-results.svg
+        pull: '--rebase --autostash'
 
     - name: Add & Commit the individual size graph
       if: github.event_name != 'pull_request'
@@ -193,6 +197,7 @@ jobs:
         default_author: github_actions
         message: "Refresh the individual size graph"
         add: individual-size-results
+        pull: '--rebase --autostash'
 
     - name: Add & Commit the size graph
       if: github.event_name != 'pull_request'
@@ -201,3 +206,4 @@ jobs:
         default_author: github_actions
         message: "Refresh the size graph"
         add: size-results.svg
+        pull: '--rebase --autostash'
