@@ -54,7 +54,7 @@ jobs:
     - name: Download the busybox result
       uses: dawidd6/action-download-artifact@v16
       with:
-        workflow: CICD.yml
+        workflow: make.yml
         name: busybox-result.json
         repo: uutils/coreutils
         path: dl
@@ -62,7 +62,7 @@ jobs:
     - name: Download the toybox result
       uses: dawidd6/action-download-artifact@v16
       with:
-        workflow: CICD.yml
+        workflow: make.yml
         name: toybox-result.json
         repo: uutils/coreutils
         path: dl
@@ -70,7 +70,7 @@ jobs:
     - name: Download the individual size result
       uses: dawidd6/action-download-artifact@v16
       with:
-        workflow: CICD.yml
+        workflow: make.yml
         name: individual-size-result
         repo: uutils/coreutils
         path: dl
@@ -78,7 +78,7 @@ jobs:
     - name: Download the size result
       uses: dawidd6/action-download-artifact@v16
       with:
-        workflow: CICD.yml
+        workflow: make.yml
         name: size-result
         repo: uutils/coreutils
         path: dl
