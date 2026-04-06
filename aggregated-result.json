@@ -81,7 +81,7 @@
     "backup-dir.log": "PASS",
     "backup-is-src.log": "PASS",
     "capability.log": "PASS",
-    "copy-FMR.log": "PASS",
+    "copy-FMR.log": "SKIP",
     "cp-HL.log": "PASS",
     "cp-a-selinux.log": "PASS",
     "cp-deref.log": "PASS",
@@ -102,7 +102,7 @@
     "into-self.log": "PASS",
     "keep-directory-symlink.log": "PASS",
     "link-deref.log": "PASS",
-    "link-heap.log": "PASS",
+    "link-heap.log": "SKIP",
     "link-no-deref.log": "PASS",
     "link-preserve.log": "PASS",
     "link-symlink.log": "PASS",
@@ -168,7 +168,7 @@
   "dd": {
     "ascii.log": "PASS",
     "bytes.log": "PASS",
-    "conv-case.log": "FAIL",
+    "conv-case.log": "PASS",
     "direct.log": "PASS",
     "fail-ftruncate-fstat.log": "SKIP",
     "misc.log": "PASS",
@@ -376,7 +376,7 @@
     "basename.log": "PASS",
     "close-stdout.log": "FAIL",
     "comm.log": "PASS",
-    "coreutils.log": "SKIP",
+    "coreutils.log": "PASS",
     "dircolors.log": "PASS",
     "dirname.log": "PASS",
     "echo.log": "PASS",
@@ -418,7 +418,7 @@
     "perm.log": "PASS",
     "restorecon.log": "PASS",
     "selinux.log": "PASS",
-    "smack-no-root.log": "PASS",
+    "smack-no-root.log": "FAIL",
     "smack-root.log": "PASS",
     "special-1.log": "PASS",
     "t-slash.log": "PASS",
@@ -489,7 +489,7 @@
   },
   "numfmt": {
     "mb-non-utf8.log": "PASS",
-    "numfmt.log": "FAIL"
+    "numfmt.log": "PASS"
   },
   "od": {
     "big-w.log": "PASS",
@@ -575,7 +575,7 @@
     "r-root.log": "SKIP",
     "read-only.log": "PASS",
     "readdir-bug.log": "PASS",
-    "rm-readdir-fail.log": "SKIP",
+    "rm-readdir-fail.log": "FAIL",
     "rm1.log": "PASS",
     "rm2.log": "PASS",
     "rm3.log": "PASS",
@@ -613,7 +613,7 @@
     "shred-size.log": "PASS"
   },
   "shuf": {
-    "shuf-reservoir.log": "PASS",
+    "shuf-reservoir.log": "SKIP",
     "shuf.log": "PASS"
   },
   "sort": {
@@ -634,11 +634,11 @@
     "sort-locale.log": "SKIP",
     "sort-merge-fdlimit.log": "PASS",
     "sort-merge.log": "PASS",
-    "sort-month.log": "FAIL",
+    "sort-month.log": "PASS",
     "sort-rand.log": "PASS",
     "sort-spinlock-abuse.log": "PASS",
-    "sort-stale-thread-mem.log": "PASS",
-    "sort-u-FMR.log": "PASS",
+    "sort-stale-thread-mem.log": "SKIP",
+    "sort-u-FMR.log": "SKIP",
     "sort-unique-segv.log": "PASS",
     "sort-unique.log": "PASS",
     "sort-version.log": "PASS",
