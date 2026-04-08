@@ -506,7 +506,7 @@
     "paste.log": "PASS"
   },
   "pr": {
-    "bounded-memory.log": "FAIL",
+    "bounded-memory.log": "PASS",
     "pr-tests.log": "FAIL"
   },
   "printf": {
@@ -563,7 +563,7 @@
     "interactive-always.log": "PASS",
     "interactive-once.log": "PASS",
     "ir-1.log": "PASS",
-    "isatty.log": "PASS",
+    "isatty.log": "FAIL",
     "many-dir-entries-vs-OOM.log": "PASS",
     "no-give-up.log": "PASS",
     "one-file-system.log": "FAIL",
@@ -598,7 +598,7 @@
     "runcon-no-reorder.log": "PASS"
   },
   "seq": {
-    "seq-epipe.log": "PASS",
+    "seq-epipe.log": "SKIP",
     "seq-extra-number.log": "PASS",
     "seq-io-errors.log": "PASS",
     "seq-locale.log": "PASS",
@@ -716,7 +716,7 @@
     "start-middle.log": "PASS",
     "symlink.log": "PASS",
     "tail-c.log": "PASS",
-    "tail-n0f.log": "PASS",
+    "tail-n0f.log": "SKIP",
     "tail-sysfs.log": "PASS",
     "tail.log": "PASS",
     "truncate.log": "PASS",
