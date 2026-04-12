@@ -107,7 +107,7 @@
     "link-preserve.log": "PASS",
     "link-symlink.log": "PASS",
     "link.log": "PASS",
-    "nfs-removal-race.log": "PASS",
+    "nfs-removal-race.log": "SKIP",
     "no-ctx.log": "PASS",
     "no-deref-link1.log": "PASS",
     "no-deref-link2.log": "PASS",
@@ -147,8 +147,8 @@
     "csplit.log": "PASS"
   },
   "cut": {
-    "bounded-memory.log": "PASS",
-    "cut-huge-range.log": "SKIP",
+    "bounded-memory.log": "SKIP",
+    "cut-huge-range.log": "PASS",
     "cut.log": "PASS"
   },
   "date": {
@@ -194,7 +194,6 @@
     "df-symlink.log": "PASS",
     "header.log": "PASS",
     "no-mtab-status-masked-proc.log": "PASS",
-    "no-mtab-status.log": "SKIP",
     "over-mount-device.log": "PASS",
     "problematic-chars.log": "PASS",
     "skip-duplicates.log": "SKIP",
@@ -716,7 +715,7 @@
     "start-middle.log": "PASS",
     "symlink.log": "PASS",
     "tail-c.log": "PASS",
-    "tail-n0f.log": "FAIL",
+    "tail-n0f.log": "PASS",
     "tail-sysfs.log": "PASS",
     "tail.log": "PASS",
     "truncate.log": "PASS",
@@ -772,7 +771,7 @@
     "truncate-relative.log": "PASS"
   },
   "tty": {
-    "tty-eof.log": "FAIL",
+    "tty-eof.log": "PASS",
     "tty.log": "PASS"
   },
   "unexpand": {
