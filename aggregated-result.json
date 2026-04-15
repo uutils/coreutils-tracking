@@ -141,7 +141,7 @@
   },
   "csplit": {
     "csplit-1000.log": "PASS",
-    "csplit-heap.log": "PASS",
+    "csplit-heap.log": "SKIP",
     "csplit-io-err.log": "PASS",
     "csplit-suppress-matched.log": "PASS",
     "csplit.log": "PASS"
@@ -163,7 +163,7 @@
     "date.log": "PASS",
     "percent-percent.log": "PASS",
     "reference.log": "PASS",
-    "resolution.log": "PASS"
+    "resolution.log": "FAIL"
   },
   "dd": {
     "ascii.log": "PASS",
@@ -238,7 +238,7 @@
     "env-S-script.log": "PASS",
     "env-S.log": "PASS",
     "env-null.log": "PASS",
-    "env-signal-handler.log": "FAIL",
+    "env-signal-handler.log": "SKIP",
     "env.log": "PASS"
   },
   "expand": {
@@ -505,7 +505,7 @@
     "paste.log": "PASS"
   },
   "pr": {
-    "bounded-memory.log": "PASS",
+    "bounded-memory.log": "FAIL",
     "pr-tests.log": "FAIL"
   },
   "printf": {
@@ -775,7 +775,7 @@
     "tty.log": "PASS"
   },
   "unexpand": {
-    "bounded-memory.log": "SKIP",
+    "bounded-memory.log": "PASS",
     "unexpand.log": "PASS"
   },
   "uniq": {
