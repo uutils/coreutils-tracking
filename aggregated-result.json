@@ -238,11 +238,11 @@
     "env-S-script.log": "PASS",
     "env-S.log": "PASS",
     "env-null.log": "PASS",
-    "env-signal-handler.log": "FAIL",
+    "env-signal-handler.log": "SKIP",
     "env.log": "PASS"
   },
   "expand": {
-    "bounded-memory.log": "PASS",
+    "bounded-memory.log": "SKIP",
     "expand.log": "PASS"
   },
   "expr": {
@@ -505,7 +505,7 @@
     "paste.log": "PASS"
   },
   "pr": {
-    "bounded-memory.log": "FAIL",
+    "bounded-memory.log": "PASS",
     "pr-tests.log": "FAIL"
   },
   "printf": {
@@ -514,7 +514,7 @@
     "printf-indexed.log": "PASS",
     "printf-mb.log": "PASS",
     "printf-quote.log": "PASS",
-    "printf-surprise.log": "PASS",
+    "printf-surprise.log": "SKIP",
     "printf.log": "PASS"
   },
   "ptx": {
@@ -562,7 +562,7 @@
     "interactive-always.log": "PASS",
     "interactive-once.log": "PASS",
     "ir-1.log": "PASS",
-    "isatty.log": "PASS",
+    "isatty.log": "FAIL",
     "many-dir-entries-vs-OOM.log": "PASS",
     "no-give-up.log": "PASS",
     "one-file-system.log": "FAIL",
@@ -597,7 +597,7 @@
     "runcon-no-reorder.log": "PASS"
   },
   "seq": {
-    "seq-epipe.log": "PASS",
+    "seq-epipe.log": "SKIP",
     "seq-extra-number.log": "PASS",
     "seq-io-errors.log": "PASS",
     "seq-locale.log": "PASS",
@@ -708,7 +708,7 @@
     "overlay-headers.log": "PASS",
     "pid-pipe.log": "PASS",
     "pid.log": "PASS",
-    "pipe-f.log": "PASS",
+    "pipe-f.log": "SKIP",
     "pipe-f2.log": "PASS",
     "proc-ksyms.log": "PASS",
     "retry.log": "PASS",
