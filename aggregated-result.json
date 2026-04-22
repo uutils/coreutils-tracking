@@ -163,7 +163,7 @@
     "date.log": "PASS",
     "percent-percent.log": "PASS",
     "reference.log": "PASS",
-    "resolution.log": "PASS"
+    "resolution.log": "FAIL"
   },
   "dd": {
     "ascii.log": "PASS",
@@ -505,7 +505,7 @@
     "paste.log": "PASS"
   },
   "pr": {
-    "bounded-memory.log": "FAIL",
+    "bounded-memory.log": "PASS",
     "pr-tests.log": "FAIL"
   },
   "printf": {
@@ -775,7 +775,7 @@
     "tty.log": "PASS"
   },
   "unexpand": {
-    "bounded-memory.log": "PASS",
+    "bounded-memory.log": "SKIP",
     "unexpand.log": "PASS"
   },
   "uniq": {
