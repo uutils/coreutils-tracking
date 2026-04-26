@@ -2,7 +2,7 @@
   "basenc": {
     "base64.log": "PASS",
     "basenc.log": "PASS",
-    "bounded-memory.log": "PASS",
+    "bounded-memory.log": "SKIP",
     "large-input.log": "PASS"
   },
   "cat": {
@@ -160,7 +160,7 @@
     "date-debug.log": "FAIL",
     "date-ethiopia.log": "PASS",
     "date-iran.log": "PASS",
-    "date-locale-hour.log": "FAIL",
+    "date-locale-hour.log": "PASS",
     "date-next-dow.log": "PASS",
     "date-sec.log": "PASS",
     "date-thailand.log": "PASS",
@@ -802,7 +802,7 @@
     "tty.log": "PASS"
   },
   "unexpand": {
-    "bounded-memory.log": "PASS",
+    "bounded-memory.log": "SKIP",
     "mb.log": "FAIL",
     "unexpand.log": "PASS"
   },
