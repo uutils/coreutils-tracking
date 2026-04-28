@@ -64,18 +64,6 @@ df_long = df_plot.melt(id_vars="date", var_name="category", value_name="count")
 df_long["count"] = pd.to_numeric(df_long["count"], errors="coerce")
 df_long["count_smooth"] = apply_smoothing(df_long, "category", "count")
 
-# Subtle area fill under the total line for visual weight.
-total_series = pd.to_numeric(df_plot["total"], errors="coerce")
-ax.fill_between(
-    df_plot["date"],
-    0,
-    total_series,
-    alpha=0.18,
-    color=palette["total"],
-    zorder=1,
-    linewidth=0,
-)
-
 sns.lineplot(
     data=df_long,
     x="date",
