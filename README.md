@@ -50,4 +50,4 @@ Tracks how much `unsafe` Rust the project relies on. The total counts
 ![Unsafe evolution](unsafe-results.svg)
 
 Data lives in [unsafe-result.json](unsafe-result.json). Counting logic is in
-`unsafe_count.py`; historical data was seeded with `backfill_unsafe.py`.
+`unsafe_count.py`
