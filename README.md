@@ -39,3 +39,15 @@ https://github.com/landley/toybox/tree/master/tests
 Refreshed once a day by github actions.
 
 Compares only the Linux execution.
+
+## `unsafe` usage evolution
+
+Tracks how much `unsafe` Rust the project relies on. The total counts
+`unsafe { … }` blocks, `unsafe fn`/`impl`/`trait`/`extern` items and
+`#[unsafe(...)]` attributes (Rust 2024) across all `.rs` files outside
+`vendor/` and `target/`.
+
+![Unsafe evolution](unsafe-results.svg)
+
+Data lives in [unsafe-result.json](unsafe-result.json). Counting logic is in
+`unsafe_count.py`; historical data was seeded with `backfill_unsafe.py`.

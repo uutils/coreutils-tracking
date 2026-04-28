@@ -44,6 +44,13 @@ jobs:
     - name: Checkout repo
       uses: actions/checkout@v6
 
+    - name: Checkout uutils/coreutils for unsafe counting
+      uses: actions/checkout@v6
+      with:
+        repository: uutils/coreutils
+        path: uutils-coreutils
+        fetch-depth: 1
+
     - name: Download the GNU result
       uses: dawidd6/action-download-artifact@v20
       with:
@@ -146,6 +153,15 @@ jobs:
 
        rm -rf dl
 
+    - name: Update unsafe count for the latest commit
+      shell: bash
+      run: |
+       python3 unsafe_count.py uutils-coreutils > unsafe-latest.json
+       cat unsafe-latest.json
+       jq -s '.[0] * .[1]' unsafe-result.json unsafe-latest.json > merged.json
+       mv merged.json unsafe-result.json
+       rm -f unsafe-latest.json
+
     - name: Add & Commit
       if: github.event_name != 'pull_request'
       uses: EndBug/add-and-commit@v10.0.0
@@ -162,6 +178,7 @@ jobs:
         python graph.py toybox-result.json Toybox
         python individual-size-graph.py individual-size-result.json
         python size-graph.py size-result.json
+        python unsafe-graph.py unsafe-result.json
 
     - name: Add & Commit the GNU graph
       if: github.event_name != 'pull_request'
@@ -206,4 +223,13 @@ jobs:
         default_author: github_actions
         message: "Refresh the size graph"
         add: size-results.svg
+        pull: '--rebase --autostash'
+
+    - name: Add & Commit the unsafe graph
+      if: github.event_name != 'pull_request'
+      uses: EndBug/add-and-commit@v10.0.0
+      with:
+        default_author: github_actions
+        message: "Refresh the unsafe graph"
+        add: unsafe-results.svg
         pull: '--rebase --autostash'
