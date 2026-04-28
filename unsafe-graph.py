@@ -3,7 +3,10 @@
 # For the full copyright and license information, please view the LICENSE
 # file that was distributed with this source code.
 
-"""Render unsafe-result.json as an SVG, breaking the total down by category."""
+"""Render unsafe-result.json with two stacked panels:
+top — code vs test split, bottom — per-keyword type breakdown.
+Both panels share an x-axis so trends line up vertically.
+"""
 
 import sys
 
@@ -15,7 +18,6 @@ from graph_common import (
     setup_theme,
     apply_smoothing,
     style_axes,
-    add_title,
     style_legend,
 )
 
@@ -33,106 +35,101 @@ print(df)
 
 setup_theme()
 
-fig, ax = plt.subplots(figsize=(18, 9), dpi=100)
-
-# Color palette tuned for the unsafe categories. `total` is the heavyweight
-# blue line; the per-category lines sit underneath.
 palette = {
     "total": "#0066CC",
-    "blocks": "#10B981",
-    "fn": "#EF4444",
-    "extern": "#F59E0B",
+    "code": "#10B981",
+    "test": "#F59E0B",
+    "blocks": "#6366F1",
+    "extern": "#EF4444",
     "attr": "#8B5CF6",
-    "impl": "#EC4899",
-    "trait": "#14B8A6",
+    "fn": "#EC4899",
+    "impl": "#14B8A6",
+    "trait": "#A16207",
 }
-
-# Keep only the categories that actually have non-zero values to avoid a
-# legend cluttered with flat-zero lines (impl/trait have been zero for years).
-categories = ["total", "blocks", "fn", "extern", "attr", "impl", "trait"]
-present = []
-for col in categories:
-    if col not in df.columns:
-        continue
-    vals = pd.to_numeric(df[col], errors="coerce").fillna(0)
-    if col == "total" or vals.max() > 0:
-        present.append(col)
-
-df_plot = df[present].copy().reset_index()
-df_plot.rename(columns={df_plot.columns[0]: "date"}, inplace=True)
-df_long = df_plot.melt(id_vars="date", var_name="category", value_name="count")
-df_long["count"] = pd.to_numeric(df_long["count"], errors="coerce")
-df_long["count_smooth"] = apply_smoothing(df_long, "category", "count")
-
-sns.lineplot(
-    data=df_long,
-    x="date",
-    y="count_smooth",
-    hue="category",
-    palette={k: palette[k] for k in present},
-    hue_order=present,
-    linewidth=3.5,
-    ax=ax,
-    markers=False,
-    dashes=False,
-    alpha=1,
-    zorder=3,
-)
-
-add_title(
-    ax,
-    "uutils coreutils — `unsafe` Usage Over Time",
-    "Tracking unsafe blocks, fns, externs and attributes across the codebase",
-)
-
-style_axes(ax, xlabel="Date", ylabel="Count of `unsafe` lines")
 
 label_map = {
     "total": "Total",
+    "code": "Code (src/, uucore/, …)",
+    "test": "Tests (tests/, fuzz/)",
     "blocks": "unsafe { … }",
-    "fn": "unsafe fn",
     "extern": "unsafe extern",
     "attr": "#[unsafe(…)]",
+    "fn": "unsafe fn",
     "impl": "unsafe impl",
     "trait": "unsafe trait",
 }
-handles, labels = ax.get_legend_handles_labels()
-labels = [label_map.get(label, label) for label in labels]
-style_legend(ax, handles, labels, ncol=len(present), loc="upper left")
 
-# Latest-snapshot box (mirrors the GNU graph).
-latest = df.iloc[-1]
-total_val = int(pd.to_numeric(latest["total"], errors="coerce") or 0)
-parts = []
-for col in ["blocks", "fn", "extern", "attr", "impl", "trait"]:
-    if col in latest:
-        n = int(pd.to_numeric(latest[col], errors="coerce") or 0)
-        if n > 0:
-            parts.append(f"{label_map[col]}: {n}")
 
-textstr = f"Latest:\nTotal: {total_val}\n" + "\n".join(parts)
-props = dict(
-    boxstyle="round,pad=0.8",
-    facecolor="#FFFFFF",
-    edgecolor="#D1D5DB",
-    linewidth=2,
-    alpha=0.95,
+def plot_panel(ax, df, series, ylabel):
+    """Plot total + the given series on `ax`, no area fills."""
+    cols = ["total"] + series
+    df_plot = df[cols].copy().reset_index()
+    df_plot.rename(columns={df_plot.columns[0]: "date"}, inplace=True)
+    for col in cols:
+        df_plot[col] = pd.to_numeric(df_plot[col], errors="coerce")
+
+    df_long = df_plot.melt(id_vars="date", var_name="series", value_name="count")
+    df_long["count_smooth"] = apply_smoothing(df_long, "series", "count")
+
+    sns.lineplot(
+        data=df_long,
+        x="date",
+        y="count_smooth",
+        hue="series",
+        palette={k: palette[k] for k in cols},
+        hue_order=cols,
+        linewidth=3,
+        ax=ax,
+        markers=False,
+        dashes=False,
+        alpha=1,
+        zorder=3,
+    )
+    style_axes(ax, xlabel="Date", ylabel=ylabel)
+
+    handles, labels = ax.get_legend_handles_labels()
+    labels = [label_map.get(label, label) for label in labels]
+    style_legend(ax, handles, labels, ncol=len(cols), loc="upper left")
+
+
+# Drop type series that have stayed at 0 across the whole history.
+all_types = ["blocks", "extern", "attr", "fn", "impl", "trait"]
+type_series = [
+    col
+    for col in all_types
+    if col in df.columns and pd.to_numeric(df[col], errors="coerce").fillna(0).max() > 0
+]
+
+fig, (ax_top, ax_bot) = plt.subplots(2, 1, figsize=(18, 14), dpi=100, sharex=True)
+
+plot_panel(ax_top, df, ["code", "test"], "Code vs Tests")
+plot_panel(ax_bot, df, type_series, "By keyword type")
+
+# Shared title/subtitle above the top panel.
+fig.suptitle(
+    "uutils coreutils — `unsafe` Usage Over Time",
+    fontsize=26,
+    fontweight="bold",
+    color="#1a1a1a",
+    y=0.995,
 )
-ax.text(
-    0.98,
-    1.15,
-    textstr,
-    transform=ax.transAxes,
+fig.text(
+    0.5,
+    0.965,
+    "Top: code vs tests/fuzz. Bottom: breakdown by `unsafe` keyword form.",
+    ha="center",
+    va="top",
     fontsize=13,
-    verticalalignment="top",
-    horizontalalignment="right",
-    bbox=props,
-    color="#374151",
-    fontweight="600",
-    zorder=10,
+    color="#6B7280",
+    style="italic",
+    alpha=0.9,
 )
 
-plt.tight_layout()
+# Hide the upper panel's x-tick labels — they duplicate the lower panel's.
+plt.setp(ax_top.get_xticklabels(), visible=False)
+ax_top.set_xlabel("")
+
+plt.tight_layout(rect=[0, 0, 1, 0.94])
 
 plt.savefig(
     "unsafe-results.svg",

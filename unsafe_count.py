@@ -5,16 +5,23 @@
 
 """Count `unsafe` usage in a uutils/coreutils checkout at a given revision.
 
-Categories counted (one match per source line):
-  blocks  — `unsafe { ... }` blocks
-  fn      — `unsafe fn` items
-  impl    — `unsafe impl` items
-  trait   — `unsafe trait` items
-  extern  — `unsafe extern` items
-  attr    — `#[unsafe(...)]` attributes (Rust 2024 edition)
+For each `.rs` file outside `vendor/` and `target/`, we bucket each line that
+contains an `unsafe` keyword form into:
 
-Vendored and build directories are excluded so historical numbers stay
-comparable across the repository's evolution.
+  type buckets — one per syntactic kind:
+    blocks  — `unsafe { ... }`
+    fn      — `unsafe fn` items
+    impl    — `unsafe impl`
+    trait   — `unsafe trait`
+    extern  — `unsafe extern`
+    attr    — `#[unsafe(...)]` attributes (Rust 2024 edition)
+
+  location buckets — one per source area:
+    code    — production source
+    test    — paths under `tests/` or `fuzz/`
+
+A line contributes to exactly one type bucket and exactly one location bucket.
+`total = sum(types) = code + test`.
 """
 
 import argparse
@@ -23,34 +30,34 @@ import re
 import subprocess
 import sys
 
-EXCLUDES = (
-    ":!vendor/**",
-    ":!target/**",
-    ":!**/target/**",
-)
-
 # Each pattern is anchored on `\bunsafe` and matches the keyword followed by
-# its expected punctuation/keyword. We count one hit per line, which matches
-# how the source is normally formatted.
-PATTERNS = {
-    "blocks": r"\bunsafe\s*\{",
-    "fn": r"\bunsafe\s+fn\b",
-    "impl": r"\bunsafe\s+impl\b",
-    "trait": r"\bunsafe\s+trait\b",
-    "extern": r"\bunsafe\s+extern\b",
-    "attr": r"#\[unsafe\(",
-}
+# its expected punctuation/keyword. Order matters — more specific matches
+# (`fn`, `impl`, ...) before the catch-all `{`.
+TYPE_PATTERNS: list[tuple[str, re.Pattern]] = [
+    ("attr", re.compile(r"#\[unsafe\(")),
+    ("fn", re.compile(r"\bunsafe\s+fn\b")),
+    ("impl", re.compile(r"\bunsafe\s+impl\b")),
+    ("trait", re.compile(r"\bunsafe\s+trait\b")),
+    ("extern", re.compile(r"\bunsafe\s+extern\b")),
+    ("blocks", re.compile(r"\bunsafe\s*\{")),
+]
+TYPES = [name for name, _ in TYPE_PATTERNS]
 
 
 def git(repo: str, *args: str) -> str:
     return subprocess.check_output(["git", "-C", repo, *args], text=True)
 
 
+def is_test_path(path: str) -> bool:
+    parts = path.split("/")
+    return "tests" in parts or "fuzz" in parts
+
+
 def count_at(repo: str, sha: str) -> dict[str, int]:
-    counts = {key: 0 for key in PATTERNS}
-    # Pull all .rs files at the given revision once, then grep through them
-    # with python regexes so we don't depend on the host's grep flavor and
-    # don't shell out per-pattern.
+    counts = {t: 0 for t in TYPES}
+    counts["code"] = 0
+    counts["test"] = 0
+
     files = git(repo, "ls-tree", "-r", "--name-only", sha).splitlines()
     rs_files = [
         f
@@ -64,9 +71,8 @@ def count_at(repo: str, sha: str) -> dict[str, int]:
     if not rs_files:
         return counts
 
-    compiled = {key: re.compile(pat) for key, pat in PATTERNS.items()}
-    # Fetch file contents in batch via `git show` per file (cheap with packfiles).
     for path in rs_files:
+        location = "test" if is_test_path(path) else "code"
         try:
             blob = git(repo, "show", f"{sha}:{path}")
         except subprocess.CalledProcessError:
@@ -75,10 +81,11 @@ def count_at(repo: str, sha: str) -> dict[str, int]:
             stripped = line.lstrip()
             if stripped.startswith("//") or stripped.startswith("*"):
                 continue
-            for key, regex in compiled.items():
+            for type_name, regex in TYPE_PATTERNS:
                 if regex.search(line):
-                    counts[key] += 1
-                    break  # one category per line
+                    counts[type_name] += 1
+                    counts[location] += 1
+                    break
     return counts
 
 
@@ -101,12 +108,12 @@ def main() -> int:
     date = git(args.repo, "show", "-s", f"--format={args.date_format}", sha).strip()
 
     counts = count_at(args.repo, sha)
-    total = sum(counts.values())
-
     entry = {
         "sha": sha,
-        "total": str(total),
-        **{k: str(v) for k, v in counts.items()},
+        "total": str(counts["code"] + counts["test"]),
+        "code": str(counts["code"]),
+        "test": str(counts["test"]),
+        **{t: str(counts[t]) for t in TYPES},
     }
     json.dump({date: entry}, sys.stdout, indent=2)
     sys.stdout.write("\n")
