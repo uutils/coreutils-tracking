@@ -235,13 +235,13 @@ def add_gnu_release_markers(ax, x_min, x_max, y_max, releases=GNU_COREUTILS_RELE
             )
             ax.text(
                 rel_date,
-                y_max * 1.01,
+                y_max * 0.02,
                 f"v{version}",
                 rotation=90,
                 fontsize=10,
                 color="#374151",
                 ha="right",
-                va="top",
+                va="bottom",
                 alpha=0.85,
                 zorder=4,
             )
