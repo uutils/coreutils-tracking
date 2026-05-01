@@ -200,6 +200,53 @@ def style_legend(ax, handles, labels, ncol=1, loc="upper left"):
     return legend
 
 
+GNU_COREUTILS_RELEASES = [
+    ("9.0", "2021-09-24"),
+    ("9.1", "2022-04-15"),
+    ("9.2", "2023-03-20"),
+    ("9.3", "2023-04-18"),
+    ("9.4", "2023-08-29"),
+    ("9.5", "2024-03-28"),
+    ("9.6", "2025-01-17"),
+    ("9.7", "2025-04-09"),
+    ("9.8", "2025-09-22"),
+    ("9.9", "2025-11-10"),
+    ("9.10", "2026-02-04"),
+    ("9.11", "2026-04-23"),
+]
+
+
+def add_gnu_release_markers(ax, x_min, x_max, y_max, releases=GNU_COREUTILS_RELEASES):
+    """Draw vertical bars at GNU coreutils release dates within the data range."""
+    import pandas as pd
+
+    x_min = pd.to_datetime(x_min, utc=True)
+    x_max = pd.to_datetime(x_max, utc=True)
+    for version, date_str in releases:
+        rel_date = pd.to_datetime(date_str, utc=True)
+        if x_min <= rel_date <= x_max:
+            ax.axvline(
+                x=rel_date,
+                color="#6B7280",
+                linestyle="--",
+                linewidth=1.2,
+                alpha=0.6,
+                zorder=2,
+            )
+            ax.text(
+                rel_date,
+                y_max * 1.01,
+                f"v{version}",
+                rotation=90,
+                fontsize=10,
+                color="#374151",
+                ha="right",
+                va="top",
+                alpha=0.85,
+                zorder=4,
+            )
+
+
 def add_reference_lines(ax, y_max):
     """Add horizontal reference lines at key values.
 

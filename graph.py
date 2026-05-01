@@ -17,6 +17,7 @@ from graph_common import (
     add_title,
     style_legend,
     add_reference_lines,
+    add_gnu_release_markers,
 )
 
 if len(sys.argv) <= 2:
@@ -99,6 +100,10 @@ style_axes(ax, xlabel="Date", ylabel="Number of Tests")
 # Add reference lines
 y_max = df_plot_long["count_smooth"].max()
 add_reference_lines(ax, y_max)
+
+# Add vertical bars for GNU coreutils releases
+if title.lower() == "gnu":
+    add_gnu_release_markers(ax, df_plot["date"].min(), df_plot["date"].max(), y_max)
 
 # Style legend
 handles, labels = ax.get_legend_handles_labels()
