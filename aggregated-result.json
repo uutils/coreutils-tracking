@@ -2,7 +2,7 @@
   "basenc": {
     "base64.log": "PASS",
     "basenc.log": "PASS",
-    "bounded-memory.log": "SKIP",
+    "bounded-memory.log": "PASS",
     "large-input.log": "PASS"
   },
   "cat": {
@@ -151,7 +151,7 @@
     "csplit.log": "PASS"
   },
   "cut": {
-    "bounded-memory.log": "FAIL",
+    "bounded-memory.log": "PASS",
     "cut-huge-range.log": "PASS",
     "cut.log": "FAIL",
     "mb-non-utf8.log": "FAIL"
@@ -511,7 +511,7 @@
   },
   "numfmt": {
     "mb-non-utf8.log": "PASS",
-    "numfmt.log": "FAIL"
+    "numfmt.log": "PASS"
   },
   "od": {
     "big-w.log": "PASS",
@@ -537,7 +537,7 @@
     "printf-indexed.log": "PASS",
     "printf-mb.log": "PASS",
     "printf-quote.log": "PASS",
-    "printf-surprise.log": "SKIP",
+    "printf-surprise.log": "PASS",
     "printf.log": "PASS"
   },
   "ptx": {
@@ -583,7 +583,7 @@
     "i-never.log": "PASS",
     "i-no-r.log": "PASS",
     "ignorable.log": "PASS",
-    "inaccessible.log": "FAIL",
+    "inaccessible.log": "PASS",
     "interactive-always.log": "PASS",
     "interactive-once.log": "PASS",
     "ir-1.log": "PASS",
@@ -739,7 +739,7 @@
     "proc-ksyms.log": "PASS",
     "retry.log": "PASS",
     "start-middle.log": "PASS",
-    "symlink.log": "FAIL",
+    "symlink.log": "PASS",
     "tail-c.log": "PASS",
     "tail-n0f.log": "PASS",
     "tail-sysfs.log": "PASS",
