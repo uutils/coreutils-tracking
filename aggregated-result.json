@@ -168,7 +168,7 @@
     "date.log": "FAIL",
     "percent-percent.log": "PASS",
     "reference.log": "PASS",
-    "resolution.log": "PASS"
+    "resolution.log": "FAIL"
   },
   "dd": {
     "ascii.log": "PASS",
@@ -177,7 +177,7 @@
     "direct.log": "PASS",
     "fail-ftruncate-fstat.log": "SKIP",
     "misc.log": "PASS",
-    "no-allocate.log": "PASS",
+    "no-allocate.log": "SKIP",
     "nocache.log": "PASS",
     "nocache_eof.log": "PASS",
     "nocache_fail.log": "PASS",
@@ -259,7 +259,7 @@
   },
   "factor": {
     "factor-parallel.log": "PASS",
-    "factor.log": "FAIL"
+    "factor.log": "PASS"
   },
   "fmt": {
     "base.log": "PASS",
@@ -721,7 +721,7 @@
     "descriptor-vs-rename.log": "PASS",
     "end-of-device.log": "PASS",
     "flush-initial.log": "PASS",
-    "follow-name.log": "PASS",
+    "follow-name.log": "FAIL",
     "follow-stdin.log": "PASS",
     "inotify-dir-recreate.log": "PASS",
     "inotify-hash-abuse.log": "PASS",
