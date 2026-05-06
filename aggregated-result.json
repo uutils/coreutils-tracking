@@ -151,7 +151,7 @@
     "csplit.log": "PASS"
   },
   "cut": {
-    "bounded-memory.log": "SKIP",
+    "bounded-memory.log": "PASS",
     "cut-huge-range.log": "PASS",
     "cut.log": "FAIL",
     "mb-non-utf8.log": "FAIL"
@@ -160,7 +160,7 @@
     "date-debug.log": "FAIL",
     "date-ethiopia.log": "PASS",
     "date-iran.log": "PASS",
-    "date-locale-hour.log": "FAIL",
+    "date-locale-hour.log": "PASS",
     "date-next-dow.log": "PASS",
     "date-sec.log": "PASS",
     "date-thailand.log": "PASS",
@@ -688,7 +688,7 @@
   },
   "stat": {
     "stat-birthtime.log": "PASS",
-    "stat-fmt.log": "FAIL",
+    "stat-fmt.log": "PASS",
     "stat-hyphen.log": "PASS",
     "stat-mount.log": "PASS",
     "stat-nanoseconds.log": "PASS",
@@ -739,9 +739,9 @@
     "proc-ksyms.log": "PASS",
     "retry.log": "PASS",
     "start-middle.log": "PASS",
-    "symlink.log": "FAIL",
+    "symlink.log": "PASS",
     "tail-c.log": "PASS",
-    "tail-n0f.log": "FAIL",
+    "tail-n0f.log": "PASS",
     "tail-sysfs.log": "PASS",
     "tail.log": "PASS",
     "truncate.log": "PASS",
