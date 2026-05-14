@@ -249,7 +249,7 @@
     "env.log": "PASS"
   },
   "expand": {
-    "bounded-memory.log": "PASS",
+    "bounded-memory.log": "SKIP",
     "expand.log": "PASS",
     "mb.log": "FAIL"
   },
@@ -528,7 +528,7 @@
     "paste.log": "PASS"
   },
   "pr": {
-    "bounded-memory.log": "SKIP",
+    "bounded-memory.log": "FAIL",
     "pr-tests.log": "FAIL"
   },
   "printf": {
@@ -537,7 +537,7 @@
     "printf-indexed.log": "PASS",
     "printf-mb.log": "PASS",
     "printf-quote.log": "PASS",
-    "printf-surprise.log": "PASS",
+    "printf-surprise.log": "SKIP",
     "printf.log": "PASS"
   },
   "ptx": {
