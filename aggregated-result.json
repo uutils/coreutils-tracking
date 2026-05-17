@@ -83,7 +83,7 @@
     "backup-dir.log": "PASS",
     "backup-is-src.log": "PASS",
     "capability.log": "PASS",
-    "copy-FMR.log": "SKIP",
+    "copy-FMR.log": "PASS",
     "cp-HL.log": "PASS",
     "cp-a-selinux.log": "ERROR",
     "cp-deref.log": "PASS",
@@ -121,7 +121,7 @@
     "preserve-2.log": "PASS",
     "preserve-gid.log": "PASS",
     "preserve-link.log": "PASS",
-    "preserve-mode.log": "PASS",
+    "preserve-mode.log": "FAIL",
     "preserve-slink-time.log": "PASS",
     "proc-short-read.log": "PASS",
     "proc-zero-len.log": "PASS",
@@ -151,7 +151,7 @@
     "csplit.log": "PASS"
   },
   "cut": {
-    "bounded-memory.log": "FAIL",
+    "bounded-memory.log": "PASS",
     "cut-huge-range.log": "PASS",
     "cut.log": "FAIL",
     "mb-non-utf8.log": "FAIL"
@@ -245,7 +245,7 @@
     "env-S-script.log": "PASS",
     "env-S.log": "PASS",
     "env-null.log": "PASS",
-    "env-signal-handler.log": "FAIL",
+    "env-signal-handler.log": "SKIP",
     "env.log": "PASS"
   },
   "expand": {
@@ -405,7 +405,7 @@
     "read-errors.log": "FAIL",
     "realpath.log": "PASS",
     "responsive.log": "FAIL",
-    "selinux.log": "PASS",
+    "selinux.log": "FAIL",
     "sleep.log": "PASS",
     "stdbuf.log": "FAIL",
     "sync.log": "PASS",
@@ -414,7 +414,7 @@
     "tty-eof.log": "PASS",
     "usage_vs_getopt.log": "PASS",
     "usage_vs_refs.log": "FAIL",
-    "user.log": "FAIL",
+    "user.log": "PASS",
     "warning-errors.log": "FAIL",
     "write-errors.log": "FAIL",
     "xattr.log": "PASS",
@@ -499,8 +499,8 @@
   },
   "nl": {
     "multibyte.log": "FAIL",
-    "multiple-files.log": "FAIL",
-    "nl.log": "FAIL"
+    "multiple-files.log": "PASS",
+    "nl.log": "PASS"
   },
   "nproc": {
     "nproc-avail.log": "PASS",
@@ -528,7 +528,7 @@
     "paste.log": "PASS"
   },
   "pr": {
-    "bounded-memory.log": "SKIP",
+    "bounded-memory.log": "FAIL",
     "pr-tests.log": "FAIL"
   },
   "printf": {
@@ -537,7 +537,7 @@
     "printf-indexed.log": "PASS",
     "printf-mb.log": "PASS",
     "printf-quote.log": "PASS",
-    "printf-surprise.log": "PASS",
+    "printf-surprise.log": "SKIP",
     "printf.log": "PASS"
   },
   "ptx": {
@@ -622,7 +622,7 @@
     "runcon-no-reorder.log": "PASS"
   },
   "seq": {
-    "seq-epipe.log": "PASS",
+    "seq-epipe.log": "SKIP",
     "seq-extra-number.log": "PASS",
     "seq-io-errors.log": "PASS",
     "seq-locale.log": "PASS",
@@ -637,7 +637,7 @@
     "shred-size.log": "PASS"
   },
   "shuf": {
-    "shuf-reservoir.log": "SKIP",
+    "shuf-reservoir.log": "PASS",
     "shuf.log": "FAIL"
   },
   "sort": {
@@ -661,8 +661,8 @@
     "sort-month.log": "PASS",
     "sort-rand.log": "PASS",
     "sort-spinlock-abuse.log": "PASS",
-    "sort-stale-thread-mem.log": "SKIP",
-    "sort-u-FMR.log": "SKIP",
+    "sort-stale-thread-mem.log": "PASS",
+    "sort-u-FMR.log": "PASS",
     "sort-unique-segv.log": "PASS",
     "sort-unique.log": "PASS",
     "sort-version.log": "PASS",
@@ -769,12 +769,12 @@
     "60-seconds.log": "PASS",
     "dangling-symlink.log": "PASS",
     "dir-1.log": "PASS",
-    "empty-file.log": "PASS",
+    "empty-file.log": "FAIL",
     "fail-diag.log": "PASS",
-    "fifo.log": "PASS",
+    "fifo.log": "FAIL",
     "no-create-missing.log": "PASS",
     "no-dereference.log": "PASS",
-    "no-rights.log": "PASS",
+    "no-rights.log": "FAIL",
     "not-owner.log": "PASS",
     "now-owned-by-other.log": "PASS",
     "obsolescent.log": "PASS",
