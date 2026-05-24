@@ -168,7 +168,7 @@
     "date.log": "FAIL",
     "percent-percent.log": "PASS",
     "reference.log": "PASS",
-    "resolution.log": "FAIL"
+    "resolution.log": "PASS"
   },
   "dd": {
     "ascii.log": "PASS",
@@ -416,7 +416,7 @@
     "usage_vs_refs.log": "FAIL",
     "user.log": "PASS",
     "warning-errors.log": "FAIL",
-    "write-errors.log": "FAIL",
+    "write-errors.log": "SKIP",
     "xattr.log": "PASS",
     "xstrtol.log": "PASS",
     "yes.log": "PASS"
@@ -528,7 +528,7 @@
     "paste.log": "PASS"
   },
   "pr": {
-    "bounded-memory.log": "FAIL",
+    "bounded-memory.log": "PASS",
     "pr-tests.log": "FAIL"
   },
   "printf": {
