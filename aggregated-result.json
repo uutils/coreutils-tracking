@@ -151,7 +151,7 @@
     "csplit.log": "PASS"
   },
   "cut": {
-    "bounded-memory.log": "FAIL",
+    "bounded-memory.log": "PASS",
     "cut-huge-range.log": "PASS",
     "cut.log": "FAIL",
     "mb-non-utf8.log": "FAIL"
@@ -160,7 +160,7 @@
     "date-debug.log": "FAIL",
     "date-ethiopia.log": "PASS",
     "date-iran.log": "PASS",
-    "date-locale-hour.log": "FAIL",
+    "date-locale-hour.log": "PASS",
     "date-next-dow.log": "PASS",
     "date-sec.log": "PASS",
     "date-thailand.log": "PASS",
@@ -177,7 +177,7 @@
     "direct.log": "PASS",
     "fail-ftruncate-fstat.log": "SKIP",
     "misc.log": "PASS",
-    "no-allocate.log": "SKIP",
+    "no-allocate.log": "PASS",
     "nocache.log": "PASS",
     "nocache_eof.log": "PASS",
     "nocache_fail.log": "PASS",
