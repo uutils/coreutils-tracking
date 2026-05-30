@@ -160,7 +160,7 @@
     "date-debug.log": "FAIL",
     "date-ethiopia.log": "PASS",
     "date-iran.log": "PASS",
-    "date-locale-hour.log": "PASS",
+    "date-locale-hour.log": "FAIL",
     "date-next-dow.log": "PASS",
     "date-sec.log": "PASS",
     "date-thailand.log": "PASS",
@@ -528,7 +528,7 @@
     "paste.log": "PASS"
   },
   "pr": {
-    "bounded-memory.log": "FAIL",
+    "bounded-memory.log": "PASS",
     "pr-tests.log": "FAIL"
   },
   "printf": {
@@ -732,7 +732,7 @@
     "inotify-rotate-resources.log": "FAIL",
     "inotify-rotate.log": "PASS",
     "overlay-headers.log": "PASS",
-    "pid-pipe.log": "PASS",
+    "pid-pipe.log": "FAIL",
     "pid.log": "PASS",
     "pipe-f.log": "PASS",
     "pipe-f2.log": "PASS",
