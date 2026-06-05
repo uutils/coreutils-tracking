@@ -160,7 +160,7 @@
     "date-debug.log": "FAIL",
     "date-ethiopia.log": "PASS",
     "date-iran.log": "PASS",
-    "date-locale-hour.log": "PASS",
+    "date-locale-hour.log": "FAIL",
     "date-next-dow.log": "PASS",
     "date-sec.log": "PASS",
     "date-thailand.log": "PASS",
@@ -545,8 +545,8 @@
     "ptx.log": "PASS"
   },
   "pwd": {
-    "argument.log": "FAIL",
-    "pwd-long.log": "FAIL",
+    "argument.log": "PASS",
+    "pwd-long.log": "PASS",
     "pwd-option.log": "PASS"
   },
   "readlink": {
