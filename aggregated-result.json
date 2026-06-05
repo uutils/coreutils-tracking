@@ -104,7 +104,7 @@
     "into-self.log": "PASS",
     "keep-directory-symlink.log": "PASS",
     "link-deref.log": "PASS",
-    "link-heap.log": "SKIP",
+    "link-heap.log": "PASS",
     "link-no-deref.log": "PASS",
     "link-preserve.log": "PASS",
     "link-symlink.log": "PASS",
@@ -245,7 +245,7 @@
     "env-S-script.log": "PASS",
     "env-S.log": "PASS",
     "env-null.log": "PASS",
-    "env-signal-handler.log": "FAIL",
+    "env-signal-handler.log": "SKIP",
     "env.log": "PASS"
   },
   "expand": {
@@ -528,7 +528,7 @@
     "paste.log": "PASS"
   },
   "pr": {
-    "bounded-memory.log": "FAIL",
+    "bounded-memory.log": "PASS",
     "pr-tests.log": "FAIL"
   },
   "printf": {
@@ -734,10 +734,10 @@
     "overlay-headers.log": "PASS",
     "pid-pipe.log": "PASS",
     "pid.log": "PASS",
-    "pipe-f.log": "SKIP",
+    "pipe-f.log": "PASS",
     "pipe-f2.log": "PASS",
     "proc-ksyms.log": "PASS",
-    "retry.log": "PASS",
+    "retry.log": "FAIL",
     "start-middle.log": "PASS",
     "symlink.log": "PASS",
     "tail-c.log": "PASS",
