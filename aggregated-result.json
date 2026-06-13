@@ -145,13 +145,13 @@
   },
   "csplit": {
     "csplit-1000.log": "PASS",
-    "csplit-heap.log": "PASS",
+    "csplit-heap.log": "SKIP",
     "csplit-io-err.log": "PASS",
     "csplit-suppress-matched.log": "PASS",
     "csplit.log": "PASS"
   },
   "cut": {
-    "bounded-memory.log": "SKIP",
+    "bounded-memory.log": "PASS",
     "cut-huge-range.log": "PASS",
     "cut.log": "FAIL",
     "mb-non-utf8.log": "FAIL"
@@ -411,7 +411,7 @@
     "sync.log": "PASS",
     "time-style.log": "PASS",
     "tsort.log": "PASS",
-    "tty-eof.log": "PASS",
+    "tty-eof.log": "FAIL",
     "usage_vs_getopt.log": "PASS",
     "usage_vs_refs.log": "FAIL",
     "user.log": "PASS",
@@ -741,7 +741,7 @@
     "start-middle.log": "PASS",
     "symlink.log": "PASS",
     "tail-c.log": "PASS",
-    "tail-n0f.log": "SKIP",
+    "tail-n0f.log": "FAIL",
     "tail-sysfs.log": "PASS",
     "tail.log": "PASS",
     "truncate.log": "PASS",
@@ -760,7 +760,7 @@
   "timeout": {
     "init-parent.log": "PASS",
     "timeout-blocked.log": "PASS",
-    "timeout-group.log": "FAIL",
+    "timeout-group.log": "PASS",
     "timeout-large-parameters.log": "PASS",
     "timeout-parameters.log": "PASS",
     "timeout.log": "PASS"
