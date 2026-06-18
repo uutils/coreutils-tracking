@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repo
-      uses: actions/checkout@v6
+      uses: actions/checkout@v7
 
     - name: Set up Python
       uses: actions/setup-python@v6
@@ -42,10 +42,10 @@ jobs:
         sudo apt-get install jq python3-pandas python3-matplotlib python3-seaborn fonts-dejavu-core
 
     - name: Checkout repo
-      uses: actions/checkout@v6
+      uses: actions/checkout@v7
 
     - name: Checkout uutils/coreutils for unsafe counting
-      uses: actions/checkout@v6
+      uses: actions/checkout@v7
       with:
         repository: uutils/coreutils
         path: uutils-coreutils
