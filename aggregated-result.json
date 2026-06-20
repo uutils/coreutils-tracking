@@ -104,7 +104,7 @@
     "into-self.log": "PASS",
     "keep-directory-symlink.log": "PASS",
     "link-deref.log": "PASS",
-    "link-heap.log": "PASS",
+    "link-heap.log": "SKIP",
     "link-no-deref.log": "PASS",
     "link-preserve.log": "PASS",
     "link-symlink.log": "PASS",
@@ -151,7 +151,7 @@
     "csplit.log": "PASS"
   },
   "cut": {
-    "bounded-memory.log": "SKIP",
+    "bounded-memory.log": "PASS",
     "cut-huge-range.log": "PASS",
     "cut.log": "FAIL",
     "mb-non-utf8.log": "FAIL"
@@ -168,7 +168,7 @@
     "date.log": "FAIL",
     "percent-percent.log": "PASS",
     "reference.log": "PASS",
-    "resolution.log": "FAIL"
+    "resolution.log": "PASS"
   },
   "dd": {
     "ascii.log": "PASS",
@@ -177,7 +177,7 @@
     "direct.log": "PASS",
     "fail-ftruncate-fstat.log": "SKIP",
     "misc.log": "PASS",
-    "no-allocate.log": "PASS",
+    "no-allocate.log": "SKIP",
     "nocache.log": "PASS",
     "nocache_eof.log": "PASS",
     "nocache_fail.log": "SKIP",
@@ -528,7 +528,7 @@
     "paste.log": "PASS"
   },
   "pr": {
-    "bounded-memory.log": "PASS",
+    "bounded-memory.log": "FAIL",
     "pr-tests.log": "FAIL"
   },
   "printf": {
@@ -588,7 +588,7 @@
     "interactive-once.log": "PASS",
     "ir-1.log": "PASS",
     "isatty.log": "PASS",
-    "many-dir-entries-vs-OOM.log": "SKIP",
+    "many-dir-entries-vs-OOM.log": "PASS",
     "no-give-up.log": "PASS",
     "one-file-system.log": "PASS",
     "one-file-system2.log": "PASS",
@@ -622,7 +622,7 @@
     "runcon-no-reorder.log": "PASS"
   },
   "seq": {
-    "seq-epipe.log": "PASS",
+    "seq-epipe.log": "SKIP",
     "seq-extra-number.log": "PASS",
     "seq-io-errors.log": "PASS",
     "seq-locale.log": "PASS",
@@ -734,7 +734,7 @@
     "overlay-headers.log": "PASS",
     "pid-pipe.log": "PASS",
     "pid.log": "PASS",
-    "pipe-f.log": "PASS",
+    "pipe-f.log": "SKIP",
     "pipe-f2.log": "PASS",
     "proc-ksyms.log": "PASS",
     "retry.log": "PASS",
