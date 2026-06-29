@@ -306,7 +306,7 @@
     "d-slashdot.log": "PASS",
     "install-C-root.log": "PASS",
     "install-C-selinux.log": "PASS",
-    "install-C.log": "FAIL",
+    "install-C.log": "PASS",
     "install-Z-selinux.log": "PASS",
     "strip-program.log": "PASS",
     "trap.log": "PASS"
@@ -537,7 +537,7 @@
     "printf-indexed.log": "PASS",
     "printf-mb.log": "PASS",
     "printf-quote.log": "PASS",
-    "printf-surprise.log": "PASS",
+    "printf-surprise.log": "SKIP",
     "printf.log": "PASS"
   },
   "ptx": {
@@ -741,7 +741,7 @@
     "start-middle.log": "PASS",
     "symlink.log": "PASS",
     "tail-c.log": "PASS",
-    "tail-n0f.log": "SKIP",
+    "tail-n0f.log": "PASS",
     "tail-sysfs.log": "PASS",
     "tail.log": "PASS",
     "truncate.log": "PASS",
