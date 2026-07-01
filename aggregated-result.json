@@ -104,7 +104,7 @@
     "into-self.log": "PASS",
     "keep-directory-symlink.log": "PASS",
     "link-deref.log": "PASS",
-    "link-heap.log": "SKIP",
+    "link-heap.log": "PASS",
     "link-no-deref.log": "PASS",
     "link-preserve.log": "PASS",
     "link-symlink.log": "PASS",
@@ -151,7 +151,7 @@
     "csplit.log": "PASS"
   },
   "cut": {
-    "bounded-memory.log": "FAIL",
+    "bounded-memory.log": "PASS",
     "cut-huge-range.log": "PASS",
     "cut.log": "FAIL",
     "mb-non-utf8.log": "FAIL"
@@ -587,8 +587,8 @@
     "interactive-always.log": "PASS",
     "interactive-once.log": "PASS",
     "ir-1.log": "PASS",
-    "isatty.log": "FAIL",
-    "many-dir-entries-vs-OOM.log": "PASS",
+    "isatty.log": "PASS",
+    "many-dir-entries-vs-OOM.log": "SKIP",
     "no-give-up.log": "PASS",
     "one-file-system.log": "PASS",
     "one-file-system2.log": "PASS",
@@ -732,7 +732,7 @@
     "inotify-rotate-resources.log": "FAIL",
     "inotify-rotate.log": "PASS",
     "overlay-headers.log": "PASS",
-    "pid-pipe.log": "FAIL",
+    "pid-pipe.log": "PASS",
     "pid.log": "PASS",
     "pipe-f.log": "PASS",
     "pipe-f2.log": "PASS",
