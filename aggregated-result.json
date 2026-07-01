@@ -151,7 +151,7 @@
     "csplit.log": "PASS"
   },
   "cut": {
-    "bounded-memory.log": "PASS",
+    "bounded-memory.log": "FAIL",
     "cut-huge-range.log": "PASS",
     "cut.log": "FAIL",
     "mb-non-utf8.log": "FAIL"
@@ -537,7 +537,7 @@
     "printf-indexed.log": "PASS",
     "printf-mb.log": "PASS",
     "printf-quote.log": "PASS",
-    "printf-surprise.log": "PASS",
+    "printf-surprise.log": "SKIP",
     "printf.log": "PASS"
   },
   "ptx": {
@@ -622,7 +622,7 @@
     "runcon-no-reorder.log": "PASS"
   },
   "seq": {
-    "seq-epipe.log": "PASS",
+    "seq-epipe.log": "SKIP",
     "seq-extra-number.log": "PASS",
     "seq-io-errors.log": "PASS",
     "seq-locale.log": "PASS",
