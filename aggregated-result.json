@@ -151,7 +151,7 @@
     "csplit.log": "PASS"
   },
   "cut": {
-    "bounded-memory.log": "SKIP",
+    "bounded-memory.log": "PASS",
     "cut-huge-range.log": "PASS",
     "cut.log": "FAIL",
     "mb-non-utf8.log": "FAIL"
@@ -160,7 +160,7 @@
     "date-debug.log": "FAIL",
     "date-ethiopia.log": "PASS",
     "date-iran.log": "PASS",
-    "date-locale-hour.log": "FAIL",
+    "date-locale-hour.log": "PASS",
     "date-next-dow.log": "PASS",
     "date-sec.log": "PASS",
     "date-thailand.log": "PASS",
@@ -464,7 +464,7 @@
     "hardlink-case.log": "PASS",
     "i-1.log": "PASS",
     "i-2.log": "PASS",
-    "i-3.log": "PASS",
+    "i-3.log": "SKIP",
     "i-4.log": "PASS",
     "i-5.log": "PASS",
     "i-link-no.log": "PASS",
@@ -528,7 +528,7 @@
     "paste.log": "PASS"
   },
   "pr": {
-    "bounded-memory.log": "PASS",
+    "bounded-memory.log": "FAIL",
     "pr-tests.log": "FAIL"
   },
   "printf": {
@@ -537,7 +537,7 @@
     "printf-indexed.log": "PASS",
     "printf-mb.log": "PASS",
     "printf-quote.log": "PASS",
-    "printf-surprise.log": "SKIP",
+    "printf-surprise.log": "PASS",
     "printf.log": "PASS"
   },
   "ptx": {
@@ -696,11 +696,11 @@
     "stat-slash.log": "PASS"
   },
   "stty": {
-    "bad-speed.log": "PASS",
-    "stty-invalid.log": "PASS",
-    "stty-pairs.log": "PASS",
-    "stty-row-col.log": "PASS",
-    "stty.log": "PASS"
+    "bad-speed.log": "SKIP",
+    "stty-invalid.log": "SKIP",
+    "stty-pairs.log": "SKIP",
+    "stty-row-col.log": "SKIP",
+    "stty.log": "SKIP"
   },
   "tac": {
     "tac-2-nonseekable.log": "PASS",
