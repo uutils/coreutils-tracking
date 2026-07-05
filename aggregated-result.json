@@ -151,7 +151,7 @@
     "csplit.log": "PASS"
   },
   "cut": {
-    "bounded-memory.log": "PASS",
+    "bounded-memory.log": "SKIP",
     "cut-huge-range.log": "PASS",
     "cut.log": "FAIL",
     "mb-non-utf8.log": "FAIL"
@@ -160,7 +160,7 @@
     "date-debug.log": "FAIL",
     "date-ethiopia.log": "PASS",
     "date-iran.log": "PASS",
-    "date-locale-hour.log": "PASS",
+    "date-locale-hour.log": "FAIL",
     "date-next-dow.log": "PASS",
     "date-sec.log": "PASS",
     "date-thailand.log": "PASS",
@@ -245,7 +245,7 @@
     "env-S-script.log": "PASS",
     "env-S.log": "PASS",
     "env-null.log": "PASS",
-    "env-signal-handler.log": "SKIP",
+    "env-signal-handler.log": "FAIL",
     "env.log": "PASS"
   },
   "expand": {
@@ -537,7 +537,7 @@
     "printf-indexed.log": "PASS",
     "printf-mb.log": "PASS",
     "printf-quote.log": "PASS",
-    "printf-surprise.log": "PASS",
+    "printf-surprise.log": "SKIP",
     "printf.log": "PASS"
   },
   "ptx": {
