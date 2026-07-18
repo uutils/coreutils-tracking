@@ -151,7 +151,7 @@
     "csplit.log": "PASS"
   },
   "cut": {
-    "bounded-memory.log": "PASS",
+    "bounded-memory.log": "FAIL",
     "cut-huge-range.log": "PASS",
     "cut.log": "FAIL",
     "mb-non-utf8.log": "FAIL"
@@ -168,7 +168,7 @@
     "date.log": "FAIL",
     "percent-percent.log": "PASS",
     "reference.log": "PASS",
-    "resolution.log": "FAIL"
+    "resolution.log": "PASS"
   },
   "dd": {
     "ascii.log": "PASS",
@@ -411,7 +411,7 @@
     "sync.log": "PASS",
     "time-style.log": "PASS",
     "tsort.log": "PASS",
-    "tty-eof.log": "PASS",
+    "tty-eof.log": "FAIL",
     "usage_vs_getopt.log": "PASS",
     "usage_vs_refs.log": "FAIL",
     "user.log": "PASS",
@@ -737,7 +737,7 @@
     "pipe-f.log": "PASS",
     "pipe-f2.log": "PASS",
     "proc-ksyms.log": "PASS",
-    "retry.log": "FAIL",
+    "retry.log": "PASS",
     "start-middle.log": "PASS",
     "symlink.log": "PASS",
     "tail-c.log": "PASS",
@@ -760,7 +760,7 @@
   "timeout": {
     "init-parent.log": "PASS",
     "timeout-blocked.log": "PASS",
-    "timeout-group.log": "FAIL",
+    "timeout-group.log": "PASS",
     "timeout-large-parameters.log": "PASS",
     "timeout-parameters.log": "PASS",
     "timeout.log": "PASS"
