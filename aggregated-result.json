@@ -177,7 +177,7 @@
     "direct.log": "PASS",
     "fail-ftruncate-fstat.log": "SKIP",
     "misc.log": "PASS",
-    "no-allocate.log": "PASS",
+    "no-allocate.log": "SKIP",
     "nocache.log": "PASS",
     "nocache_eof.log": "PASS",
     "nocache_fail.log": "SKIP",
@@ -249,7 +249,7 @@
     "env.log": "PASS"
   },
   "expand": {
-    "bounded-memory.log": "PASS",
+    "bounded-memory.log": "SKIP",
     "expand.log": "PASS",
     "mb.log": "FAIL"
   },
@@ -741,7 +741,7 @@
     "start-middle.log": "PASS",
     "symlink.log": "PASS",
     "tail-c.log": "PASS",
-    "tail-n0f.log": "PASS",
+    "tail-n0f.log": "FAIL",
     "tail-sysfs.log": "PASS",
     "tail.log": "PASS",
     "truncate.log": "PASS",
