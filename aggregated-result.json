@@ -151,7 +151,7 @@
     "csplit.log": "PASS"
   },
   "cut": {
-    "bounded-memory.log": "PASS",
+    "bounded-memory.log": "FAIL",
     "cut-huge-range.log": "PASS",
     "cut.log": "FAIL",
     "mb-non-utf8.log": "FAIL"
@@ -245,7 +245,7 @@
     "env-S-script.log": "PASS",
     "env-S.log": "PASS",
     "env-null.log": "PASS",
-    "env-signal-handler.log": "SKIP",
+    "env-signal-handler.log": "FAIL",
     "env.log": "PASS"
   },
   "expand": {
@@ -528,7 +528,7 @@
     "paste.log": "PASS"
   },
   "pr": {
-    "bounded-memory.log": "PASS",
+    "bounded-memory.log": "FAIL",
     "pr-tests.log": "FAIL"
   },
   "printf": {
@@ -537,7 +537,7 @@
     "printf-indexed.log": "PASS",
     "printf-mb.log": "PASS",
     "printf-quote.log": "PASS",
-    "printf-surprise.log": "SKIP",
+    "printf-surprise.log": "PASS",
     "printf.log": "PASS"
   },
   "ptx": {
@@ -739,7 +739,7 @@
     "proc-ksyms.log": "PASS",
     "retry.log": "PASS",
     "start-middle.log": "PASS",
-    "symlink.log": "FAIL",
+    "symlink.log": "PASS",
     "tail-c.log": "PASS",
     "tail-n0f.log": "PASS",
     "tail-sysfs.log": "PASS",
