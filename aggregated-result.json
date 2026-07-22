@@ -121,7 +121,7 @@
     "preserve-2.log": "PASS",
     "preserve-gid.log": "PASS",
     "preserve-link.log": "PASS",
-    "preserve-mode.log": "FAIL",
+    "preserve-mode.log": "PASS",
     "preserve-slink-time.log": "PASS",
     "proc-short-read.log": "PASS",
     "proc-zero-len.log": "PASS",
@@ -151,7 +151,7 @@
     "csplit.log": "PASS"
   },
   "cut": {
-    "bounded-memory.log": "FAIL",
+    "bounded-memory.log": "PASS",
     "cut-huge-range.log": "PASS",
     "cut.log": "FAIL",
     "mb-non-utf8.log": "FAIL"
@@ -405,7 +405,7 @@
     "read-errors.log": "FAIL",
     "realpath.log": "PASS",
     "responsive.log": "FAIL",
-    "selinux.log": "FAIL",
+    "selinux.log": "PASS",
     "sleep.log": "PASS",
     "stdbuf.log": "FAIL",
     "sync.log": "PASS",
@@ -528,7 +528,7 @@
     "paste.log": "PASS"
   },
   "pr": {
-    "bounded-memory.log": "SKIP",
+    "bounded-memory.log": "FAIL",
     "pr-tests.log": "FAIL"
   },
   "printf": {
@@ -733,7 +733,7 @@
     "inotify-rotate.log": "PASS",
     "overlay-headers.log": "PASS",
     "pid-pipe.log": "PASS",
-    "pid.log": "PASS",
+    "pid.log": "FAIL",
     "pipe-f.log": "PASS",
     "pipe-f2.log": "PASS",
     "proc-ksyms.log": "PASS",
