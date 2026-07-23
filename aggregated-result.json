@@ -622,7 +622,7 @@
     "runcon-no-reorder.log": "PASS"
   },
   "seq": {
-    "seq-epipe.log": "PASS",
+    "seq-epipe.log": "SKIP",
     "seq-extra-number.log": "PASS",
     "seq-io-errors.log": "PASS",
     "seq-locale.log": "PASS",
