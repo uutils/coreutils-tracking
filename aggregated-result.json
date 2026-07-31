@@ -121,7 +121,7 @@
     "preserve-2.log": "PASS",
     "preserve-gid.log": "PASS",
     "preserve-link.log": "PASS",
-    "preserve-mode.log": "PASS",
+    "preserve-mode.log": "FAIL",
     "preserve-slink-time.log": "PASS",
     "proc-short-read.log": "PASS",
     "proc-zero-len.log": "PASS",
@@ -154,13 +154,13 @@
     "bounded-memory.log": "PASS",
     "cut-huge-range.log": "PASS",
     "cut.log": "FAIL",
-    "mb-non-utf8.log": "FAIL"
+    "mb-non-utf8.log": "PASS"
   },
   "date": {
     "date-debug.log": "FAIL",
     "date-ethiopia.log": "PASS",
     "date-iran.log": "PASS",
-    "date-locale-hour.log": "PASS",
+    "date-locale-hour.log": "FAIL",
     "date-next-dow.log": "PASS",
     "date-sec.log": "PASS",
     "date-thailand.log": "PASS",
@@ -245,7 +245,7 @@
     "env-S-script.log": "PASS",
     "env-S.log": "PASS",
     "env-null.log": "PASS",
-    "env-signal-handler.log": "SKIP",
+    "env-signal-handler.log": "FAIL",
     "env.log": "PASS"
   },
   "expand": {
@@ -405,7 +405,7 @@
     "read-errors.log": "FAIL",
     "realpath.log": "PASS",
     "responsive.log": "FAIL",
-    "selinux.log": "PASS",
+    "selinux.log": "FAIL",
     "sleep.log": "PASS",
     "stdbuf.log": "FAIL",
     "sync.log": "PASS",
@@ -464,7 +464,7 @@
     "hardlink-case.log": "PASS",
     "i-1.log": "PASS",
     "i-2.log": "PASS",
-    "i-3.log": "SKIP",
+    "i-3.log": "PASS",
     "i-4.log": "PASS",
     "i-5.log": "PASS",
     "i-link-no.log": "PASS",
@@ -682,7 +682,7 @@
     "numeric.log": "PASS",
     "r-chunk.log": "PASS",
     "record-sep.log": "PASS",
-    "split-io-err.log": "PASS",
+    "split-io-err.log": "FAIL",
     "suffix-auto-length.log": "PASS",
     "suffix-length.log": "PASS"
   },
@@ -696,11 +696,11 @@
     "stat-slash.log": "PASS"
   },
   "stty": {
-    "bad-speed.log": "SKIP",
-    "stty-invalid.log": "SKIP",
-    "stty-pairs.log": "SKIP",
-    "stty-row-col.log": "SKIP",
-    "stty.log": "SKIP"
+    "bad-speed.log": "PASS",
+    "stty-invalid.log": "PASS",
+    "stty-pairs.log": "PASS",
+    "stty-row-col.log": "PASS",
+    "stty.log": "PASS"
   },
   "tac": {
     "tac-2-nonseekable.log": "PASS",
