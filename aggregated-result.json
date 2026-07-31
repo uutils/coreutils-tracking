@@ -121,7 +121,7 @@
     "preserve-2.log": "PASS",
     "preserve-gid.log": "PASS",
     "preserve-link.log": "PASS",
-    "preserve-mode.log": "FAIL",
+    "preserve-mode.log": "PASS",
     "preserve-slink-time.log": "PASS",
     "proc-short-read.log": "PASS",
     "proc-zero-len.log": "PASS",
@@ -151,10 +151,10 @@
     "csplit.log": "PASS"
   },
   "cut": {
-    "bounded-memory.log": "PASS",
-    "cut-huge-range.log": "PASS",
+    "bounded-memory.log": "FAIL",
+    "cut-huge-range.log": "SKIP",
     "cut.log": "FAIL",
-    "mb-non-utf8.log": "PASS"
+    "mb-non-utf8.log": "FAIL"
   },
   "date": {
     "date-debug.log": "FAIL",
@@ -251,7 +251,7 @@
   "expand": {
     "bounded-memory.log": "PASS",
     "expand.log": "PASS",
-    "mb.log": "FAIL"
+    "mb.log": "PASS"
   },
   "expr": {
     "expr-multibyte.log": "PASS",
@@ -405,7 +405,7 @@
     "read-errors.log": "FAIL",
     "realpath.log": "PASS",
     "responsive.log": "FAIL",
-    "selinux.log": "FAIL",
+    "selinux.log": "PASS",
     "sleep.log": "PASS",
     "stdbuf.log": "FAIL",
     "sync.log": "PASS",
@@ -464,7 +464,7 @@
     "hardlink-case.log": "PASS",
     "i-1.log": "PASS",
     "i-2.log": "PASS",
-    "i-3.log": "PASS",
+    "i-3.log": "SKIP",
     "i-4.log": "PASS",
     "i-5.log": "PASS",
     "i-link-no.log": "PASS",
@@ -528,7 +528,7 @@
     "paste.log": "PASS"
   },
   "pr": {
-    "bounded-memory.log": "FAIL",
+    "bounded-memory.log": "SKIP",
     "pr-tests.log": "FAIL"
   },
   "printf": {
@@ -537,7 +537,7 @@
     "printf-indexed.log": "PASS",
     "printf-mb.log": "PASS",
     "printf-quote.log": "PASS",
-    "printf-surprise.log": "PASS",
+    "printf-surprise.log": "SKIP",
     "printf.log": "PASS"
   },
   "ptx": {
@@ -588,7 +588,7 @@
     "interactive-once.log": "PASS",
     "ir-1.log": "PASS",
     "isatty.log": "PASS",
-    "many-dir-entries-vs-OOM.log": "PASS",
+    "many-dir-entries-vs-OOM.log": "SKIP",
     "no-give-up.log": "PASS",
     "one-file-system.log": "PASS",
     "one-file-system2.log": "PASS",
@@ -682,7 +682,7 @@
     "numeric.log": "PASS",
     "r-chunk.log": "PASS",
     "record-sep.log": "PASS",
-    "split-io-err.log": "FAIL",
+    "split-io-err.log": "PASS",
     "suffix-auto-length.log": "PASS",
     "suffix-length.log": "PASS"
   },
@@ -696,11 +696,11 @@
     "stat-slash.log": "PASS"
   },
   "stty": {
-    "bad-speed.log": "PASS",
-    "stty-invalid.log": "PASS",
-    "stty-pairs.log": "PASS",
-    "stty-row-col.log": "PASS",
-    "stty.log": "PASS"
+    "bad-speed.log": "SKIP",
+    "stty-invalid.log": "SKIP",
+    "stty-pairs.log": "SKIP",
+    "stty-row-col.log": "SKIP",
+    "stty.log": "SKIP"
   },
   "tac": {
     "tac-2-nonseekable.log": "PASS",
@@ -737,11 +737,11 @@
     "pipe-f.log": "PASS",
     "pipe-f2.log": "PASS",
     "proc-ksyms.log": "PASS",
-    "retry.log": "PASS",
+    "retry.log": "FAIL",
     "start-middle.log": "PASS",
     "symlink.log": "PASS",
     "tail-c.log": "PASS",
-    "tail-n0f.log": "FAIL",
+    "tail-n0f.log": "PASS",
     "tail-sysfs.log": "PASS",
     "tail.log": "PASS",
     "truncate.log": "PASS",
@@ -803,7 +803,7 @@
   },
   "unexpand": {
     "bounded-memory.log": "PASS",
-    "mb.log": "FAIL",
+    "mb.log": "PASS",
     "unexpand.log": "PASS"
   },
   "uniq": {
