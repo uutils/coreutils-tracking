@@ -151,7 +151,7 @@
     "csplit.log": "PASS"
   },
   "cut": {
-    "bounded-memory.log": "PASS",
+    "bounded-memory.log": "FAIL",
     "cut-huge-range.log": "PASS",
     "cut.log": "FAIL",
     "mb-non-utf8.log": "FAIL"
@@ -168,7 +168,7 @@
     "date.log": "FAIL",
     "percent-percent.log": "PASS",
     "reference.log": "PASS",
-    "resolution.log": "FAIL"
+    "resolution.log": "PASS"
   },
   "dd": {
     "ascii.log": "PASS",
@@ -395,7 +395,7 @@
     "false-status.log": "PASS",
     "getopt_vs_usage.log": "FAIL",
     "invalid-opt.log": "PASS",
-    "io-errors.log": "PASS",
+    "io-errors.log": "FAIL",
     "kill.log": "PASS",
     "mknod.log": "PASS",
     "nohup.log": "PASS",
@@ -416,7 +416,7 @@
     "usage_vs_refs.log": "FAIL",
     "user.log": "PASS",
     "warning-errors.log": "FAIL",
-    "write-errors.log": "SKIP",
+    "write-errors.log": "FAIL",
     "xattr.log": "PASS",
     "xstrtol.log": "PASS",
     "yes.log": "PASS"
@@ -734,7 +734,7 @@
     "overlay-headers.log": "PASS",
     "pid-pipe.log": "PASS",
     "pid.log": "PASS",
-    "pipe-f.log": "PASS",
+    "pipe-f.log": "SKIP",
     "pipe-f2.log": "PASS",
     "proc-ksyms.log": "PASS",
     "retry.log": "PASS",
