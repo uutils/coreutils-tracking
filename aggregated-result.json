@@ -160,7 +160,7 @@
     "date-debug.log": "FAIL",
     "date-ethiopia.log": "PASS",
     "date-iran.log": "PASS",
-    "date-locale-hour.log": "PASS",
+    "date-locale-hour.log": "FAIL",
     "date-next-dow.log": "PASS",
     "date-sec.log": "PASS",
     "date-thailand.log": "PASS",
@@ -474,7 +474,7 @@
     "into-self.log": "PASS",
     "leak-fd.log": "PASS",
     "meta-to-xpart.log": "PASS",
-    "mv-exchange.log": "FAIL",
+    "mv-exchange.log": "PASS",
     "mv-n.log": "PASS",
     "mv-special-1.log": "PASS",
     "mv-special-2.log": "FAIL",
@@ -518,10 +518,10 @@
     "od-N.log": "PASS",
     "od-endian.log": "PASS",
     "od-float.log": "FAIL",
-    "od-j.log": "FAIL",
+    "od-j.log": "PASS",
     "od-multiple-t.log": "PASS",
     "od-x8.log": "PASS",
-    "od.log": "FAIL"
+    "od.log": "PASS"
   },
   "paste": {
     "multi-byte.log": "PASS",
@@ -622,7 +622,7 @@
     "runcon-no-reorder.log": "PASS"
   },
   "seq": {
-    "seq-epipe.log": "SKIP",
+    "seq-epipe.log": "PASS",
     "seq-extra-number.log": "PASS",
     "seq-io-errors.log": "PASS",
     "seq-locale.log": "PASS",
@@ -741,7 +741,7 @@
     "start-middle.log": "PASS",
     "symlink.log": "PASS",
     "tail-c.log": "PASS",
-    "tail-n0f.log": "PASS",
+    "tail-n0f.log": "FAIL",
     "tail-sysfs.log": "PASS",
     "tail.log": "PASS",
     "truncate.log": "PASS",
