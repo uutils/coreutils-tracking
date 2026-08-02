@@ -1,0 +1,806 @@
+{
+  "2021-01": {
+    "gnu": {
+      "commits": "8",
+      "authors": "3",
+      "cumulative_authors": "242"
+    },
+    "uutils": {
+      "commits": "30",
+      "authors": "6",
+      "cumulative_authors": "219"
+    }
+  },
+  "2021-02": {
+    "gnu": {
+      "commits": "6",
+      "authors": "4",
+      "cumulative_authors": "242"
+    },
+    "uutils": {
+      "commits": "57",
+      "authors": "7",
+      "cumulative_authors": "220"
+    }
+  },
+  "2021-03": {
+    "gnu": {
+      "commits": "23",
+      "authors": "5",
+      "cumulative_authors": "243"
+    },
+    "uutils": {
+      "commits": "208",
+      "authors": "55",
+      "cumulative_authors": "267"
+    }
+  },
+  "2021-04": {
+    "gnu": {
+      "commits": "9",
+      "authors": "4",
+      "cumulative_authors": "244"
+    },
+    "uutils": {
+      "commits": "288",
+      "authors": "42",
+      "cumulative_authors": "289"
+    }
+  },
+  "2021-05": {
+    "gnu": {
+      "commits": "16",
+      "authors": "4",
+      "cumulative_authors": "244"
+    },
+    "uutils": {
+      "commits": "323",
+      "authors": "31",
+      "cumulative_authors": "300"
+    }
+  },
+  "2021-06": {
+    "gnu": {
+      "commits": "9",
+      "authors": "4",
+      "cumulative_authors": "245"
+    },
+    "uutils": {
+      "commits": "364",
+      "authors": "25",
+      "cumulative_authors": "311"
+    }
+  },
+  "2021-07": {
+    "gnu": {
+      "commits": "20",
+      "authors": "3",
+      "cumulative_authors": "246"
+    },
+    "uutils": {
+      "commits": "193",
+      "authors": "24",
+      "cumulative_authors": "318"
+    }
+  },
+  "2021-08": {
+    "gnu": {
+      "commits": "19",
+      "authors": "4",
+      "cumulative_authors": "246"
+    },
+    "uutils": {
+      "commits": "194",
+      "authors": "22",
+      "cumulative_authors": "325"
+    }
+  },
+  "2021-09": {
+    "gnu": {
+      "commits": "54",
+      "authors": "5",
+      "cumulative_authors": "248"
+    },
+    "uutils": {
+      "commits": "101",
+      "authors": "14",
+      "cumulative_authors": "328"
+    }
+  },
+  "2021-10": {
+    "gnu": {
+      "commits": "12",
+      "authors": "2",
+      "cumulative_authors": "248"
+    },
+    "uutils": {
+      "commits": "81",
+      "authors": "11",
+      "cumulative_authors": "330"
+    }
+  },
+  "2021-11": {
+    "gnu": {
+      "commits": "20",
+      "authors": "2",
+      "cumulative_authors": "248"
+    },
+    "uutils": {
+      "commits": "58",
+      "authors": "11",
+      "cumulative_authors": "331"
+    }
+  },
+  "2021-12": {
+    "gnu": {
+      "commits": "24",
+      "authors": "5",
+      "cumulative_authors": "249"
+    },
+    "uutils": {
+      "commits": "71",
+      "authors": "10",
+      "cumulative_authors": "336"
+    }
+  },
+  "2022-01": {
+    "gnu": {
+      "commits": "77",
+      "authors": "4",
+      "cumulative_authors": "251"
+    },
+    "uutils": {
+      "commits": "317",
+      "authors": "20",
+      "cumulative_authors": "347"
+    }
+  },
+  "2022-02": {
+    "gnu": {
+      "commits": "37",
+      "authors": "3",
+      "cumulative_authors": "251"
+    },
+    "uutils": {
+      "commits": "225",
+      "authors": "42",
+      "cumulative_authors": "377"
+    }
+  },
+  "2022-03": {
+    "gnu": {
+      "commits": "12",
+      "authors": "4",
+      "cumulative_authors": "253"
+    },
+    "uutils": {
+      "commits": "141",
+      "authors": "27",
+      "cumulative_authors": "384"
+    }
+  },
+  "2022-04": {
+    "gnu": {
+      "commits": "35",
+      "authors": "4",
+      "cumulative_authors": "253"
+    },
+    "uutils": {
+      "commits": "120",
+      "authors": "15",
+      "cumulative_authors": "390"
+    }
+  },
+  "2022-05": {
+    "gnu": {
+      "commits": "14",
+      "authors": "3",
+      "cumulative_authors": "253"
+    },
+    "uutils": {
+      "commits": "104",
+      "authors": "13",
+      "cumulative_authors": "392"
+    }
+  },
+  "2022-06": {
+    "gnu": {
+      "commits": "9",
+      "authors": "3",
+      "cumulative_authors": "253"
+    },
+    "uutils": {
+      "commits": "99",
+      "authors": "17",
+      "cumulative_authors": "402"
+    }
+  },
+  "2022-07": {
+    "gnu": {
+      "commits": "13",
+      "authors": "4",
+      "cumulative_authors": "255"
+    },
+    "uutils": {
+      "commits": "63",
+      "authors": "15",
+      "cumulative_authors": "407"
+    }
+  },
+  "2022-08": {
+    "gnu": {
+      "commits": "15",
+      "authors": "1",
+      "cumulative_authors": "255"
+    },
+    "uutils": {
+      "commits": "135",
+      "authors": "16",
+      "cumulative_authors": "413"
+    }
+  },
+  "2022-09": {
+    "gnu": {
+      "commits": "28",
+      "authors": "4",
+      "cumulative_authors": "257"
+    },
+    "uutils": {
+      "commits": "161",
+      "authors": "12",
+      "cumulative_authors": "417"
+    }
+  },
+  "2022-10": {
+    "gnu": {
+      "commits": "4",
+      "authors": "1",
+      "cumulative_authors": "257"
+    },
+    "uutils": {
+      "commits": "152",
+      "authors": "15",
+      "cumulative_authors": "420"
+    }
+  },
+  "2022-11": {
+    "gnu": {
+      "commits": "10",
+      "authors": "3",
+      "cumulative_authors": "258"
+    },
+    "uutils": {
+      "commits": "95",
+      "authors": "13",
+      "cumulative_authors": "423"
+    }
+  },
+  "2022-12": {
+    "gnu": {
+      "commits": "13",
+      "authors": "4",
+      "cumulative_authors": "259"
+    },
+    "uutils": {
+      "commits": "68",
+      "authors": "11",
+      "cumulative_authors": "427"
+    }
+  },
+  "2023-01": {
+    "gnu": {
+      "commits": "28",
+      "authors": "4",
+      "cumulative_authors": "259"
+    },
+    "uutils": {
+      "commits": "65",
+      "authors": "11",
+      "cumulative_authors": "428"
+    }
+  },
+  "2023-02": {
+    "gnu": {
+      "commits": "30",
+      "authors": "4",
+      "cumulative_authors": "260"
+    },
+    "uutils": {
+      "commits": "121",
+      "authors": "29",
+      "cumulative_authors": "447"
+    }
+  },
+  "2023-03": {
+    "gnu": {
+      "commits": "50",
+      "authors": "5",
+      "cumulative_authors": "260"
+    },
+    "uutils": {
+      "commits": "242",
+      "authors": "39",
+      "cumulative_authors": "471"
+    }
+  },
+  "2023-04": {
+    "gnu": {
+      "commits": "33",
+      "authors": "4",
+      "cumulative_authors": "261"
+    },
+    "uutils": {
+      "commits": "160",
+      "authors": "21",
+      "cumulative_authors": "484"
+    }
+  },
+  "2023-05": {
+    "gnu": {
+      "commits": "21",
+      "authors": "3",
+      "cumulative_authors": "261"
+    },
+    "uutils": {
+      "commits": "152",
+      "authors": "21",
+      "cumulative_authors": "490"
+    }
+  },
+  "2023-06": {
+    "gnu": {
+      "commits": "24",
+      "authors": "5",
+      "cumulative_authors": "262"
+    },
+    "uutils": {
+      "commits": "92",
+      "authors": "20",
+      "cumulative_authors": "503"
+    }
+  },
+  "2023-07": {
+    "gnu": {
+      "commits": "39",
+      "authors": "5",
+      "cumulative_authors": "262"
+    },
+    "uutils": {
+      "commits": "76",
+      "authors": "16",
+      "cumulative_authors": "506"
+    }
+  },
+  "2023-08": {
+    "gnu": {
+      "commits": "69",
+      "authors": "5",
+      "cumulative_authors": "263"
+    },
+    "uutils": {
+      "commits": "105",
+      "authors": "14",
+      "cumulative_authors": "513"
+    }
+  },
+  "2023-09": {
+    "gnu": {
+      "commits": "42",
+      "authors": "4",
+      "cumulative_authors": "264"
+    },
+    "uutils": {
+      "commits": "94",
+      "authors": "15",
+      "cumulative_authors": "518"
+    }
+  },
+  "2023-10": {
+    "gnu": {
+      "commits": "22",
+      "authors": "2",
+      "cumulative_authors": "264"
+    },
+    "uutils": {
+      "commits": "140",
+      "authors": "19",
+      "cumulative_authors": "529"
+    }
+  },
+  "2023-11": {
+    "gnu": {
+      "commits": "13",
+      "authors": "3",
+      "cumulative_authors": "265"
+    },
+    "uutils": {
+      "commits": "124",
+      "authors": "24",
+      "cumulative_authors": "543"
+    }
+  },
+  "2023-12": {
+    "gnu": {
+      "commits": "17",
+      "authors": "3",
+      "cumulative_authors": "266"
+    },
+    "uutils": {
+      "commits": "201",
+      "authors": "20",
+      "cumulative_authors": "555"
+    }
+  },
+  "2024-01": {
+    "gnu": {
+      "commits": "12",
+      "authors": "6",
+      "cumulative_authors": "269"
+    },
+    "uutils": {
+      "commits": "134",
+      "authors": "25",
+      "cumulative_authors": "570"
+    }
+  },
+  "2024-02": {
+    "gnu": {
+      "commits": "29",
+      "authors": "9",
+      "cumulative_authors": "275"
+    },
+    "uutils": {
+      "commits": "101",
+      "authors": "18",
+      "cumulative_authors": "576"
+    }
+  },
+  "2024-03": {
+    "gnu": {
+      "commits": "41",
+      "authors": "8",
+      "cumulative_authors": "276"
+    },
+    "uutils": {
+      "commits": "157",
+      "authors": "22",
+      "cumulative_authors": "588"
+    }
+  },
+  "2024-04": {
+    "gnu": {
+      "commits": "14",
+      "authors": "3",
+      "cumulative_authors": "276"
+    },
+    "uutils": {
+      "commits": "115",
+      "authors": "22",
+      "cumulative_authors": "599"
+    }
+  },
+  "2024-05": {
+    "gnu": {
+      "commits": "26",
+      "authors": "7",
+      "cumulative_authors": "278"
+    },
+    "uutils": {
+      "commits": "90",
+      "authors": "18",
+      "cumulative_authors": "606"
+    }
+  },
+  "2024-06": {
+    "gnu": {
+      "commits": "6",
+      "authors": "4",
+      "cumulative_authors": "278"
+    },
+    "uutils": {
+      "commits": "56",
+      "authors": "13",
+      "cumulative_authors": "611"
+    }
+  },
+  "2024-07": {
+    "gnu": {
+      "commits": "12",
+      "authors": "5",
+      "cumulative_authors": "278"
+    },
+    "uutils": {
+      "commits": "76",
+      "authors": "17",
+      "cumulative_authors": "618"
+    }
+  },
+  "2024-08": {
+    "gnu": {
+      "commits": "33",
+      "authors": "4",
+      "cumulative_authors": "279"
+    },
+    "uutils": {
+      "commits": "24",
+      "authors": "6",
+      "cumulative_authors": "619"
+    }
+  },
+  "2024-09": {
+    "gnu": {
+      "commits": "29",
+      "authors": "4",
+      "cumulative_authors": "279"
+    },
+    "uutils": {
+      "commits": "61",
+      "authors": "15",
+      "cumulative_authors": "626"
+    }
+  },
+  "2024-10": {
+    "gnu": {
+      "commits": "22",
+      "authors": "8",
+      "cumulative_authors": "281"
+    },
+    "uutils": {
+      "commits": "69",
+      "authors": "20",
+      "cumulative_authors": "634"
+    }
+  },
+  "2024-11": {
+    "gnu": {
+      "commits": "69",
+      "authors": "5",
+      "cumulative_authors": "282"
+    },
+    "uutils": {
+      "commits": "53",
+      "authors": "9",
+      "cumulative_authors": "636"
+    }
+  },
+  "2024-12": {
+    "gnu": {
+      "commits": "14",
+      "authors": "4",
+      "cumulative_authors": "283"
+    },
+    "uutils": {
+      "commits": "121",
+      "authors": "21",
+      "cumulative_authors": "647"
+    }
+  },
+  "2025-01": {
+    "gnu": {
+      "commits": "46",
+      "authors": "6",
+      "cumulative_authors": "284"
+    },
+    "uutils": {
+      "commits": "197",
+      "authors": "22",
+      "cumulative_authors": "656"
+    }
+  },
+  "2025-02": {
+    "gnu": {
+      "commits": "24",
+      "authors": "5",
+      "cumulative_authors": "284"
+    },
+    "uutils": {
+      "commits": "76",
+      "authors": "18",
+      "cumulative_authors": "664"
+    }
+  },
+  "2025-03": {
+    "gnu": {
+      "commits": "11",
+      "authors": "3",
+      "cumulative_authors": "285"
+    },
+    "uutils": {
+      "commits": "237",
+      "authors": "33",
+      "cumulative_authors": "683"
+    }
+  },
+  "2025-04": {
+    "gnu": {
+      "commits": "23",
+      "authors": "5",
+      "cumulative_authors": "285"
+    },
+    "uutils": {
+      "commits": "212",
+      "authors": "33",
+      "cumulative_authors": "702"
+    }
+  },
+  "2025-05": {
+    "gnu": {
+      "commits": "44",
+      "authors": "3",
+      "cumulative_authors": "285"
+    },
+    "uutils": {
+      "commits": "184",
+      "authors": "30",
+      "cumulative_authors": "713"
+    }
+  },
+  "2025-06": {
+    "gnu": {
+      "commits": "82",
+      "authors": "5",
+      "cumulative_authors": "286"
+    },
+    "uutils": {
+      "commits": "249",
+      "authors": "28",
+      "cumulative_authors": "728"
+    }
+  },
+  "2025-07": {
+    "gnu": {
+      "commits": "84",
+      "authors": "7",
+      "cumulative_authors": "288"
+    },
+    "uutils": {
+      "commits": "157",
+      "authors": "19",
+      "cumulative_authors": "736"
+    }
+  },
+  "2025-08": {
+    "gnu": {
+      "commits": "60",
+      "authors": "5",
+      "cumulative_authors": "288"
+    },
+    "uutils": {
+      "commits": "168",
+      "authors": "10",
+      "cumulative_authors": "739"
+    }
+  },
+  "2025-09": {
+    "gnu": {
+      "commits": "91",
+      "authors": "8",
+      "cumulative_authors": "290"
+    },
+    "uutils": {
+      "commits": "160",
+      "authors": "30",
+      "cumulative_authors": "761"
+    }
+  },
+  "2025-10": {
+    "gnu": {
+      "commits": "59",
+      "authors": "6",
+      "cumulative_authors": "290"
+    },
+    "uutils": {
+      "commits": "174",
+      "authors": "26",
+      "cumulative_authors": "774"
+    }
+  },
+  "2025-11": {
+    "gnu": {
+      "commits": "92",
+      "authors": "6",
+      "cumulative_authors": "290"
+    },
+    "uutils": {
+      "commits": "205",
+      "authors": "27",
+      "cumulative_authors": "783"
+    }
+  },
+  "2025-12": {
+    "gnu": {
+      "commits": "82",
+      "authors": "5",
+      "cumulative_authors": "291"
+    },
+    "uutils": {
+      "commits": "190",
+      "authors": "37",
+      "cumulative_authors": "797"
+    }
+  },
+  "2026-01": {
+    "gnu": {
+      "commits": "142",
+      "authors": "10",
+      "cumulative_authors": "294"
+    },
+    "uutils": {
+      "commits": "372",
+      "authors": "63",
+      "cumulative_authors": "832"
+    }
+  },
+  "2026-02": {
+    "gnu": {
+      "commits": "107",
+      "authors": "8",
+      "cumulative_authors": "297"
+    },
+    "uutils": {
+      "commits": "263",
+      "authors": "54",
+      "cumulative_authors": "861"
+    }
+  },
+  "2026-03": {
+    "gnu": {
+      "commits": "126",
+      "authors": "9",
+      "cumulative_authors": "299"
+    },
+    "uutils": {
+      "commits": "262",
+      "authors": "35",
+      "cumulative_authors": "877"
+    }
+  },
+  "2026-04": {
+    "gnu": {
+      "commits": "95",
+      "authors": "8",
+      "cumulative_authors": "300"
+    },
+    "uutils": {
+      "commits": "321",
+      "authors": "37",
+      "cumulative_authors": "896"
+    }
+  },
+  "2026-05": {
+    "gnu": {
+      "commits": "46",
+      "authors": "5",
+      "cumulative_authors": "300"
+    },
+    "uutils": {
+      "commits": "207",
+      "authors": "35",
+      "cumulative_authors": "912"
+    }
+  },
+  "2026-06": {
+    "gnu": {
+      "commits": "13",
+      "authors": "3",
+      "cumulative_authors": "300"
+    },
+    "uutils": {
+      "commits": "241",
+      "authors": "32",
+      "cumulative_authors": "931"
+    }
+  },
+  "2026-07": {
+    "gnu": {
+      "commits": "0",
+      "authors": "0",
+      "cumulative_authors": "300"
+    },
+    "uutils": {
+      "commits": "295",
+      "authors": "58",
+      "cumulative_authors": "966"
+    }
+  }
+}

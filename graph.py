@@ -11,13 +11,13 @@ import seaborn as sns
 
 from graph_common import (
     COLORS,
-    setup_theme,
-    apply_smoothing,
-    style_axes,
-    add_title,
-    style_legend,
-    add_reference_lines,
     add_gnu_release_markers,
+    add_reference_lines,
+    add_title,
+    apply_smoothing,
+    setup_theme,
+    style_axes,
+    style_legend,
 )
 
 if len(sys.argv) <= 2:
@@ -128,13 +128,13 @@ textstr += f"Fail: {fail_pct:.1f}%\n"
 textstr += f"Skip: {skip_pct:.1f}%"
 
 # Add text box on the top right
-props = dict(
-    boxstyle="round,pad=0.8",
-    facecolor="#FFFFFF",
-    edgecolor="#D1D5DB",
-    linewidth=2,
-    alpha=0.95,
-)
+props = {
+    "boxstyle": "round,pad=0.8",
+    "facecolor": "#FFFFFF",
+    "edgecolor": "#D1D5DB",
+    "linewidth": 2,
+    "alpha": 0.95,
+}
 ax.text(
     0.98,
     1.15,
