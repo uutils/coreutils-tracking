@@ -160,7 +160,7 @@
     "date-debug.log": "FAIL",
     "date-ethiopia.log": "PASS",
     "date-iran.log": "PASS",
-    "date-locale-hour.log": "FAIL",
+    "date-locale-hour.log": "PASS",
     "date-next-dow.log": "PASS",
     "date-sec.log": "PASS",
     "date-thailand.log": "PASS",
@@ -521,7 +521,7 @@
     "od-j.log": "FAIL",
     "od-multiple-t.log": "PASS",
     "od-x8.log": "PASS",
-    "od.log": "PASS"
+    "od.log": "FAIL"
   },
   "paste": {
     "multi-byte.log": "PASS",
@@ -622,7 +622,7 @@
     "runcon-no-reorder.log": "PASS"
   },
   "seq": {
-    "seq-epipe.log": "PASS",
+    "seq-epipe.log": "SKIP",
     "seq-extra-number.log": "PASS",
     "seq-io-errors.log": "PASS",
     "seq-locale.log": "PASS",
