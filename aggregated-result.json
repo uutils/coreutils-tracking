@@ -168,7 +168,7 @@
     "date.log": "FAIL",
     "percent-percent.log": "PASS",
     "reference.log": "PASS",
-    "resolution.log": "PASS"
+    "resolution.log": "FAIL"
   },
   "dd": {
     "ascii.log": "PASS",
@@ -411,7 +411,7 @@
     "sync.log": "PASS",
     "time-style.log": "PASS",
     "tsort.log": "PASS",
-    "tty-eof.log": "PASS",
+    "tty-eof.log": "FAIL",
     "usage_vs_getopt.log": "PASS",
     "usage_vs_refs.log": "FAIL",
     "user.log": "PASS",
@@ -537,7 +537,7 @@
     "printf-indexed.log": "PASS",
     "printf-mb.log": "PASS",
     "printf-quote.log": "PASS",
-    "printf-surprise.log": "PASS",
+    "printf-surprise.log": "SKIP",
     "printf.log": "PASS"
   },
   "ptx": {
@@ -739,7 +739,7 @@
     "proc-ksyms.log": "PASS",
     "retry.log": "PASS",
     "start-middle.log": "PASS",
-    "symlink.log": "PASS",
+    "symlink.log": "FAIL",
     "tail-c.log": "PASS",
     "tail-n0f.log": "FAIL",
     "tail-sysfs.log": "PASS",
