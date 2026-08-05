@@ -79,7 +79,7 @@ def count_at(repo: str, sha: str) -> dict[str, int]:
             continue
         for line in blob.splitlines():
             stripped = line.lstrip()
-            if stripped.startswith("//") or stripped.startswith("*"):
+            if stripped.startswith(("//", "*")):
                 continue
             for type_name, regex in TYPE_PATTERNS:
                 if regex.search(line):

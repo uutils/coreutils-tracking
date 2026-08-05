@@ -15,8 +15,8 @@ import pandas as pd
 import seaborn as sns
 
 from graph_common import (
-    setup_theme,
     apply_smoothing,
+    setup_theme,
     style_axes,
     style_legend,
 )

@@ -11,10 +11,10 @@ import seaborn as sns
 
 from graph_common import (
     COLORS,
-    setup_theme,
-    apply_smoothing,
-    style_axes,
     add_title,
+    apply_smoothing,
+    setup_theme,
+    style_axes,
     style_legend,
 )
 

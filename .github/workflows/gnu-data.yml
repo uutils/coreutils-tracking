@@ -46,6 +46,22 @@ jobs:
         path: uutils-coreutils
         fetch-depth: 1
 
+    - name: Checkout uutils/coreutils history for the activity graph
+      uses: actions/checkout@v7
+      with:
+        repository: uutils/coreutils
+        path: uutils-coreutils-history
+        fetch-depth: 0
+        filter: blob:none
+
+    - name: Checkout coreutils/coreutils history for the activity graph
+      uses: actions/checkout@v7
+      with:
+        repository: coreutils/coreutils
+        path: gnu-coreutils-history
+        fetch-depth: 0
+        filter: blob:none
+
     - name: Download the GNU result
       uses: dawidd6/action-download-artifact@v21
       with:
@@ -157,6 +173,13 @@ jobs:
        mv merged.json unsafe-result.json
        rm -f unsafe-latest.json
 
+    - name: Regenerate the commit/contributor activity data
+      shell: bash
+      run: |
+       # Fully derived from the two git histories, so no merge needed.
+       python3 activity_count.py gnu-coreutils-history uutils-coreutils-history > activity-result.json
+       tail -30 activity-result.json
+
     - name: Add & Commit
       if: github.event_name != 'pull_request'
       uses: EndBug/add-and-commit@v10.0.0
@@ -174,6 +197,7 @@ jobs:
         python individual-size-graph.py individual-size-result.json
         python size-graph.py size-result.json
         python unsafe-graph.py unsafe-result.json
+        python activity-graph.py activity-result.json
 
     - name: Add & Commit the GNU graph
       if: github.event_name != 'pull_request'
@@ -227,4 +251,13 @@ jobs:
         default_author: github_actions
         message: "Refresh the unsafe graph"
         add: unsafe-results.svg
+        pull: '--rebase --autostash'
+
+    - name: Add & Commit the activity graph
+      if: github.event_name != 'pull_request'
+      uses: EndBug/add-and-commit@v10.0.0
+      with:
+        default_author: github_actions
+        message: "Refresh the activity graph"
+        add: activity-results.svg
         pull: '--rebase --autostash'

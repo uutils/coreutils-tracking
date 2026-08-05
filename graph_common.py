@@ -8,7 +8,6 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-
 # Modern vibrant color palette
 COLORS = {
     "total": "#0066CC",  # Vibrant blue

@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 
-from graph_common import COLORS, setup_theme, apply_smoothing, style_axes, add_title
+from graph_common import COLORS, add_title, apply_smoothing, setup_theme, style_axes
 
 df = pd.read_json(sys.argv[1], orient="index")
 df.index = pd.to_datetime(df.index, utc=True)
