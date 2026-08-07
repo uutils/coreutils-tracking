@@ -168,7 +168,7 @@
     "date.log": "FAIL",
     "percent-percent.log": "PASS",
     "reference.log": "PASS",
-    "resolution.log": "PASS"
+    "resolution.log": "FAIL"
   },
   "dd": {
     "ascii.log": "PASS",
@@ -245,7 +245,7 @@
     "env-S-script.log": "PASS",
     "env-S.log": "PASS",
     "env-null.log": "PASS",
-    "env-signal-handler.log": "FAIL",
+    "env-signal-handler.log": "SKIP",
     "env.log": "PASS"
   },
   "expand": {
@@ -395,7 +395,7 @@
     "false-status.log": "PASS",
     "getopt_vs_usage.log": "FAIL",
     "invalid-opt.log": "PASS",
-    "io-errors.log": "FAIL",
+    "io-errors.log": "PASS",
     "kill.log": "PASS",
     "mknod.log": "PASS",
     "nohup.log": "PASS",
@@ -528,7 +528,7 @@
     "paste.log": "PASS"
   },
   "pr": {
-    "bounded-memory.log": "PASS",
+    "bounded-memory.log": "FAIL",
     "pr-tests.log": "FAIL"
   },
   "printf": {
@@ -587,7 +587,7 @@
     "interactive-always.log": "PASS",
     "interactive-once.log": "PASS",
     "ir-1.log": "PASS",
-    "isatty.log": "PASS",
+    "isatty.log": "FAIL",
     "many-dir-entries-vs-OOM.log": "PASS",
     "no-give-up.log": "PASS",
     "one-file-system.log": "PASS",
@@ -737,7 +737,7 @@
     "pipe-f.log": "PASS",
     "pipe-f2.log": "PASS",
     "proc-ksyms.log": "PASS",
-    "retry.log": "FAIL",
+    "retry.log": "PASS",
     "start-middle.log": "PASS",
     "symlink.log": "PASS",
     "tail-c.log": "PASS",
