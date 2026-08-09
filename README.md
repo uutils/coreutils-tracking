@@ -14,6 +14,15 @@ Refreshed twice a day by github actions. Changes are documented in the json file
 
 Compares only the Linux execution.
 
+The percentages leave out the tests that can never pass for structural reasons -
+they intercept glibc internals with `LD_PRELOAD` (which never fires, since
+Rust's std issues different syscalls), set gdb breakpoints inside GNU's own C
+sources, or only run on GNU/Hurd. That list is maintained in the coreutils repo,
+in
+[util/gnu-unfixable-tests.txt](https://github.com/uutils/coreutils/blob/main/util/gnu-unfixable-tests.txt),
+with a reason per entry; tests we could actually fix stay counted on purpose. See
+[uutils/coreutils#13841](https://github.com/uutils/coreutils/issues/13841).
+
 Based on:
 * https://github.com/uutils/coreutils/blob/main/util/build-gnu.sh
 * https://github.com/uutils/coreutils/blob/main/util/run-gnu-test.sh

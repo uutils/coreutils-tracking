@@ -5,6 +5,10 @@
 
 """Common styling and utilities for graph generation."""
 
+import collections
+import json
+import os
+
 import matplotlib.pyplot as plt
 import seaborn as sns
 
@@ -19,6 +23,10 @@ COLORS = {
     "multisize": "#10B981",  # Modern green (Tailwind emerald)
     "default": "#10B981",  # Modern green (Tailwind emerald)
 }
+
+# Single source of truth for the tests that can never pass, kept in the
+# coreutils repo and checked out by .github/workflows/gnu-data.yml.
+UNFIXABLE_TESTS_FILE = "uutils-coreutils/util/gnu-unfixable-tests.txt"
 
 
 def setup_theme():
@@ -244,6 +252,57 @@ def add_gnu_release_markers(ax, x_min, x_max, y_max, releases=GNU_COREUTILS_RELE
                 alpha=0.85,
                 zorder=4,
             )
+
+
+def load_excluded_tests(path=UNFIXABLE_TESTS_FILE):
+    """Read the list of tests that cannot pass for structural reasons.
+
+    The list is maintained in the coreutils repo, which the workflow checks out
+    into uutils-coreutils/.
+
+    Args:
+        path: File with one "<util>/<test>.log" entry per line, '#' comments
+
+    Returns:
+        Set of test names, empty if the file is missing
+    """
+    if not os.path.exists(path):
+        return set()
+
+    excluded = set()
+    with open(path) as f:
+        for line in f:
+            entry = line.split("#", 1)[0].strip()
+            if entry:
+                excluded.add(entry)
+    return excluded
+
+
+def count_excluded(aggregated_path, excluded):
+    """Count the excluded tests that actually ran and did not pass, per status.
+
+    Tests that GNU has dropped or renamed, and tests we unexpectedly pass, are
+    not counted, so the percentages are never over-corrected.
+
+    Args:
+        aggregated_path: Path to aggregated-result.json ({util: {test: status}})
+        excluded: Set of test names from load_excluded_tests()
+
+    Returns:
+        Counter of status ("SKIP", "FAIL", ...) to number of excluded tests
+    """
+    counts = collections.Counter()
+    if not excluded or not os.path.exists(aggregated_path):
+        return counts
+
+    with open(aggregated_path) as f:
+        results = json.load(f)
+
+    for util, tests in results.items():
+        for test, status in tests.items():
+            if f"{util}/{test}" in excluded and status != "PASS":
+                counts[status] += 1
+    return counts
 
 
 def add_reference_lines(ax, y_max):

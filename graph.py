@@ -3,6 +3,7 @@
 # For the full copyright and license information, please view the LICENSE
 # file that was distributed with this source code.
 
+import collections
 import sys
 
 import matplotlib.pyplot as plt
@@ -15,6 +16,8 @@ from graph_common import (
     add_reference_lines,
     add_title,
     apply_smoothing,
+    count_excluded,
+    load_excluded_tests,
     setup_theme,
     style_axes,
     style_legend,
@@ -116,6 +119,18 @@ total = pd.to_numeric(latest_data["total"], errors="coerce")
 pass_count = pd.to_numeric(latest_data["pass"], errors="coerce")
 fail_count = pd.to_numeric(latest_data["fail"], errors="coerce")
 skip_count = pd.to_numeric(latest_data["skip"], errors="coerce")
+
+# Some GNU tests can never pass: they intercept glibc internals via LD_PRELOAD
+# or break on GNU's own C sources with gdb. Drop them from the percentages, so
+# they report how we do on the tests we can actually influence. See
+# util/gnu-unfixable-tests.txt in the coreutils repo.
+excluded = collections.Counter()
+if title.lower() == "gnu":
+    excluded = count_excluded("aggregated-result.json", load_excluded_tests())
+
+total -= sum(excluded.values())
+fail_count -= excluded["FAIL"]
+skip_count -= excluded["SKIP"]
 
 pass_pct = (pass_count / total) * 100 if total > 0 else 0
 fail_pct = (fail_count / total) * 100 if total > 0 else 0
