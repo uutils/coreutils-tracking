@@ -151,7 +151,7 @@
     "csplit.log": "PASS"
   },
   "cut": {
-    "bounded-memory.log": "PASS",
+    "bounded-memory.log": "FAIL",
     "cut-huge-range.log": "PASS",
     "cut.log": "FAIL",
     "mb-non-utf8.log": "PASS"
@@ -498,7 +498,7 @@
     "nice.log": "PASS"
   },
   "nl": {
-    "multibyte.log": "FAIL",
+    "multibyte.log": "PASS",
     "multiple-files.log": "PASS",
     "nl.log": "PASS"
   },
@@ -528,7 +528,7 @@
     "paste.log": "PASS"
   },
   "pr": {
-    "bounded-memory.log": "FAIL",
+    "bounded-memory.log": "SKIP",
     "pr-tests.log": "FAIL"
   },
   "printf": {
