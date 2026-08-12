@@ -182,7 +182,7 @@ jobs:
 
     - name: Add & Commit
       if: github.event_name != 'pull_request'
-      uses: EndBug/add-and-commit@v10.0.0
+      uses: EndBug/add-and-commit@v11.0.0
       with:
         default_author: github_actions
         message: "Update of the data"
@@ -201,7 +201,7 @@ jobs:
 
     - name: Add & Commit the GNU graph
       if: github.event_name != 'pull_request'
-      uses: EndBug/add-and-commit@v10.0.0
+      uses: EndBug/add-and-commit@v11.0.0
       with:
         default_author: github_actions
         message: "Refresh the GNU graph"
@@ -210,7 +210,7 @@ jobs:
 
     - name: Add & Commit the busybox graph
       if: github.event_name != 'pull_request'
-      uses: EndBug/add-and-commit@v10.0.0
+      uses: EndBug/add-and-commit@v11.0.0
       with:
         default_author: github_actions
         message: "Refresh the busybox graph"
@@ -219,7 +219,7 @@ jobs:
 
     - name: Add & Commit the toybox graph
       if: github.event_name != 'pull_request'
-      uses: EndBug/add-and-commit@v10.0.0
+      uses: EndBug/add-and-commit@v11.0.0
       with:
         default_author: github_actions
         message: "Refresh the toybox graph"
@@ -228,7 +228,7 @@ jobs:
 
     - name: Add & Commit the individual size graph
       if: github.event_name != 'pull_request'
-      uses: EndBug/add-and-commit@v10.0.0
+      uses: EndBug/add-and-commit@v11.0.0
       with:
         default_author: github_actions
         message: "Refresh the individual size graph"
@@ -237,7 +237,7 @@ jobs:
 
     - name: Add & Commit the size graph
       if: github.event_name != 'pull_request'
-      uses: EndBug/add-and-commit@v10.0.0
+      uses: EndBug/add-and-commit@v11.0.0
       with:
         default_author: github_actions
         message: "Refresh the size graph"
@@ -246,7 +246,7 @@ jobs:
 
     - name: Add & Commit the unsafe graph
       if: github.event_name != 'pull_request'
-      uses: EndBug/add-and-commit@v10.0.0
+      uses: EndBug/add-and-commit@v11.0.0
       with:
         default_author: github_actions
         message: "Refresh the unsafe graph"
@@ -255,7 +255,7 @@ jobs:
 
     - name: Add & Commit the activity graph
       if: github.event_name != 'pull_request'
-      uses: EndBug/add-and-commit@v10.0.0
+      uses: EndBug/add-and-commit@v11.0.0
       with:
         default_author: github_actions
         message: "Refresh the activity graph"
