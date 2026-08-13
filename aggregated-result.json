@@ -145,13 +145,13 @@
   },
   "csplit": {
     "csplit-1000.log": "PASS",
-    "csplit-heap.log": "PASS",
+    "csplit-heap.log": "SKIP",
     "csplit-io-err.log": "PASS",
     "csplit-suppress-matched.log": "PASS",
     "csplit.log": "PASS"
   },
   "cut": {
-    "bounded-memory.log": "PASS",
+    "bounded-memory.log": "FAIL",
     "cut-huge-range.log": "PASS",
     "cut.log": "FAIL",
     "mb-non-utf8.log": "PASS"
@@ -528,7 +528,7 @@
     "paste.log": "PASS"
   },
   "pr": {
-    "bounded-memory.log": "SKIP",
+    "bounded-memory.log": "PASS",
     "pr-tests.log": "FAIL"
   },
   "printf": {
@@ -741,7 +741,7 @@
     "start-middle.log": "PASS",
     "symlink.log": "PASS",
     "tail-c.log": "PASS",
-    "tail-n0f.log": "PASS",
+    "tail-n0f.log": "FAIL",
     "tail-sysfs.log": "PASS",
     "tail.log": "PASS",
     "truncate.log": "PASS",
