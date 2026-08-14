@@ -145,7 +145,7 @@
   },
   "csplit": {
     "csplit-1000.log": "PASS",
-    "csplit-heap.log": "SKIP",
+    "csplit-heap.log": "PASS",
     "csplit-io-err.log": "PASS",
     "csplit-suppress-matched.log": "PASS",
     "csplit.log": "PASS"
@@ -528,7 +528,7 @@
     "paste.log": "PASS"
   },
   "pr": {
-    "bounded-memory.log": "PASS",
+    "bounded-memory.log": "FAIL",
     "pr-tests.log": "FAIL"
   },
   "printf": {
@@ -739,7 +739,7 @@
     "proc-ksyms.log": "PASS",
     "retry.log": "PASS",
     "start-middle.log": "PASS",
-    "symlink.log": "PASS",
+    "symlink.log": "FAIL",
     "tail-c.log": "PASS",
     "tail-n0f.log": "FAIL",
     "tail-sysfs.log": "PASS",
