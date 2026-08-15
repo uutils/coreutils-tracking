@@ -2,7 +2,7 @@
   "basenc": {
     "base64.log": "PASS",
     "basenc.log": "PASS",
-    "bounded-memory.log": "SKIP",
+    "bounded-memory.log": "PASS",
     "large-input.log": "PASS"
   },
   "cat": {
@@ -177,7 +177,7 @@
     "direct.log": "PASS",
     "fail-ftruncate-fstat.log": "SKIP",
     "misc.log": "PASS",
-    "no-allocate.log": "PASS",
+    "no-allocate.log": "SKIP",
     "nocache.log": "PASS",
     "nocache_eof.log": "PASS",
     "nocache_fail.log": "SKIP",
@@ -587,8 +587,8 @@
     "interactive-always.log": "PASS",
     "interactive-once.log": "PASS",
     "ir-1.log": "PASS",
-    "isatty.log": "FAIL",
-    "many-dir-entries-vs-OOM.log": "PASS",
+    "isatty.log": "PASS",
+    "many-dir-entries-vs-OOM.log": "SKIP",
     "no-give-up.log": "PASS",
     "one-file-system.log": "PASS",
     "one-file-system2.log": "PASS",
@@ -741,7 +741,7 @@
     "start-middle.log": "PASS",
     "symlink.log": "PASS",
     "tail-c.log": "PASS",
-    "tail-n0f.log": "FAIL",
+    "tail-n0f.log": "PASS",
     "tail-sysfs.log": "PASS",
     "tail.log": "PASS",
     "truncate.log": "PASS",
