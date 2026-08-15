@@ -145,7 +145,7 @@
   },
   "csplit": {
     "csplit-1000.log": "PASS",
-    "csplit-heap.log": "SKIP",
+    "csplit-heap.log": "PASS",
     "csplit-io-err.log": "PASS",
     "csplit-suppress-matched.log": "PASS",
     "csplit.log": "PASS"
@@ -153,7 +153,7 @@
   "cut": {
     "bounded-memory.log": "FAIL",
     "cut-huge-range.log": "PASS",
-    "cut.log": "FAIL",
+    "cut.log": "PASS",
     "mb-non-utf8.log": "PASS"
   },
   "date": {
@@ -182,7 +182,7 @@
     "nocache_eof.log": "PASS",
     "nocache_fail.log": "SKIP",
     "not-rewound.log": "PASS",
-    "partial-write.log": "FAIL",
+    "partial-write.log": "PASS",
     "reblock.log": "PASS",
     "skip-seek-past-dev.log": "PASS",
     "skip-seek-past-file.log": "PASS",
@@ -444,7 +444,7 @@
     "bad-unicode.log": "PASS",
     "mktemp-misc.log": "PASS",
     "mktemp.log": "PASS",
-    "write-error.log": "FAIL"
+    "write-error.log": "PASS"
   },
   "mv": {
     "acl.log": "PASS",
@@ -529,7 +529,7 @@
     "paste.log": "PASS"
   },
   "pr": {
-    "bounded-memory.log": "PASS",
+    "bounded-memory.log": "FAIL",
     "pr-tests.log": "FAIL"
   },
   "printf": {
@@ -735,7 +735,7 @@
     "overlay-headers.log": "PASS",
     "pid-pipe.log": "PASS",
     "pid.log": "PASS",
-    "pipe-f.log": "PASS",
+    "pipe-f.log": "SKIP",
     "pipe-f2.log": "PASS",
     "proc-ksyms.log": "PASS",
     "retry.log": "PASS",
