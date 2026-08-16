@@ -151,7 +151,7 @@
     "csplit.log": "PASS"
   },
   "cut": {
-    "bounded-memory.log": "PASS",
+    "bounded-memory.log": "FAIL",
     "cut-huge-range.log": "PASS",
     "cut.log": "PASS",
     "mb-non-utf8.log": "PASS"
@@ -392,6 +392,7 @@
     "dircolors.log": "PASS",
     "dirname.log": "PASS",
     "echo.log": "PASS",
+    "empty-backup-suffix.log": "PASS",
     "false-status.log": "PASS",
     "getopt_vs_usage.log": "FAIL",
     "invalid-opt.log": "PASS",
@@ -529,7 +530,7 @@
     "paste.log": "PASS"
   },
   "pr": {
-    "bounded-memory.log": "PASS",
+    "bounded-memory.log": "SKIP",
     "pr-tests.log": "FAIL"
   },
   "printf": {
@@ -538,7 +539,7 @@
     "printf-indexed.log": "PASS",
     "printf-mb.log": "PASS",
     "printf-quote.log": "PASS",
-    "printf-surprise.log": "PASS",
+    "printf-surprise.log": "SKIP",
     "printf.log": "PASS"
   },
   "ptx": {
@@ -588,7 +589,7 @@
     "interactive-always.log": "PASS",
     "interactive-once.log": "PASS",
     "ir-1.log": "PASS",
-    "isatty.log": "FAIL",
+    "isatty.log": "PASS",
     "many-dir-entries-vs-OOM.log": "PASS",
     "no-give-up.log": "PASS",
     "one-file-system.log": "PASS",
@@ -740,7 +741,7 @@
     "proc-ksyms.log": "PASS",
     "retry.log": "PASS",
     "start-middle.log": "PASS",
-    "symlink.log": "PASS",
+    "symlink.log": "FAIL",
     "tail-c.log": "PASS",
     "tail-n0f.log": "PASS",
     "tail-sysfs.log": "PASS",
