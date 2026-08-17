@@ -168,7 +168,7 @@
     "date.log": "FAIL",
     "percent-percent.log": "PASS",
     "reference.log": "PASS",
-    "resolution.log": "PASS"
+    "resolution.log": "FAIL"
   },
   "dd": {
     "ascii.log": "PASS",
@@ -392,6 +392,7 @@
     "dircolors.log": "PASS",
     "dirname.log": "PASS",
     "echo.log": "PASS",
+    "empty-backup-suffix.log": "PASS",
     "false-status.log": "PASS",
     "getopt_vs_usage.log": "FAIL",
     "invalid-opt.log": "PASS",
@@ -411,7 +412,7 @@
     "sync.log": "PASS",
     "time-style.log": "PASS",
     "tsort.log": "PASS",
-    "tty-eof.log": "PASS",
+    "tty-eof.log": "FAIL",
     "uname-labeled.log": "PASS",
     "usage_vs_getopt.log": "PASS",
     "usage_vs_refs.log": "FAIL",
@@ -518,7 +519,7 @@
     "big-w.log": "PASS",
     "od-N.log": "PASS",
     "od-endian.log": "PASS",
-    "od-float.log": "FAIL",
+    "od-float.log": "PASS",
     "od-j.log": "PASS",
     "od-multiple-t.log": "PASS",
     "od-x8.log": "PASS",
@@ -538,7 +539,7 @@
     "printf-indexed.log": "PASS",
     "printf-mb.log": "PASS",
     "printf-quote.log": "PASS",
-    "printf-surprise.log": "PASS",
+    "printf-surprise.log": "SKIP",
     "printf.log": "PASS"
   },
   "ptx": {
@@ -742,7 +743,7 @@
     "start-middle.log": "PASS",
     "symlink.log": "PASS",
     "tail-c.log": "PASS",
-    "tail-n0f.log": "PASS",
+    "tail-n0f.log": "FAIL",
     "tail-sysfs.log": "PASS",
     "tail.log": "PASS",
     "truncate.log": "PASS",
