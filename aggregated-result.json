@@ -396,7 +396,7 @@
     "false-status.log": "PASS",
     "getopt_vs_usage.log": "FAIL",
     "invalid-opt.log": "PASS",
-    "io-errors.log": "FAIL",
+    "io-errors.log": "PASS",
     "kill.log": "PASS",
     "mknod.log": "PASS",
     "nohup.log": "PASS",
@@ -543,7 +543,7 @@
     "printf.log": "PASS"
   },
   "ptx": {
-    "ptx-overrun.log": "FAIL",
+    "ptx-overrun.log": "PASS",
     "ptx.log": "PASS"
   },
   "pwd": {
@@ -658,7 +658,7 @@
     "sort-float.log": "PASS",
     "sort-h-thousands-sep.log": "PASS",
     "sort-locale.log": "SKIP",
-    "sort-merge-fdlimit.log": "FAIL",
+    "sort-merge-fdlimit.log": "PASS",
     "sort-merge.log": "PASS",
     "sort-month.log": "PASS",
     "sort-rand.log": "PASS",
