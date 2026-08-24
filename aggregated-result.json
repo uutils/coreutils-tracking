@@ -151,7 +151,7 @@
     "csplit.log": "PASS"
   },
   "cut": {
-    "bounded-memory.log": "FAIL",
+    "bounded-memory.log": "PASS",
     "cut-huge-range.log": "PASS",
     "cut.log": "PASS",
     "mb-non-utf8.log": "PASS"
@@ -160,7 +160,7 @@
     "date-debug.log": "FAIL",
     "date-ethiopia.log": "PASS",
     "date-iran.log": "PASS",
-    "date-locale-hour.log": "FAIL",
+    "date-locale-hour.log": "PASS",
     "date-next-dow.log": "PASS",
     "date-sec.log": "PASS",
     "date-thailand.log": "PASS",
@@ -168,7 +168,7 @@
     "date.log": "FAIL",
     "percent-percent.log": "PASS",
     "reference.log": "PASS",
-    "resolution.log": "FAIL"
+    "resolution.log": "PASS"
   },
   "dd": {
     "ascii.log": "PASS",
@@ -249,7 +249,7 @@
     "env.log": "PASS"
   },
   "expand": {
-    "bounded-memory.log": "SKIP",
+    "bounded-memory.log": "PASS",
     "expand.log": "PASS",
     "mb.log": "PASS"
   },
@@ -418,7 +418,7 @@
     "usage_vs_refs.log": "FAIL",
     "user.log": "PASS",
     "warning-errors.log": "FAIL",
-    "write-errors.log": "SKIP",
+    "write-errors.log": "FAIL",
     "xattr.log": "PASS",
     "xstrtol.log": "PASS",
     "yes.log": "PASS"
@@ -741,7 +741,7 @@
     "proc-ksyms.log": "PASS",
     "retry.log": "PASS",
     "start-middle.log": "PASS",
-    "symlink.log": "PASS",
+    "symlink.log": "FAIL",
     "tail-c.log": "PASS",
     "tail-n0f.log": "FAIL",
     "tail-sysfs.log": "PASS",
@@ -804,7 +804,7 @@
     "tty.log": "PASS"
   },
   "unexpand": {
-    "bounded-memory.log": "SKIP",
+    "bounded-memory.log": "PASS",
     "mb.log": "PASS",
     "unexpand.log": "PASS"
   },
