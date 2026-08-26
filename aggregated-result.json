@@ -151,7 +151,7 @@
     "csplit.log": "PASS"
   },
   "cut": {
-    "bounded-memory.log": "PASS",
+    "bounded-memory.log": "FAIL",
     "cut-huge-range.log": "PASS",
     "cut.log": "PASS",
     "mb-non-utf8.log": "PASS"
@@ -249,7 +249,7 @@
     "env.log": "PASS"
   },
   "expand": {
-    "bounded-memory.log": "PASS",
+    "bounded-memory.log": "SKIP",
     "expand.log": "PASS",
     "mb.log": "PASS"
   },
@@ -743,7 +743,7 @@
     "start-middle.log": "PASS",
     "symlink.log": "PASS",
     "tail-c.log": "PASS",
-    "tail-n0f.log": "SKIP",
+    "tail-n0f.log": "PASS",
     "tail-sysfs.log": "PASS",
     "tail.log": "PASS",
     "truncate.log": "PASS",
