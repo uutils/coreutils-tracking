@@ -151,7 +151,7 @@
     "csplit.log": "PASS"
   },
   "cut": {
-    "bounded-memory.log": "PASS",
+    "bounded-memory.log": "SKIP",
     "cut-huge-range.log": "PASS",
     "cut.log": "PASS",
     "mb-non-utf8.log": "PASS"
@@ -386,7 +386,7 @@
   "misc": {
     "arch.log": "PASS",
     "basename.log": "PASS",
-    "close-stdout.log": "FAIL",
+    "close-stdout.log": "PASS",
     "comm.log": "PASS",
     "coreutils.log": "PASS",
     "dircolors.log": "PASS",
@@ -539,7 +539,7 @@
     "printf-indexed.log": "PASS",
     "printf-mb.log": "PASS",
     "printf-quote.log": "PASS",
-    "printf-surprise.log": "PASS",
+    "printf-surprise.log": "SKIP",
     "printf.log": "PASS"
   },
   "ptx": {
@@ -624,7 +624,7 @@
     "runcon-no-reorder.log": "PASS"
   },
   "seq": {
-    "seq-epipe.log": "FAIL",
+    "seq-epipe.log": "PASS",
     "seq-extra-number.log": "PASS",
     "seq-io-errors.log": "PASS",
     "seq-locale.log": "PASS",
