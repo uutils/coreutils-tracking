@@ -145,13 +145,13 @@
   },
   "csplit": {
     "csplit-1000.log": "PASS",
-    "csplit-heap.log": "SKIP",
+    "csplit-heap.log": "PASS",
     "csplit-io-err.log": "PASS",
     "csplit-suppress-matched.log": "PASS",
     "csplit.log": "PASS"
   },
   "cut": {
-    "bounded-memory.log": "SKIP",
+    "bounded-memory.log": "PASS",
     "cut-huge-range.log": "PASS",
     "cut.log": "PASS",
     "mb-non-utf8.log": "PASS"
@@ -245,7 +245,7 @@
     "env-S-script.log": "PASS",
     "env-S.log": "PASS",
     "env-null.log": "PASS",
-    "env-signal-handler.log": "SKIP",
+    "env-signal-handler.log": "FAIL",
     "env.log": "PASS"
   },
   "expand": {
@@ -739,7 +739,7 @@
     "pipe-f.log": "PASS",
     "pipe-f2.log": "PASS",
     "proc-ksyms.log": "PASS",
-    "retry.log": "PASS",
+    "retry.log": "FAIL",
     "start-middle.log": "PASS",
     "symlink.log": "PASS",
     "tail-c.log": "PASS",
