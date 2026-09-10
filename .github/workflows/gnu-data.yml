@@ -6,8 +6,15 @@ on:
     - main
   pull_request:
   workflow_dispatch:
+  ## Sent by the 'NotifyTracking' workflow of uutils/coreutils as soon as a
+  ## workflow producing one of the inputs below has finished on its default
+  ## branch, so the graphs follow the data rather than the clock.
+  repository_dispatch:
+    types: [refresh-data]
+  ## Safety net for a missed notification (expired token, skipped run, ...);
+  ## the dispatch above is what normally refreshes the data.
   schedule:
-  - cron: "0 2,8,14,20 * * *"
+  - cron: "0 2 * * *"
 
 jobs:
   lint:
@@ -29,7 +36,34 @@ jobs:
   gnu:
     name: Process the GNU and size test results
     runs-on: ubuntu-latest
+    ## Runs that commit and push must not overlap, so they share one group and
+    ## queue rather than cancel.  Pull request runs push nothing -- every commit
+    ## step below is skipped for them -- so they get a group of their own: left
+    ## in the shared one they would delay the very refreshes this trigger exists
+    ## to make prompt, and since only one run stays queued per group, a further
+    ## arrival would drop a refresh outright.
+    concurrency:
+      group: >-
+        ${{ github.event_name == 'pull_request'
+        && format('refresh-data-pr-{0}', github.event.number)
+        || 'refresh-data' }}
+      cancel-in-progress: ${{ github.event_name == 'pull_request' }}
     steps:
+    - name: Report what triggered this run
+      shell: bash
+      env:
+        EVENT_NAME: ${{ github.event_name }}
+        SOURCE_WORKFLOW: ${{ github.event.client_payload.workflow }}
+        SOURCE_RUN_ID: ${{ github.event.client_payload.run_id }}
+        SOURCE_SHA: ${{ github.event.client_payload.sha }}
+      run: |
+        ## Report what triggered this run
+        if [[ "${EVENT_NAME}" == 'repository_dispatch' ]]; then
+          echo "Refreshing after '${SOURCE_WORKFLOW}' on uutils/coreutils@${SOURCE_SHA} (run ${SOURCE_RUN_ID})."
+        else
+          echo "Refreshing on '${EVENT_NAME}'."
+        fi
+
     - name: Install deps
       shell: bash
       run: |
