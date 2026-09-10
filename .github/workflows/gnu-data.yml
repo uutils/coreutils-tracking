@@ -36,12 +36,18 @@ jobs:
   gnu:
     name: Process the GNU and size test results
     runs-on: ubuntu-latest
-    ## Every run of this job commits and pushes, so they must not overlap.
-    ## Queue them instead of cancelling: a run already in flight is left to
-    ## finish its push.
+    ## Runs that commit and push must not overlap, so they share one group and
+    ## queue rather than cancel.  Pull request runs push nothing -- every commit
+    ## step below is skipped for them -- so they get a group of their own: left
+    ## in the shared one they would delay the very refreshes this trigger exists
+    ## to make prompt, and since only one run stays queued per group, a further
+    ## arrival would drop a refresh outright.
     concurrency:
-      group: refresh-data
-      cancel-in-progress: false
+      group: >-
+        ${{ github.event_name == 'pull_request'
+        && format('refresh-data-pr-{0}', github.event.number)
+        || 'refresh-data' }}
+      cancel-in-progress: ${{ github.event_name == 'pull_request' }}
     steps:
     - name: Report what triggered this run
       shell: bash
