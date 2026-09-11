@@ -151,8 +151,8 @@
     "csplit.log": "PASS"
   },
   "cut": {
-    "bounded-memory.log": "FAIL",
-    "cut-huge-range.log": "PASS",
+    "bounded-memory.log": "PASS",
+    "cut-huge-range.log": "SKIP",
     "cut.log": "PASS",
     "mb-non-utf8.log": "PASS"
   },
@@ -418,7 +418,7 @@
     "usage_vs_refs.log": "FAIL",
     "user.log": "PASS",
     "warning-errors.log": "FAIL",
-    "write-errors.log": "FAIL",
+    "write-errors.log": "SKIP",
     "xattr.log": "PASS",
     "xstrtol.log": "PASS",
     "yes.log": "PASS"
@@ -590,7 +590,7 @@
     "interactive-once.log": "PASS",
     "ir-1.log": "PASS",
     "isatty.log": "PASS",
-    "many-dir-entries-vs-OOM.log": "PASS",
+    "many-dir-entries-vs-OOM.log": "SKIP",
     "no-give-up.log": "PASS",
     "one-file-system.log": "PASS",
     "one-file-system2.log": "PASS",
