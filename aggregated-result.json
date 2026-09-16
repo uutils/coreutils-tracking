@@ -104,7 +104,7 @@
     "into-self.log": "PASS",
     "keep-directory-symlink.log": "PASS",
     "link-deref.log": "PASS",
-    "link-heap.log": "SKIP",
+    "link-heap.log": "PASS",
     "link-no-deref.log": "PASS",
     "link-preserve.log": "PASS",
     "link-symlink.log": "PASS",
@@ -177,7 +177,7 @@
     "direct.log": "PASS",
     "fail-ftruncate-fstat.log": "FAIL",
     "misc.log": "FAIL",
-    "no-allocate.log": "PASS",
+    "no-allocate.log": "SKIP",
     "nocache.log": "PASS",
     "nocache_eof.log": "PASS",
     "nocache_fail.log": "SKIP",
@@ -509,7 +509,7 @@
     "nproc-override.log": "PASS",
     "nproc-positive.log": "PASS",
     "nproc-quota-systemd.log": "PASS",
-    "nproc-quota.log": "PASS"
+    "nproc-quota.log": "SKIP"
   },
   "numfmt": {
     "mb-non-utf8.log": "PASS",
@@ -762,7 +762,7 @@
   "timeout": {
     "init-parent.log": "PASS",
     "timeout-blocked.log": "PASS",
-    "timeout-group.log": "PASS",
+    "timeout-group.log": "FAIL",
     "timeout-large-parameters.log": "PASS",
     "timeout-parameters.log": "PASS",
     "timeout.log": "PASS"
