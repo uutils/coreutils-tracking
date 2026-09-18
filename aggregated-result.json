@@ -168,7 +168,7 @@
     "date.log": "FAIL",
     "percent-percent.log": "PASS",
     "reference.log": "PASS",
-    "resolution.log": "PASS"
+    "resolution.log": "FAIL"
   },
   "dd": {
     "ascii.log": "PASS",
@@ -245,11 +245,11 @@
     "env-S-script.log": "PASS",
     "env-S.log": "PASS",
     "env-null.log": "PASS",
-    "env-signal-handler.log": "SKIP",
+    "env-signal-handler.log": "FAIL",
     "env.log": "PASS"
   },
   "expand": {
-    "bounded-memory.log": "SKIP",
+    "bounded-memory.log": "PASS",
     "expand.log": "PASS",
     "mb.log": "PASS"
   },
@@ -295,7 +295,7 @@
     "context.log": "PASS",
     "gnu-zero-uids.log": "SKIP",
     "no-context.log": "PASS",
-    "setgid.log": "PASS",
+    "setgid.log": "FAIL",
     "smack.log": "PASS",
     "uid.log": "PASS",
     "zero.log": "PASS"
@@ -640,7 +640,7 @@
   },
   "shuf": {
     "shuf-reservoir.log": "PASS",
-    "shuf.log": "PASS"
+    "shuf.log": "FAIL"
   },
   "sort": {
     "sort-NaN-infloop.log": "PASS",
@@ -725,7 +725,7 @@
     "flush-initial.log": "PASS",
     "follow-name.log": "FAIL",
     "follow-stdin.log": "PASS",
-    "inotify-dir-recreate.log": "PASS",
+    "inotify-dir-recreate.log": "FAIL",
     "inotify-hash-abuse.log": "PASS",
     "inotify-hash-abuse2.log": "PASS",
     "inotify-only-regular.log": "PASS",
@@ -743,7 +743,7 @@
     "start-middle.log": "PASS",
     "symlink.log": "FAIL",
     "tail-c.log": "PASS",
-    "tail-n0f.log": "PASS",
+    "tail-n0f.log": "FAIL",
     "tail-sysfs.log": "PASS",
     "tail.log": "PASS",
     "truncate.log": "PASS",
@@ -778,7 +778,7 @@
     "no-dereference.log": "PASS",
     "no-rights.log": "PASS",
     "not-owner.log": "PASS",
-    "now-owned-by-other.log": "PASS",
+    "now-owned-by-other.log": "FAIL",
     "obsolescent.log": "PASS",
     "read-only.log": "PASS",
     "relative.log": "PASS",
