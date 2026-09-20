@@ -154,7 +154,7 @@
     "csplit-heap.log": "PASS",
     "csplit-io-err.log": "PASS",
     "csplit-suppress-matched.log": "PASS",
-    "csplit.log": "FAIL"
+    "csplit.log": "PASS"
   },
   "cut": {
     "bounded-memory.log": "FAIL",
@@ -166,7 +166,7 @@
     "date-debug.log": "FAIL",
     "date-ethiopia.log": "PASS",
     "date-iran.log": "PASS",
-    "date-locale-hour.log": "FAIL",
+    "date-locale-hour.log": "PASS",
     "date-next-dow.log": "PASS",
     "date-sec.log": "PASS",
     "date-thailand.log": "PASS",
@@ -237,7 +237,7 @@
     "inodes.log": "PASS",
     "long-from-unreadable.log": "PASS",
     "long-sloop.log": "PASS",
-    "max-depth.log": "FAIL",
+    "max-depth.log": "PASS",
     "move-dir-while-traversing.log": "PASS",
     "no-deref.log": "PASS",
     "no-x.log": "PASS",
@@ -282,7 +282,7 @@
     "fold-nbsp.log": "PASS",
     "fold-spaces.log": "PASS",
     "fold-zero-width.log": "PASS",
-    "fold.log": "FAIL",
+    "fold.log": "PASS",
     "multiple-files.log": "PASS"
   },
   "groups": {
@@ -411,7 +411,7 @@
     "getopt_vs_usage.log": "FAIL",
     "invalid-opt.log": "PASS",
     "io-errors.log": "FAIL",
-    "just-created.log": "FAIL",
+    "just-created.log": "PASS",
     "kill.log": "PASS",
     "mknod.log": "PASS",
     "no-fork.log": "PASS",
@@ -565,7 +565,7 @@
   "ptx": {
     "ptx-overrun.log": "PASS",
     "ptx.log": "FAIL",
-    "word-regex-loop.log": "FAIL"
+    "word-regex-loop.log": "PASS"
   },
   "pwd": {
     "argument.log": "PASS",
