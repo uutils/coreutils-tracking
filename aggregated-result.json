@@ -174,7 +174,7 @@
     "date.log": "FAIL",
     "percent-percent.log": "PASS",
     "reference.log": "PASS",
-    "resolution.log": "FAIL"
+    "resolution.log": "PASS"
   },
   "dd": {
     "ascii.log": "PASS",
@@ -501,7 +501,7 @@
     "no-copy.log": "PASS",
     "no-target-dir.log": "PASS",
     "part-fail.log": "PASS",
-    "part-hardlink-symlink.log": "FAIL",
+    "part-hardlink-symlink.log": "PASS",
     "part-hardlink.log": "PASS",
     "part-rename.log": "PASS",
     "part-symlink.log": "PASS",
