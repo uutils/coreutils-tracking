@@ -560,7 +560,7 @@
     "printf-mb.log": "PASS",
     "printf-quote.log": "PASS",
     "printf-surprise.log": "PASS",
-    "printf.log": "FAIL"
+    "printf.log": "PASS"
   },
   "ptx": {
     "ptx-overrun.log": "PASS",
@@ -650,7 +650,7 @@
     "seq-io-errors.log": "PASS",
     "seq-locale.log": "PASS",
     "seq-long-double.log": "PASS",
-    "seq-precision.log": "FAIL",
+    "seq-precision.log": "PASS",
     "seq.log": "PASS"
   },
   "shred": {
