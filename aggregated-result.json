@@ -297,7 +297,7 @@
     "head-pos.log": "PASS",
     "head-write-error.log": "PASS",
     "head.log": "PASS",
-    "quote-headers.log": "FAIL"
+    "quote-headers.log": "PASS"
   },
   "help": {
     "help-version-getopt.log": "PASS"
@@ -760,10 +760,10 @@
     "overlay-headers.log": "PASS",
     "pid-pipe.log": "FAIL",
     "pid.log": "PASS",
-    "pipe-f.log": "FAIL",
+    "pipe-f.log": "PASS",
     "pipe-f2.log": "PASS",
     "proc-ksyms.log": "PASS",
-    "quote-headers.log": "FAIL",
+    "quote-headers.log": "PASS",
     "retry.log": "PASS",
     "start-middle.log": "PASS",
     "symlink.log": "FAIL",
