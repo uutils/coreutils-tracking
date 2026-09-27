@@ -174,7 +174,7 @@
     "date.log": "FAIL",
     "percent-percent.log": "PASS",
     "reference.log": "PASS",
-    "resolution.log": "PASS"
+    "resolution.log": "FAIL"
   },
   "dd": {
     "ascii.log": "PASS",
@@ -365,7 +365,7 @@
     "infloop.log": "PASS",
     "inode.log": "PASS",
     "ls-misc.log": "PASS",
-    "ls-time.log": "FAIL",
+    "ls-time.log": "PASS",
     "m-option.log": "PASS",
     "multihardlink.log": "PASS",
     "nameless-uid.log": "PASS",
