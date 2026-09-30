@@ -306,7 +306,7 @@
     "context.log": "PASS",
     "gnu-zero-uids.log": "SKIP",
     "no-context.log": "PASS",
-    "setgid.log": "PASS",
+    "setgid.log": "FAIL",
     "smack.log": "FAIL",
     "uid.log": "PASS",
     "zero.log": "PASS"
@@ -707,7 +707,7 @@
     "numeric.log": "PASS",
     "r-chunk.log": "PASS",
     "record-sep.log": "PASS",
-    "split-io-err.log": "FAIL",
+    "split-io-err.log": "PASS",
     "suffix-auto-length.log": "PASS",
     "suffix-length.log": "PASS"
   },
