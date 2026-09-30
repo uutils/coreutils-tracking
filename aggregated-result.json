@@ -174,7 +174,7 @@
     "date.log": "FAIL",
     "percent-percent.log": "PASS",
     "reference.log": "PASS",
-    "resolution.log": "PASS"
+    "resolution.log": "FAIL"
   },
   "dd": {
     "ascii.log": "PASS",
@@ -306,7 +306,7 @@
     "context.log": "PASS",
     "gnu-zero-uids.log": "SKIP",
     "no-context.log": "PASS",
-    "setgid.log": "FAIL",
+    "setgid.log": "PASS",
     "smack.log": "FAIL",
     "uid.log": "PASS",
     "zero.log": "PASS"
