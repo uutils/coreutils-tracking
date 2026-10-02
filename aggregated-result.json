@@ -306,7 +306,7 @@
     "context.log": "PASS",
     "gnu-zero-uids.log": "SKIP",
     "no-context.log": "PASS",
-    "setgid.log": "FAIL",
+    "setgid.log": "PASS",
     "smack.log": "FAIL",
     "uid.log": "PASS",
     "zero.log": "PASS"
