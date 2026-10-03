@@ -174,7 +174,7 @@
     "date.log": "FAIL",
     "percent-percent.log": "PASS",
     "reference.log": "PASS",
-    "resolution.log": "FAIL"
+    "resolution.log": "PASS"
   },
   "dd": {
     "ascii.log": "PASS",
@@ -784,7 +784,7 @@
     "test-N.log": "PASS",
     "test-diag.log": "PASS",
     "test-file.log": "PASS",
-    "test.log": "FAIL"
+    "test.log": "PASS"
   },
   "timeout": {
     "init-parent.log": "PASS",
