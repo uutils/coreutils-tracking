@@ -484,7 +484,7 @@
     "hardlink-case.log": "PASS",
     "i-1.log": "PASS",
     "i-2.log": "PASS",
-    "i-3.log": "PASS",
+    "i-3.log": "SKIP",
     "i-4.log": "PASS",
     "i-5.log": "PASS",
     "i-link-no.log": "PASS",
@@ -721,11 +721,11 @@
     "stat-slash.log": "PASS"
   },
   "stty": {
-    "bad-speed.log": "PASS",
-    "stty-invalid.log": "PASS",
-    "stty-pairs.log": "PASS",
-    "stty-row-col.log": "PASS",
-    "stty.log": "PASS"
+    "bad-speed.log": "SKIP",
+    "stty-invalid.log": "SKIP",
+    "stty-pairs.log": "SKIP",
+    "stty-row-col.log": "SKIP",
+    "stty.log": "SKIP"
   },
   "tac": {
     "tac-2-nonseekable.log": "PASS",
