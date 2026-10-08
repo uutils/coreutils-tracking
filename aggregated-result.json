@@ -776,7 +776,7 @@
   },
   "tee": {
     "append.log": "PASS",
-    "short-write.log": "FAIL",
+    "short-write.log": "PASS",
     "tee.log": "PASS",
     "write-eagain.log": "PASS"
   },
