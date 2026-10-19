@@ -184,7 +184,7 @@
     "fail-ftruncate-fstat.log": "FAIL",
     "misc.log": "FAIL",
     "no-allocate.log": "PASS",
-    "nocache.log": "FAIL",
+    "nocache.log": "PASS",
     "nocache_eof.log": "PASS",
     "nocache_fail.log": "SKIP",
     "not-rewound.log": "PASS",
