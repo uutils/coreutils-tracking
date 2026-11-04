@@ -27,7 +27,7 @@ import json
 import re
 import subprocess
 import sys
-from datetime import date, datetime, timedelta, timezone
+from datetime import UTC, date, datetime, timedelta
 
 BOT_PATTERNS = [
     re.compile(r"\[bot\]"),
@@ -131,7 +131,7 @@ def main() -> int:
     # Default to the start of the current month: the running month is always
     # partial, and a half-counted month reads as a collapse in activity.
     if args.until is None:
-        today = datetime.now(timezone.utc).date()
+        today = datetime.now(UTC).date()
         args.until = date(today.year, today.month, 1).isoformat()
 
     gnu = collect(args.gnu, args.since, args.until, args.gnu_rev)
