@@ -95,7 +95,7 @@
     "cp-deref.log": "PASS",
     "cp-i.log": "PASS",
     "cp-mv-backup.log": "PASS",
-    "cp-mv-enotsup-xattr.log": "FAIL",
+    "cp-mv-enotsup-xattr.log": "PASS",
     "cp-parents.log": "PASS",
     "cross-dev-symlink.log": "PASS",
     "debug.log": "PASS",
@@ -851,6 +851,6 @@
     "wc-proc.log": "PASS",
     "wc-sjis.log": "PASS",
     "wc-total.log": "PASS",
-    "wc.log": "FAIL"
+    "wc.log": "PASS"
   }
 }
