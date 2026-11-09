@@ -157,7 +157,7 @@
     "csplit.log": "PASS"
   },
   "cut": {
-    "bounded-memory.log": "FAIL",
+    "bounded-memory.log": "PASS",
     "cut-huge-range.log": "PASS",
     "cut.log": "PASS",
     "mb-non-utf8.log": "PASS"
