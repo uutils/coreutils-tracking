@@ -654,7 +654,7 @@
     "seq.log": "PASS"
   },
   "shred": {
-    "fifo.log": "FAIL",
+    "fifo.log": "PASS",
     "shred-exact.log": "PASS",
     "shred-passes.log": "PASS",
     "shred-remove.log": "FAIL",
