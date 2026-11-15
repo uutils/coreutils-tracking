@@ -254,7 +254,7 @@
     "env-S.log": "PASS",
     "env-null.log": "PASS",
     "env-signal-handler.log": "FAIL",
-    "env.log": "ERROR",
+    "env.log": "FAIL",
     "env0-from.log": "ERROR",
     "printenv.log": "PASS"
   },
@@ -418,7 +418,6 @@
     "nohup.log": "PASS",
     "option-aliases.log": "PASS",
     "pathchk.log": "PASS",
-    "printenv.log": "FAIL",
     "read-errors.log": "FAIL",
     "realpath.log": "PASS",
     "responsive.log": "FAIL",
